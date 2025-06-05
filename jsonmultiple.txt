@@ -1,0 +1,12 @@
+[
+    {
+        "question": "Which of these are fruits?",
+        "options": ["Apple", "Carrot", "Banana", "Potato"],
+        "correctAnswer": ["Apple", "Banana"] // Array for multiple correct answers
+    },
+    {
+        "question": "What is the capital of France?",
+        "options": ["London", "Berlin", "Paris"],
+        "correctAnswer": ["Paris"] // Still an array, even if only one
+    }
+]
