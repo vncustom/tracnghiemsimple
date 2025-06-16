@@ -1,0 +1,47 @@
+[
+        {
+        "question": "What is the capital of France?",
+        "options": ["London", "Berlin", "Paris"],
+        "correctAnswer": ["Paris"]
+    },
+	{
+        "question": "1. What kind of book ______ your girlfriend buying?",
+        "options": ["are", "has", "is"],
+        "correctAnswer": ["is"]
+    },
+    {
+        "question": "2. Listen! The babies ______.",
+        "options": ["are crying", "cry", "has crying"],
+        "correctAnswer": ["are crying"]
+    },
+    {
+        "question": "3. She ______ sometimes apologizes for her bad ways.",
+        "options": ["is sometimes apologizing for her bad ways", "sometimes apologizes for her bad ways", "sometimes has apologizing for her bad ways"],
+        "correctAnswer": ["sometimes apologizes for her bad ways"]
+    },
+    {
+        "question": "4. My friends ______.",
+        "options": ["are always feeling happy", "always feel happy", "are feeling happy always"],
+        "correctAnswer": ["always feel happy"]
+    },
+    {
+        "question": "5. Brian ______ your letter at the moment.",
+        "options": ["reads your letter at the moment", "has been reading your letter at the moment", "is reading your letter at the moment"],
+        "correctAnswer": ["is reading your letter at the moment"]
+    },
+    {
+        "question": "6. The management team ______ this problem regularly.",
+        "options": ["are discussing this problem regularly", "discuss this problem regularly", "have discuss this problem regularly"],
+        "correctAnswer": ["discuss this problem regularly"]
+    },
+    {
+        "question": "7. Usually, I ______ early.",
+        "options": ["am getting up early", "have got up early", "get up early"],
+        "correctAnswer": ["get up early"]
+    },
+    {
+        "question": "8. Sarah ______ this castle.",
+        "options": ["often visits this castle", "is often visiting this castle", "often visit this castle"],
+        "correctAnswer": ["often visits this castle"]
+    }
+]
