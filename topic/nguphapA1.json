@@ -10,7 +10,7 @@
         "correctAnswer": "are crying"
     },
     {
-        "question": "3. She ______ sometimes apologizes for her bad ways.",
+        "question": "3. She ______ .",
         "options": ["is sometimes apologizing for her bad ways", "sometimes apologizes for her bad ways", "sometimes has apologizing for her bad ways"],
         "correctAnswer": "sometimes apologizes for her bad ways"
     },
@@ -21,8 +21,8 @@
     },
     {
         "question": "5. Brian ______ your letter at the moment.",
-        "options": ["reads your letter at the moment", "has been reading your letter at the moment", "is reading your letter at the moment"],
-        "correctAnswer": "is reading your letter at the moment"
+        "options": ["reads", "has been reading", "is reading"],
+        "correctAnswer": "is reading"
     },
     {
         "question": "6. The management team ______ this problem regularly.",
@@ -60,7 +60,7 @@
         "correctAnswer": "go"
     },
     {
-        "question": "13. She ______ at the restaurant seldom.",
+        "question": "13. She seldom ______ at the restaurant.",
         "options": ["appears", "appearing", "is appearing"],
         "correctAnswer": "appears"
     },
@@ -117,7 +117,7 @@
     {
         "question": "24. Choose the correct answer: The conference ______ now.",
         "options": ["take place now", "is taking place now", "takes place now"],
-        "correctAnswer": "takes place now"
+        "correctAnswer": "is taking place now"
     },
     {
         "question": "25. Choose the correct answer: This song ______ strange now.",
@@ -126,8 +126,8 @@
     },
     {
         "question": "26. Choose the correct answer: I ______ him now.",
-        "options": ["really hate him now", "am really hating him now", "really hating him now"],
-        "correctAnswer": "really hate him now"
+        "options": ["really hate", "am really hating", "really hating"],
+        "correctAnswer": "really hate"
     },
     {
         "question": "27. Choose the correct answer: Sarah ______ about it now.",
@@ -216,8 +216,8 @@
     },
     {
         "question": "44. Choose the correct answer: I ______ this is the most effective method of learning Spanish.",
-        "options": ["am supposing this is the most effective method of learning Spanish", "suppose this is the most effective method of learning Spanish", "do supposing this is the most effective method of learning Spanish"],
-        "correctAnswer": "suppose this is the most effective method of learning Spanish"
+        "options": ["are supposing", "suppose", "do supposing"],
+        "correctAnswer": "suppose"
     },
     {
         "question": "45. Choose the correct answer: He ______ this gorgeous car now.",
@@ -256,8 +256,8 @@
     },
     {
         "question": "52. Choose the correct answer: We ______ Spanish now.",
-        "options": ["practice Spanish now", "have practiced Spanish now", "are practicing Spanish now"],
-        "correctAnswer": "practice Spanish now"
+        "options": ["practice", "have practiced", "are practicing"],
+        "correctAnswer": "are practicing"
     },
     {
         "question": "53. Choose the correct answer: The employees ______ their products now.",
@@ -322,7 +322,7 @@
     {
         "question": "65. Choose the correct answer: I ______ about our future now.",
         "options": ["am thinking about our future now", "think about our future now", "have thinking about our future now"],
-        "correctAnswer": "think about our future now"
+        "correctAnswer": "am thinking about our future now"
     },
     {
         "question": "66. Choose the correct answer: I completely ______ it's the right decision now.",
@@ -622,7 +622,7 @@
     {
         "question": "125. No matter what, I ........... argue with them.",
         "options": ["want", "won't", "am wanting"],
-        "correctAnswer": "want"
+        "correctAnswer": "won't"
     },
     {
         "question": "126. They ........... to focus on the main problem.",
@@ -746,7 +746,7 @@
     },
     {
         "question": "150. I see that you don't like ...........",
-        "options": ["to lying", "lying", "lie"],
+        "options": ["to lying", "lying", "to lie"],
         "correctAnswer": "to lie"
     },
     {
@@ -786,7 +786,7 @@
     },
     {
         "question": "158. Do you like ....... orders to others?",
-        "options": ["give", "to giving", "giving"],
+        "options": ["to give", "to giving", "giving"],
         "correctAnswer": "to give"
     },
     {
@@ -801,7 +801,7 @@
     },
     {
         "question": "161. Does he like .... his lessons?",
-        "options": ["recording", "record", "to recording"],
+        "options": ["recording", "record", "to record"],
         "correctAnswer": "to record"
     },
     {
@@ -1086,7 +1086,7 @@
     },
     {
         "question": "218. ........... you have many children?",
-        "options": ["Does", "Do", "Have"],
+        "options": ["Does", "Do", "Has"],
         "correctAnswer": "Do"
     },
     {
@@ -1255,7 +1255,7 @@
         "correctAnswer": "adapt"
     },
     {
-        "question": "252. Can he ........... our meeting for tomorrow?",
+        "question": "252. Can he ........... a meeting for tomorrow?",
         "options": ["to arrange", "arrange", "arranging"],
         "correctAnswer": "arrange"
     },
@@ -1457,7 +1457,7 @@
     {
         "question": "292. The team have ........... very hard.",
         "options": ["to work", "work", "working"],
-        "correctAnswer": "work"
+        "correctAnswer": "to work"
     },
     {
         "question": "293. I'm sorry for her. She has ........... up very early.",
@@ -2226,8 +2226,8 @@
     },
     {
         "question": "446. The marketing manager ........... the situation.",
-        "options": ["isn't controlled", "don't controlled", "doesn't control"],
-        "correctAnswer": "isn't controlled"
+        "options": ["isn't liked", "don't like", "doesn't like"],
+        "correctAnswer": "doesn't like"
     },
     {
         "question": "447. The books ........... this year.",
@@ -2241,7 +2241,7 @@
     },
     {
         "question": "449. This method ........... by my colleagues.",
-        "options": ["are used", "isn't used", "doesn't use"],
+        "options": ["are used", "is used", "doesn't use"],
         "correctAnswer": "is used"
     },
     {
@@ -2271,12 +2271,12 @@
     },
     {
         "question": "455. These details ........... in the manual.",
-        "options": ["is described", "aren't described", "describe"],
+        "options": ["is described", "are described", "describe"],
         "correctAnswer": "are described"
     },
     {
         "question": "456. I know that this language ........... in many countries.",
-        "options": ["aren't spoken", "speaks", "isn't spoken"],
+        "options": ["aren't spoken", "speaks", "is spoken"],
         "correctAnswer": "is spoken"
     },
     {
@@ -2927,7 +2927,7 @@
     {
         "question": "586. Who ............. it?",
         "options": ["recommends", "do recommend", "does recommend"],
-        "correctAnswer": "does recommend"
+        "correctAnswer": "recommends"
     },
     {
         "question": "587. Where ........... your boyfriend come from?",
@@ -3001,7 +3001,7 @@
     },
     {
         "question": "601. You ........... really right.",
-        "options": ["isn't", "aren't", "haven't"],
+        "options": ["isn't", "are", "haven't"],
         "correctAnswer": "are"
     },
     {
@@ -3016,12 +3016,12 @@
     },
     {
         "question": "604. We ............. together.",
-        "options": ["am not", "aren't", "am"],
+        "options": ["am not", "are", "am"],
         "correctAnswer": "are"
     },
     {
         "question": "605. She ........... at work.",
-        "options": ["isn't", "are", "haven't"],
+        "options": ["is", "are", "haven't"],
         "correctAnswer": "is"
     },
     {
@@ -3031,37 +3031,37 @@
     },
     {
         "question": "607. It........... interesting if you ask me.",
-        "options": ["aren't", "isn't", "are"],
+        "options": ["aren't", "is", "are"],
         "correctAnswer": "is"
     },
     {
         "question": "608. He .............. with her now.",
-        "options": ["being", "aren't", "isn't"],
+        "options": ["being", "aren't", "is"],
         "correctAnswer": "is"
     },
     {
         "question": "609. She ........... a businesswoman.",
-        "options": ["aren't", "isn't", "are"],
+        "options": ["aren't", "is", "are"],
         "correctAnswer": "is"
     },
     {
         "question": "610. It ............. rainy.",
-        "options": ["are", "isn't", "seem"],
+        "options": ["are", "is", "seem"],
         "correctAnswer": "is"
     },
     {
         "question": "611. Her knowledge ........... enough.",
-        "options": ["isn't", "aren't", "are"],
+        "options": ["is", "aren't", "are"],
         "correctAnswer": "is"
     },
     {
         "question": "612. This thing ............. very important.",
-        "options": ["aren't", "isn't", "seem"],
+        "options": ["aren't", "is", "seem"],
         "correctAnswer": "is"
     },
     {
         "question": "613. The morning news ......... so good.",
-        "options": ["isn't", "aren't", "are"],
+        "options": ["is", "aren't", "are"],
         "correctAnswer": "is"
     },
     {
@@ -3076,7 +3076,7 @@
     },
     {
         "question": "616. My scissors ........... on the desk.",
-        "options": ["aren't", "isn't", "is"],
+        "options": ["are", "isn't", "is"],
         "correctAnswer": "are"
     },
     {
@@ -3086,7 +3086,7 @@
     },
     {
         "question": "618. This joke ........... so funny.",
-        "options": ["isn't", "aren't", "are"],
+        "options": ["is", "aren't", "are"],
         "correctAnswer": "is"
     },
     {
@@ -3301,7 +3301,7 @@
     },
     {
         "question": "661. He usually ............ up quite early.",
-        "options": ["get", "got", "getting"],
+        "options": ["gets", "got", "getting"],
         "correctAnswer": "gets"
     },
     {
@@ -4161,7 +4161,7 @@
     },
     {
         "question": "833. All his threats ........... serious.",
-        "options": ["wasn't", "is very", "weren't"],
+        "options": ["wasn't", "is very", "were"],
         "correctAnswer": "were"
     },
     {
@@ -4461,17 +4461,17 @@
     },
     {
         "question": "893. They ........... share this information with me.",
-        "options": ["won't", "want", "won"],
+        "options": ["will", "want", "won"],
         "correctAnswer": "will"
     },
     {
         "question": "894. I think she ........... agree with these principles.",
-        "options": ["want", "won't", "not will"],
+        "options": ["want", "won't", "will"],
         "correctAnswer": "will"
     },
     {
         "question": "895. My sister ........... celebrate her birthday with her friends this year.",
-        "options": ["want", "will don't", "won't"],
+        "options": ["want", "will don't", "will"],
         "correctAnswer": "will"
     },
     {
@@ -4506,23 +4506,23 @@
     },
     {
         "question": "902. Hey, mister! ........... it take us more time to get to this place?",
-        "options": ["Do", "Does", "Will"],
+        "options": ["Do", "Does", "will"],
         "correctAnswer": "will"
     },
     {
         "question": "903. ........... she offer more money for the job?",
         "options": ["Does", "Will", "Is"],
-        "correctAnswer": "will"
+        "correctAnswer": "Will"
     },
     {
         "question": "904. ........... your business partners supply all the goods tomorrow?",
         "options": ["Will", "Do", "Are"],
-        "correctAnswer": "will"
+        "correctAnswer": "Will"
     },
     {
         "question": "905. ........... the professor correct out mistakes?",
         "options": ["Do", "Will", "Is"],
-        "correctAnswer": "will"
+        "correctAnswer": "Will"
     },
     {
         "question": "906. Will her parents ........... a new house?",
@@ -4532,7 +4532,7 @@
     {
         "question": "907. ........ it cost more tomorrow?",
         "options": ["Will", "Do", "Could"],
-        "correctAnswer": "will"
+        "correctAnswer": "Will"
     },
     {
         "question": "908. Will the firm ........... bankrupt?",
@@ -4547,7 +4547,7 @@
     {
         "question": "910. ........... she start breaking the rules again?",
         "options": ["Is", "Does", "Will"],
-        "correctAnswer": "will"
+        "correctAnswer": "Will"
     },
     {
         "question": "911. How long will it .............. us to get there?",
@@ -4706,7 +4706,7 @@
     },
     {
         "question": "942. She .... conducting this kind of experiment these days.",
-        "options": ["aren't", "am not", "isn't"],
+        "options": ["aren't", "am not", "is"],
         "correctAnswer": "is"
     },
     {
@@ -4721,12 +4721,12 @@
     },
     {
         "question": "945. It ........... bringing any good results now.",
-        "options": ["isn't", "aren't", "has"],
+        "options": ["is", "aren't", "has"],
         "correctAnswer": "is"
     },
     {
         "question": "946. Unfortunately, ........... she celebrating her birthday.",
-        "options": ["aren't", "does", "isn't"],
+        "options": ["aren't", "does", "is"],
         "correctAnswer": "is"
     },
     {
@@ -4736,12 +4736,12 @@
     },
     {
         "question": "948. As far as I know, they ........... dating.",
-        "options": ["don't", "isn't", "aren't"],
+        "options": ["don't", "isn't", "are"],
         "correctAnswer": "are"
     },
     {
         "question": "949. My opinion is that you ........... wasting time now.",
-        "options": ["do", "aren't", "keeps"],
+        "options": ["do", "are", "keeps"],
         "correctAnswer": "are"
     },
     {
@@ -4751,42 +4751,42 @@
     },
     {
         "question": "951. As far as I'm concerned, his students ........... learning English effectively.",
-        "options": ["aren't", "isn't", "don't"],
+        "options": ["are", "isn't", "don't"],
         "correctAnswer": "are"
     },
     {
         "question": "952. My parents ........... thinking about this problem right now.",
-        "options": ["don't", "aren't", "haven't"],
+        "options": ["don't", "are", "haven't"],
         "correctAnswer": "are"
     },
     {
         "question": "953. My girlfriend and I ........... talking on the phone now.",
-        "options": ["don't", "couldn't be", "aren't"],
+        "options": ["don't", "couldn't be", "are"],
         "correctAnswer": "are"
     },
     {
         "question": "954. My business partner............ experiencing any serious difficulties.",
-        "options": ["aren't", "isn't", "don't"],
+        "options": ["aren't", "is", "don't"],
         "correctAnswer": "is"
     },
     {
         "question": "955. She ....... preparing for such a difficult exam, which is really strange.",
-        "options": ["isn't", "aren't", "doesn't"],
+        "options": ["is", "aren't", "doesn't"],
         "correctAnswer": "is"
     },
     {
         "question": "956. The guests ........... leaving right now. You can close the door.",
-        "options": ["aren't", "don't", "haven't"],
+        "options": ["are", "don't", "haven't"],
         "correctAnswer": "are"
     },
     {
         "question": "957. Having said that, his colleagues ........... helping him now.",
-        "options": ["don't", "isn't", "aren't"],
+        "options": ["don't", "isn't", "are"],
         "correctAnswer": "are"
     },
     {
         "question": "958. The scientist ........... using this method now to test you product.",
-        "options": ["aren't", "isn't", "don't"],
+        "options": ["aren't", "is", "don't"],
         "correctAnswer": "is"
     },
     {
@@ -4796,7 +4796,7 @@
     },
     {
         "question": "960. Her workers ........... trying to improve their performance.",
-        "options": ["aren't", "don't", "haven't"],
+        "options": ["are", "don't", "haven't"],
         "correctAnswer": "are"
     },
     {
@@ -4862,7 +4862,7 @@
     {
         "question": "973. ........... the situation getting better these days?",
         "options": ["Do", "Is", "Has"],
-        "correctAnswer": "is"
+        "correctAnswer": "Is"
     },
     {
         "question": "974. ........... your classmates skiing during this winter?",
