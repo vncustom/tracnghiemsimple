@@ -1,0 +1,5003 @@
+[
+    {
+        "question": "1. I ______ it for the first time.",
+        "options": ["heared", "heart", "heard"],
+        "correctAnswer": "heard"
+    },
+    {
+        "question": "2. She asked Steve ______ her urgently.",
+        "options": ["calling", "call", "to call"],
+        "correctAnswer": "to call"
+    },
+    {
+        "question": "3. I told her ______ me back.",
+        "options": ["call", "to call", "called"],
+        "correctAnswer": "to call"
+    },
+    {
+        "question": "4. I told the boy ______ it again.",
+        "options": ["to say", "say", "saying"],
+        "correctAnswer": "to say"
+    },
+    {
+        "question": "5. She taught us ______ the rules.",
+        "options": ["follow", "to follow", "following"],
+        "correctAnswer": "to follow"
+    },
+    {
+        "question": "6. The man ordered them ______ there.",
+        "options": ["staying", "to stay", "waiting"],
+        "correctAnswer": "to stay"
+    },
+    {
+        "question": "7. I advised Marry ______ smoking.",
+        "options": ["stop", "stopped", "to stop"],
+        "correctAnswer": "to stop"
+    },
+    {
+        "question": "8. He asked me ______ him.",
+        "options": ["helps", "help", "to help"],
+        "correctAnswer": "to help"
+    },
+    {
+        "question": "9. They asked us ______ to their party.",
+        "options": ["to come", "come", "came"],
+        "correctAnswer": "to come"
+    },
+    {
+        "question": "10. They invited me ______ to the medical conference.",
+        "options": ["come", "to come", "came"],
+        "correctAnswer": "to come"
+    },
+    {
+        "question": "11. She told him ______ to her.",
+        "options": ["listen", "listening", "to listen"],
+        "correctAnswer": "to listen"
+    },
+    {
+        "question": "12. She recommends us ______ this information.",
+        "options": ["check", "to check", "checking"],
+        "correctAnswer": "checking"
+    },
+    {
+        "question": "13. They finished ______ on time.",
+        "options": ["working", "work", "to work"],
+        "correctAnswer": "working"
+    },
+    {
+        "question": "14. Bob dislikes ______ there.",
+        "options": ["travel", "to travel", "travelling"],
+        "correctAnswer": "travelling"
+    },
+    {
+        "question": "15. I suggest ______ English more regularly.",
+        "options": ["learn", "will learn", "learning"],
+        "correctAnswer": "learning"
+    },
+    {
+        "question": "16. I suggest ______ to the cinema.",
+        "options": ["going", "go", "to go"],
+        "correctAnswer": "going"
+    },
+    {
+        "question": "17. I recommend ______ her advice.",
+        "options": ["follow", "following", "to follow"],
+        "correctAnswer": "following"
+    },
+    {
+        "question": "18. I recommend ______ that place.",
+        "options": ["visit", "to visit", "visiting"],
+        "correctAnswer": "visiting"
+    },
+    {
+        "question": "19. I recommend that you ______ his advice.",
+        "options": ["followed", "follow", "will follow"],
+        "correctAnswer": "follow"
+    },
+    {
+        "question": "20. The boy enjoys ______ English.",
+        "options": ["learn", "learning", "to learn"],
+        "correctAnswer": "learning"
+    },
+    {
+        "question": "21. I want to practise ______ English.",
+        "options": ["speak", "to speak", "speaking"],
+        "correctAnswer": "speaking"
+    },
+    {
+        "question": "22. I want ______ a career in this industry.",
+        "options": ["making", "make", "to make"],
+        "correctAnswer": "to make"
+    },
+    {
+        "question": "23. She asked me ______ there on time.",
+        "options": ["to be", "be", "will be"],
+        "correctAnswer": "to be"
+    },
+    {
+        "question": "24. I suggest ______ to the park.",
+        "options": ["go", "going", "to go"],
+        "correctAnswer": "going"
+    },
+    {
+        "question": "25. I enjoy ______ English with you.",
+        "options": ["learning", "to learn", "learn"],
+        "correctAnswer": "learning"
+    },
+    {
+        "question": "26. She enjoys ______ out.",
+        "options": ["to eat", "eat", "eating"],
+        "correctAnswer": "eating"
+    },
+    {
+        "question": "27. They refuse ______ to us.",
+        "options": ["listen", "listened", "to listen"],
+        "correctAnswer": "to listen"
+    },
+    {
+        "question": "28. I recommend ______ her book.",
+        "options": ["to read", "reading", "will read"],
+        "correctAnswer": "reading"
+    },
+    {
+        "question": "29. She asked him ______ his mistakes.",
+        "options": ["correct", "to correct", "correcting"],
+        "correctAnswer": "to correct"
+    },
+    {
+        "question": "30. I'd like ______ it.",
+        "options": ["to order", "ordering", "order"],
+        "correctAnswer": "to order"
+    },
+    {
+        "question": "31. She promises ______ this policy.",
+        "options": ["follow", "to follow", "following"],
+        "correctAnswer": "to follow"
+    },
+    {
+        "question": "32. They don't promise ______ us financially.",
+        "options": ["support", "supporting", "to support"],
+        "correctAnswer": "to support"
+    },
+    {
+        "question": "33. They don't refuse ______ me.",
+        "options": ["to help", "helping", "help"],
+        "correctAnswer": "to help"
+    },
+    {
+        "question": "34. He doesn't try ______ a billionaire.",
+        "options": ["becoming", "to become", "become"],
+        "correctAnswer": "to become"
+    },
+    {
+        "question": "35. She doesn't need ______ there every day.",
+        "options": ["come", "to come", "coming"],
+        "correctAnswer": "to come"
+    },
+    {
+        "question": "36. You don't need ______ all this video.",
+        "options": ["to watch", "watch", "watching"],
+        "correctAnswer": "to watch"
+    },
+    {
+        "question": "37. She doesn't want ______ these risks.",
+        "options": ["take", "taking", "to take"],
+        "correctAnswer": "to take"
+    },
+    {
+        "question": "38. I don't agree ______ such a low salary.",
+        "options": ["having", "have", "to have"],
+        "correctAnswer": "to have"
+    },
+    {
+        "question": "39. They don't agree ______.",
+        "options": ["overpay", "to overpay", "overpaying"],
+        "correctAnswer": "to overpay"
+    },
+    {
+        "question": "40. We don't want ______ the same mistake.",
+        "options": ["repeat", "to repeat", "repeating"],
+        "correctAnswer": "to repeat"
+    },
+    {
+        "question": "41. I don't want ______ it.",
+        "options": ["to hear", "hearing", "hear"],
+        "correctAnswer": "to hear"
+    },
+    {
+        "question": "42. I didn't expect ______ the first place.",
+        "options": ["take", "will take", "to take"],
+        "correctAnswer": "to take"
+    },
+    {
+        "question": "43. I know you didn't want ______ her.",
+        "options": ["sadden", "to sadden", "saddening"],
+        "correctAnswer": "to sadden"
+    },
+    {
+        "question": "44. She didn't need ______ all the book.",
+        "options": ["read", "to read", "reading"],
+        "correctAnswer": "to read"
+    },
+    {
+        "question": "45. We didn't choose ______ a new project.",
+        "options": ["to create", "creating", "create"],
+        "correctAnswer": "to create"
+    },
+    {
+        "question": "46. Even so, they didn't try ______ anything.",
+        "options": ["change", "changing", "to change"],
+        "correctAnswer": "to change"
+    },
+    {
+        "question": "47. She didn't hope ______ that job.",
+        "options": ["get", "getting", "to get"],
+        "correctAnswer": "to get"
+    },
+    {
+        "question": "48. Marry didn't promise ______ him.",
+        "options": ["to train", "train", "training"],
+        "correctAnswer": "to train"
+    },
+    {
+        "question": "49. I didn't need ______ four hours on it.",
+        "options": ["spend", "to spend", "spending"],
+        "correctAnswer": "to spend"
+    },
+    {
+        "question": "50. We didn't want ______ it.",
+        "options": ["to show", "show", "showing"],
+        "correctAnswer": "to show"
+    },
+    {
+        "question": "51. They didn't offer ______ there together.",
+        "options": ["go", "going", "to go"],
+        "correctAnswer": "to go"
+    },
+    {
+        "question": "52. I won't try ______ her.",
+        "options": ["persuade", "persuading", "to persuade"],
+        "correctAnswer": "to persuade"
+    },
+    {
+        "question": "53. You won't need ______ the conditions of the agreement.",
+        "options": ["to change", "change", "changing"],
+        "correctAnswer": "to change"
+    },
+    {
+        "question": "54. They won't agree ______ this responsibility.",
+        "options": ["take", "to take", "taking"],
+        "correctAnswer": "to take"
+    },
+    {
+        "question": "55. She won't try ______ for another job.",
+        "options": ["looking", "look", "to look"],
+        "correctAnswer": "to look"
+    },
+    {
+        "question": "56. I won't refuse ______ poor people.",
+        "options": ["help", "helping", "to help"],
+        "correctAnswer": "to help"
+    },
+    {
+        "question": "57. She won't need ______ this school.",
+        "options": ["to attend", "attend", "attending"],
+        "correctAnswer": "to attend"
+    },
+    {
+        "question": "58. I won't forget ______ to it.",
+        "options": ["listen", "listening", "to listen"],
+        "correctAnswer": "to listen"
+    },
+    {
+        "question": "59. He won't choose ______ this exam.",
+        "options": ["take", "to take", "taking"],
+        "correctAnswer": "to take"
+    },
+    {
+        "question": "60. They won't need ______ it.",
+        "options": ["to repeat", "repeat", "repeating"],
+        "correctAnswer": "to repeat"
+    },
+    {
+        "question": "61. She won't forget ______ it.",
+        "options": ["correct", "to correct", "to have correct"],
+        "correctAnswer": "to correct"
+    },
+    {
+        "question": "62. He didn't order them ______ there.",
+        "options": ["staying", "stay", "to stay"],
+        "correctAnswer": "to stay"
+    },
+    {
+        "question": "63. She didn't advise him ______ more private lessons.",
+        "options": ["to take", "take", "taking"],
+        "correctAnswer": "to take"
+    },
+    {
+        "question": "64. I didn't ask them ______ me.",
+        "options": ["help", "to help", "helping"],
+        "correctAnswer": "to help"
+    },
+    {
+        "question": "65. She didn't advise us ______ this kind of books.",
+        "options": ["buy", "bought", "to buy"],
+        "correctAnswer": "to buy"
+    },
+    {
+        "question": "66. They didn't teach us ______ this kind of tasks.",
+        "options": ["solve", "resolve", "to solve"],
+        "correctAnswer": "to solve"
+    },
+    {
+        "question": "67. We didn't invite them ______ us.",
+        "options": ["to join", "joining", "join"],
+        "correctAnswer": "to join"
+    },
+    {
+        "question": "68. She didn't tell us ______ it.",
+        "options": ["analyze", "to analyze", "analyzing"],
+        "correctAnswer": "to analyze"
+    },
+    {
+        "question": "69. They didn't ask her ______ our work.",
+        "options": ["to check", "check", "checking"],
+        "correctAnswer": "to check"
+    },
+    {
+        "question": "70. We didn't invite them ______ to us.",
+        "options": ["come", "coming", "to come"],
+        "correctAnswer": "to come"
+    },
+    {
+        "question": "71. I didn't tell him ______ Maria.",
+        "options": ["to call", "called", "call"],
+        "correctAnswer": "to call"
+    },
+    {
+        "question": "72. I recommend ______ this offer.",
+        "options": ["consider", "to consider", "considering"],
+        "correctAnswer": "considering"
+    },
+    {
+        "question": "73. I don't recommend you ______ all the document.",
+        "options": ["reading", "to read", "read"],
+        "correctAnswer": "reading"
+    },
+    {
+        "question": "74. I don't like to ______ there.",
+        "options": ["work", "working", "worked"],
+        "correctAnswer": "work"
+    },
+    {
+        "question": "75. They didn't finish ______ for the exam.",
+        "options": ["prepare", "to prepare", "preparing"],
+        "correctAnswer": "preparing"
+    },
+    {
+        "question": "76. I don't need to practise ______ several foreign languages daily.",
+        "options": ["speak", "speaking", "to speak"],
+        "correctAnswer": "speaking"
+    },
+    {
+        "question": "77. I didn't finish ______ the task.",
+        "options": ["read", "to read", "reading"],
+        "correctAnswer": "reading"
+    },
+    {
+        "question": "78. I don't enjoy ______ it.",
+        "options": ["to do", "do", "doing"],
+        "correctAnswer": "doing"
+    },
+    {
+        "question": "79. I don't recommend you ______ this method.",
+        "options": ["to use", "use", "using"],
+        "correctAnswer": "using"
+    },
+    {
+        "question": "80. I don't suggest ______ there regularly.",
+        "options": ["to go", "going", "go"],
+        "correctAnswer": "going"
+    },
+    {
+        "question": "81. I don't recommend ______ English so little.",
+        "options": ["learning", "to learn", "learn"],
+        "correctAnswer": "learning"
+    },
+    {
+        "question": "82. I don't suggest ______ him.",
+        "options": ["contact", "to contact", "contacting"],
+        "correctAnswer": "contacting"
+    },
+    {
+        "question": "83. I don't recommend ______.",
+        "options": ["overwork", "to overwork", "overworking"],
+        "correctAnswer": "overworking"
+    },
+    {
+        "question": "84. I don't want ______ it again.",
+        "options": ["hearing", "hear", "to hear"],
+        "correctAnswer": "to hear"
+    },
+    {
+        "question": "85. I didn't finish ______ the book.",
+        "options": ["to read", "read", "reading"],
+        "correctAnswer": "reading"
+    },
+    {
+        "question": "86. I wouldn't like ______ in your place.",
+        "options": ["be", "being", "to be"],
+        "correctAnswer": "to be"
+    },
+    {
+        "question": "87. She didn't ask me ______ her some money.",
+        "options": ["to lend", "lending", "lend"],
+        "correctAnswer": "to lend"
+    },
+    {
+        "question": "88. I don't recommend ______ this thing again.",
+        "options": ["to mention", "mentioning", "mention"],
+        "correctAnswer": "mentioning"
+    },
+    {
+        "question": "89. I don't consider ______ there.",
+        "options": ["to live", "live", "living"],
+        "correctAnswer": "living"
+    },
+    {
+        "question": "90. They didn't tell me ______ it.",
+        "options": ["rewrite", "rewriting", "to rewrite"],
+        "correctAnswer": "to rewrite"
+    },
+    {
+        "question": "91. I won't forget ______ it.",
+        "options": ["to redoing", "to redo", "redo"],
+        "correctAnswer": "to redo"
+    },
+    {
+        "question": "92. Will she need ______ an investor?",
+        "options": ["find", "finding", "to find"],
+        "correctAnswer": "to find"
+    },
+    {
+        "question": "93. Will you decide ______ it later?",
+        "options": ["to do", "doing", "do"],
+        "correctAnswer": "to do"
+    },
+    {
+        "question": "94. Will you promise ______ us?",
+        "options": ["consult", "to consult", "consulting"],
+        "correctAnswer": "to consult"
+    },
+    {
+        "question": "95. Will he want ______ more money?",
+        "options": ["earning", "earn", "to earn"],
+        "correctAnswer": "to earn"
+    },
+    {
+        "question": "96. Will he promise me ______?",
+        "options": ["help", "to help", "helping"],
+        "correctAnswer": "to help"
+    },
+    {
+        "question": "97. Will she refuse ______?",
+        "options": ["come", "to come", "coming"],
+        "correctAnswer": "to come"
+    },
+    {
+        "question": "98. Will you agree ______ this contract?",
+        "options": ["to sign", "sign", "signing"],
+        "correctAnswer": "to sign"
+    },
+    {
+        "question": "99. Will you ______ train him?",
+        "options": ["agree", "agreeing", "agree to"],
+        "correctAnswer": "agree to"
+    },
+    {
+        "question": "100. Will you try ______ your aim?",
+        "options": ["achieve", "to achieve", "achieving"],
+        "correctAnswer": "to achieve"
+    },
+    {
+        "question": "101. Will you need ______ more money?",
+        "options": ["borrow", "to borrow", "borrowing"],
+        "correctAnswer": "to borrow"
+    },
+    {
+        "question": "102. Did you need ______ on holiday?",
+        "options": ["to go", "go", "going"],
+        "correctAnswer": "to go"
+    },
+    {
+        "question": "103. Did she expect ______ a new level?",
+        "options": ["reach", "reached", "to reach"],
+        "correctAnswer": "to reach"
+    },
+    {
+        "question": "104. Did you decide ______ another strategy?",
+        "options": ["change", "to change", "changed"],
+        "correctAnswer": "to change"
+    },
+    {
+        "question": "105. Did they promise ______ the project?",
+        "options": ["joining", "join", "to join"],
+        "correctAnswer": "to join"
+    },
+    {
+        "question": "106. Did you choose ______ your job?",
+        "options": ["change", "to change", "changing"],
+        "correctAnswer": "to change"
+    },
+    {
+        "question": "107. Did you try ______ more professional employees?",
+        "options": ["to hire", "hire", "hired"],
+        "correctAnswer": "to hire"
+    },
+    {
+        "question": "108. Did you expect ______?",
+        "options": ["win", "won", "to win"],
+        "correctAnswer": "to win"
+    },
+    {
+        "question": "109. Did she try ______?",
+        "options": ["to win", "win", "winning"],
+        "correctAnswer": "to win"
+    },
+    {
+        "question": "110. Did they hope ______ a better job?",
+        "options": ["finding", "to find", "find"],
+        "correctAnswer": "to find"
+    },
+    {
+        "question": "111. Did you want ______ much better results?",
+        "options": ["show", "showing", "to show"],
+        "correctAnswer": "to show"
+    },
+    {
+        "question": "112. Will you promise ______ me?",
+        "options": ["helping", "help", "to help"],
+        "correctAnswer": "to help"
+    },
+    {
+        "question": "113. Will he want ______ this prize?",
+        "options": ["get", "to get", "getting"],
+        "correctAnswer": "to get"
+    },
+    {
+        "question": "114. Will he need ______ money?",
+        "options": ["to add", "add", "adding"],
+        "correctAnswer": "to add"
+    },
+    {
+        "question": "115. Will you need ______ up early?",
+        "options": ["get", "to get", "getting"],
+        "correctAnswer": "to get"
+    },
+    {
+        "question": "116. Will you want ______ your life?",
+        "options": ["to change", "change", "changing"],
+        "correctAnswer": "to change"
+    },
+    {
+        "question": "117. Will you need ______ your decision?",
+        "options": ["change", "to change", "changing"],
+        "correctAnswer": "to change"
+    },
+    {
+        "question": "118. Will he choose ______ in this team?",
+        "options": ["play", "to play", "playing"],
+        "correctAnswer": "to play"
+    },
+    {
+        "question": "119. Will she need ______ another trainer?",
+        "options": ["to find", "finding", "find"],
+        "correctAnswer": "to find"
+    },
+    {
+        "question": "120. Will you agree ______ present there?",
+        "options": ["to be", "be", "being"],
+        "correctAnswer": "to be"
+    },
+    {
+        "question": "121. Will you try ______ your results?",
+        "options": ["improve", "improved", "to improve"],
+        "correctAnswer": "to improve"
+    },
+    {
+        "question": "122. Will he invite us ______ it?",
+        "options": ["celebrating", "celebrate", "to celebrate"],
+        "correctAnswer": "to celebrate"
+    },
+    {
+        "question": "123. Will he order them ______ silence?",
+        "options": ["keep", "to keep", "keeping"],
+        "correctAnswer": "to keep"
+    },
+    {
+        "question": "124. Will you advise him ______ another trainer?",
+        "options": ["to find", "find", "found"],
+        "correctAnswer": "to find"
+    },
+    {
+        "question": "125. Will he order him ______ a new report?",
+        "options": ["to make", "make", "making"],
+        "correctAnswer": "to make"
+    },
+    {
+        "question": "126. Will he teach us ______ English fluently?",
+        "options": ["to speak", "speaking", "speak"],
+        "correctAnswer": "to speak"
+    },
+    {
+        "question": "127. Will he teach us ______ it more professionally?",
+        "options": ["do", "to do", "doing"],
+        "correctAnswer": "to do"
+    },
+    {
+        "question": "128. Will you ask him ______?",
+        "options": ["come", "coming", "to come"],
+        "correctAnswer": "to come"
+    },
+    {
+        "question": "129. Will you tell her ______ it?",
+        "options": ["show", "to show", "showing"],
+        "correctAnswer": "to show"
+    },
+    {
+        "question": "130. Will you tell her ______ us?",
+        "options": ["call", "to call", "calling"],
+        "correctAnswer": "to call"
+    },
+    {
+        "question": "131. Will you advise them ______ patience?",
+        "options": ["keep", "keeping", "to keep"],
+        "correctAnswer": "to keep"
+    },
+    {
+        "question": "132. Will you promise ______ us?",
+        "options": ["supporting", "to support", "support"],
+        "correctAnswer": "to support"
+    },
+    {
+        "question": "133. Will you consider ______ there?",
+        "options": ["to live", "living", "live"],
+        "correctAnswer": "living"
+    },
+    {
+        "question": "134. Will she enjoy ______ it?",
+        "options": ["doing", "do", "to do"],
+        "correctAnswer": "doing"
+    },
+    {
+        "question": "135. Will you recommend that I ______ more money on it?",
+        "options": ["spent", "spending", "spend"],
+        "correctAnswer": "spend"
+    },
+    {
+        "question": "136. Will you agree ______ in this championship?",
+        "options": ["participate", "to join", "to participate"],
+        "correctAnswer": "to participate"
+    },
+    {
+        "question": "137. Will you recommend ______ it?",
+        "options": ["doing", "to do", "do"],
+        "correctAnswer": "doing"
+    },
+    {
+        "question": "138. Will he enjoy ______ football?",
+        "options": ["play", "playing", "to play"],
+        "correctAnswer": "playing"
+    },
+    {
+        "question": "139. Will you avoid ______ to her?",
+        "options": ["talk", "to talk", "talking"],
+        "correctAnswer": "talking"
+    },
+    {
+        "question": "140. Will you need ______ more money?",
+        "options": ["borrow", "to borrow", "borrowing"],
+        "correctAnswer": "to borrow"
+    },
+    {
+        "question": "141. Will you refuse ______ with them?",
+        "options": ["to cooperate", "cooperate", "cooperating"],
+        "correctAnswer": "to cooperate"
+    },
+    {
+        "question": "142. You need ______ him about it.",
+        "options": ["tell", "telling", "to tell"],
+        "correctAnswer": "to tell"
+    },
+    {
+        "question": "143. She has ______ up very early.",
+        "options": ["get", "to get", "getting"],
+        "correctAnswer": "to get"
+    },
+    {
+        "question": "144. You should ______ the costs.",
+        "options": ["to reduce", "reducing", "reduce"],
+        "correctAnswer": "reduce"
+    },
+    {
+        "question": "145. I know that. It may ______.",
+        "options": ["happen", "happening", "to happen"],
+        "correctAnswer": "happen"
+    },
+    {
+        "question": "146. I must ______ it.",
+        "options": ["to do", "do", "doing"],
+        "correctAnswer": "do"
+    },
+    {
+        "question": "147. I must ______ this aim.",
+        "options": ["to achieve", "achieve", "achieving"],
+        "correctAnswer": "achieve"
+    },
+    {
+        "question": "148. You must ______ it.",
+        "options": ["to know", "know", "knowing"],
+        "correctAnswer": "know"
+    },
+    {
+        "question": "149. This may ______ to new problems.",
+        "options": ["lead", "to lead", "leading"],
+        "correctAnswer": "lead"
+    },
+    {
+        "question": "150. I have ______ his knowledge.",
+        "options": ["test", "testing", "to test"],
+        "correctAnswer": "to test"
+    },
+    {
+        "question": "151. I need ______ this fact.",
+        "options": ["accept", "to accept", "accepting"],
+        "correctAnswer": "to accept"
+    },
+    {
+        "question": "152. He must ______ it better.",
+        "options": ["know", "to know", "knowing"],
+        "correctAnswer": "know"
+    },
+    {
+        "question": "153. I must ______ my grammar.",
+        "options": ["to improve", "improving", "improve"],
+        "correctAnswer": "improve"
+    },
+    {
+        "question": "154. He might ______ you some money.",
+        "options": ["to lend", "lend", "lending"],
+        "correctAnswer": "lend"
+    },
+    {
+        "question": "155. You need ______ it one more time.",
+        "options": ["explain", "to explain", "to explaining"],
+        "correctAnswer": "to explain"
+    },
+    {
+        "question": "156. I have ______ it.",
+        "options": ["say", "saying", "to say"],
+        "correctAnswer": "to say"
+    },
+    {
+        "question": "157. I must ______ the exam.",
+        "options": ["pass", "to pass", "passing"],
+        "correctAnswer": "pass"
+    },
+    {
+        "question": "158. I have ______ with you.",
+        "options": ["agree", "agreeing", "to agree"],
+        "correctAnswer": "to agree"
+    },
+    {
+        "question": "159. He can ______ to help us.",
+        "options": ["refuse", "to refuse", "refusing"],
+        "correctAnswer": "refuse"
+    },
+    {
+        "question": "160. She can ______ four foreign languages.",
+        "options": ["speak", "to speak", "speaking"],
+        "correctAnswer": "speak"
+    },
+    {
+        "question": "161. You should ______ about it more thoroughly.",
+        "options": ["to think", "think", "thinking"],
+        "correctAnswer": "think"
+    },
+    {
+        "question": "162. She has ______ two brothers.",
+        "options": ["-", "a", "an"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "163. They have ______ problem.",
+        "options": ["some", "a", "-"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "164. I have ______ two computers.",
+        "options": ["a", "-", "some"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "165. I have ______ car.",
+        "options": ["some", "an", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "166. They have ______ problems.",
+        "options": ["a", "an", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "167. I have ______ computer.",
+        "options": ["-", "a", "some"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "168. I have ______ family.",
+        "options": ["an", "the", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "169. I have ______ friends.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "170. She has ______ two interesting ideas.",
+        "options": ["-", "some", "the"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "171. I have ______ idea.",
+        "options": ["a", "an", "some"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "172. It's ______ unique chance.",
+        "options": ["an", "-", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "173. We have ______ ambitious plans.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "174. We have ______ special offer for you.",
+        "options": ["some", "a", "-"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "175. It's ______ creative project.",
+        "options": ["an", "-", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "176. You have ______ interesting ideas.",
+        "options": ["-", "an", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "177. He has ______ beautiful girlfriend.",
+        "options": ["the", "a", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "178. The boy likes ______ long stories.",
+        "options": ["a", "-", "an"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "179. You have ______ good plan.",
+        "options": ["-", "an", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "180. It's ______ good website.",
+        "options": ["a", "the", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "181. It's ______ long story.",
+        "options": ["some", "the", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "182. This is ______ my flat.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "183. This is ______ my room.",
+        "options": ["-", "a", "the"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "184. This is ______ supermarket.",
+        "options": ["an", "-", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "185. These are ______ local people.",
+        "options": ["an", "-", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "186. This is ______ my thing.",
+        "options": ["-", "a", "an"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "187. This is ______ hotel.",
+        "options": ["a", "some", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "188. These are ______ their things.",
+        "options": ["some", "the", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "189. This is ______ bathroom.",
+        "options": ["-", "a", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "190. This is ______ our house.",
+        "options": ["-", "a", "the"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "191. These are ______ new banknotes.",
+        "options": ["-", "a", "an"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "192. There are ______ two cats in this apartment.",
+        "options": ["a", "an", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "193. There is ______ cup of coffee on the table.",
+        "options": ["some", "a", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "194. There are ______ three rooms in my flat.",
+        "options": ["a", "-", "some"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "195. There are ______ many good people.",
+        "options": ["-", "some", "the"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "196. There is ______ glass of water on the table.",
+        "options": ["a", "an", "the"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "197. There is ______ chair in the room.",
+        "options": ["some", "the", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "198. There is ______ way out.",
+        "options": ["some", "a", "-"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "199. There are ______ other problems.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "200. There is ______ book on the desk.",
+        "options": ["some", "an", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "201. There is ______ dog in the house.",
+        "options": ["an", "-", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "202. They live in ______ England.",
+        "options": ["-", "the", "an"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "203. She's from ______ India.",
+        "options": ["the", "-", "an"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "204. I was born in ______ United States.",
+        "options": ["some", "the", "an"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "205. She lives in ______ UK.",
+        "options": ["the", "an", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "206. I want to visit ______ China.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "207. The boy was born in ______ United Kingdom.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "208. She is from ______ Russia.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "209. Her cousin is from ______ Brazil.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "210. They live in ______ United Kingdom.",
+        "options": ["the", "-", "an"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "211. I was in ______ United States last year.",
+        "options": ["a few", "an", "the"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "212. I have ______ idea.",
+        "options": ["an", "a", "the"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "213. It will take you ______ hour.",
+        "options": ["a", "an", "the"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "214. He ate ______ egg.",
+        "options": ["a", "the", "an"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "215. He is ______ hero.",
+        "options": ["a", "an", "quite"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "216. I ate ______ apple.",
+        "options": ["an", "a", "the"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "217. This is ______ university.",
+        "options": ["a", "an", "the"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "218. It happened ______ year ago.",
+        "options": ["an", "a", "the"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "219. He has ______ cousin.",
+        "options": ["some", "an", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "220. Take ______ umbrella.",
+        "options": ["some", "a", "an"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "221. This is ______ school.",
+        "options": ["a", "the", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "222. It was ______ biggest success.",
+        "options": ["a", "the", "an"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "223. It is ______ most popular trend.",
+        "options": ["an", "a", "the"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "224. It's ______ important thing.",
+        "options": ["an", "the", "a"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "225. It was ______ big success.",
+        "options": ["the", "a", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "226. It's ______ most important thing for me.",
+        "options": ["the", "a", "an"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "227. It was ______ obvious decision.",
+        "options": ["a", "the", "an"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "228. It's ______ most influential organization.",
+        "options": ["the", "an", "a"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "229. It was ______ most obvious decision.",
+        "options": ["the", "a", "an"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "230. It's ______ successful company.",
+        "options": ["an", "a", "the"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "231. It's ______ most successful company in the world.",
+        "options": ["a", "an", "the"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "232. It's ______ expensive device.",
+        "options": ["a", "an", "the"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "233. It's ______ useless method.",
+        "options": ["the", "an", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "234. He's ______ emotional person.",
+        "options": ["a", "an", "the"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "235. It's ______ useful thing.",
+        "options": ["a", "an", "the"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "236. It's ______ poor area.",
+        "options": ["an", "a", "the"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "237. It's ______ interesting idea.",
+        "options": ["a", "an", "the"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "238. He's ______ intelligent person.",
+        "options": ["the", "a", "an"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "239. It's ______ good opportunity.",
+        "options": ["the", "a", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "240. He's ______ unhappy person.",
+        "options": ["an", "a", "the"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "241. It's ______ rich organization.",
+        "options": ["a", "an", "the"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "242. They are ______ very lonely people.",
+        "options": ["-", "a", "an"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "243. She uses ______ very strange methods.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "244. I included ______ very difficult tasks.",
+        "options": ["a", "-", "the"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "245. She's ______ very lovely person.",
+        "options": ["some", "the", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "246. It's ______ very strange method.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "247. It's ______ very difficult task.",
+        "options": ["some", "a", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "248. It's ______ very interesting thing.",
+        "options": ["an", "-", "a"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "249. It's ______ very pleasant feeling.",
+        "options": ["-", "a", "an"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "250. It's ______ very bad situation.",
+        "options": ["some", "the", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "251. You always make ______ informative lessons.",
+        "options": ["-", "an", "the"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "252. Wash ______ mirror!",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "253. Wash ______ floor!",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "254. Will you wash up ______ dishes?",
+        "options": ["-", "a", "the"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "255. I see ______ moon.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "256. Close ______ door!",
+        "options": ["some", "-", "the"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "257. ______ sun is shining brightly.",
+        "options": ["A", "-", "The"],
+        "correctAnswer": "The"
+    },
+    {
+        "question": "258. Open ______ book!",
+        "options": ["some", "the", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "259. Clean ______ room!",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "260. Open ______ window!",
+        "options": ["-", "the", "an"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "261. Translate ______ text!",
+        "options": ["a", "-", "the"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "262. I have a pen. ______ pen is red.",
+        "options": ["A", "-", "The"],
+        "correctAnswer": "The"
+    },
+    {
+        "question": "263. I have a house. ______ house is small.",
+        "options": ["The", "A", "-"],
+        "correctAnswer": "The"
+    },
+    {
+        "question": "264. She lives in ______ house.",
+        "options": ["the", "-", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "265. He has ______ car.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "266. He has a job. ______ job is very difficult.",
+        "options": ["A", "The", "-"],
+        "correctAnswer": "The"
+    },
+    {
+        "question": "267. We have a trainer. ______ trainer is very professional.",
+        "options": ["-", "A", "The"],
+        "correctAnswer": "The"
+    },
+    {
+        "question": "268. I have a car. ______ car is very reliable.",
+        "options": ["The", "A", "-"],
+        "correctAnswer": "The"
+    },
+    {
+        "question": "269. She is ______ teacher.",
+        "options": ["an", "-", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "270. I have a question. ______ question is very unusual.",
+        "options": ["-", "The", "A"],
+        "correctAnswer": "The"
+    },
+    {
+        "question": "271. I have a strategy. ______ strategy is very simple.",
+        "options": ["A", "-", "The"],
+        "correctAnswer": "The"
+    },
+    {
+        "question": "272. She has ______ offer.",
+        "options": ["the", "an", "-"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "273. I have ______ partners.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "274. She has ______ child.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "275. I have ______ partner.",
+        "options": ["the", "-", "a"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "276. I have ______ children.",
+        "options": ["a", "-", "the"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "277. I have ______ friends.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "278. We all know ______ rules which exist in this company.",
+        "options": ["-", "the", "an"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "279. I know ______ answer.",
+        "options": ["the", "an", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "280. I have ______ plan.",
+        "options": ["-", "a", "the"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "281. She has ______ offers.",
+        "options": ["an", "the", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "282. It's ______ extremely important event.",
+        "options": ["the", "-", "an"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "283. They are ______ really amazing people.",
+        "options": ["the", "-", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "284. He's ______ very responsible person.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "285. It's ______ really amazing opportunity.",
+        "options": ["an", "a", "the"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "286. They're ______ very responsible employees.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "287. They were ______ extremely popular singers.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "288. They work in ______ extremely difficult conditions.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "289. She's ______ extremely popular singer.",
+        "options": ["a", "the", "an"],
+        "correctAnswer": "an"
+    },
+    {
+        "question": "290. He has ______ really good job.",
+        "options": ["a", "-", "the"],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "291. I have ______ really good friends.",
+        "options": ["the", "-", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "292. I saw her last ______ week.",
+        "options": ["a", "-", "the"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "293. I hope we'll meet next ______ week.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "294. I remembered about it only at ______ midnight.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "295. I have ______ advice for you.",
+        "options": ["an", "the", "some"],
+        "correctAnswer": "some"
+    },
+    {
+        "question": "296. It happened last ______ century.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "297. I was busy all ______ day.",
+        "options": ["the", "-", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "298. He was there all ______ night.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "299. It will take place next ______ month.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "300. She got up at ______ noon.",
+        "options": ["a", "-", "the"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "301. They met at ______ night.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "-"
+    },
+    {
+        "question": "302. It's ______ most useful channel.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "303. It's her ______ most important achievement.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "304. It's his ______ strongest point.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "305. It's ______ best channel.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "306. It's ______ most expensive car.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "307. I think you are ______ happiest person in the world.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "308. It's their ______ most popular song.",
+        "options": ["the", "a", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "309. It's ______ biggest threat for us.",
+        "options": ["a", "the", "-"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "310. It's our ______ greatest result.",
+        "options": ["-", "the", "a"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "311. It's ______ worst scenario.",
+        "options": ["a", "-", "the"],
+        "correctAnswer": "the"
+    },
+    {
+        "question": "312. I ______ in India.",
+        "options": ["grew out", "grew up", "grew around"],
+        "correctAnswer": "grew up"
+    },
+    {
+        "question": "313. I will ______ the meeting (postpone).",
+        "options": ["put off", "put away", "put out"],
+        "correctAnswer": "put off"
+    },
+    {
+        "question": "314. They ______ the meeting (cancelled).",
+        "options": ["called up", "called out", "called off"],
+        "correctAnswer": "called off"
+    },
+    {
+        "question": "315. I will ______ working on this project (continue).",
+        "options": ["carry away", "carry on", "carry"],
+        "correctAnswer": "carry on"
+    },
+    {
+        "question": "316. She was ______ by her uncle (raised).",
+        "options": ["brought up", "brought off", "brought away"],
+        "correctAnswer": "brought up"
+    },
+    {
+        "question": "317. Her car ______ (stopped working).",
+        "options": ["broke off", "broke on", "broke down"],
+        "correctAnswer": "broke down"
+    },
+    {
+        "question": "318. I ______ tennis (started doing).",
+        "options": ["took up", "took off", "took away"],
+        "correctAnswer": "took up"
+    },
+    {
+        "question": "319. I want to ______ learning English with you (continue).",
+        "options": ["go away", "go on", "go up"],
+        "correctAnswer": "go on"
+    },
+    {
+        "question": "320. He ______ smoking (stopped).",
+        "options": ["gave off", "gave in", "gave up"],
+        "correctAnswer": "gave up"
+    },
+    {
+        "question": "321. Where do you ______? (Where were you born?)",
+        "options": ["come apart", "come of", "come from"],
+        "correctAnswer": "come from"
+    },
+    {
+        "question": "322. I will ______ my classmates (reach their level).",
+        "options": ["catch with", "catch on", "catch up with"],
+        "correctAnswer": "catch up with"
+    },
+    {
+        "question": "323. I can't ______ them (reach their level).",
+        "options": ["keep along", "keep up with", "keep on with"],
+        "correctAnswer": "keep up with"
+    },
+    {
+        "question": "324. I will ______ (return).",
+        "options": ["be over", "be on", "be back"],
+        "correctAnswer": "be back"
+    },
+    {
+        "question": "325. I think we can ______ (have less progress).",
+        "options": ["fall behind", "fall off", "fall down"],
+        "correctAnswer": "fall behind"
+    },
+    {
+        "question": "326. I ______ very early (get out of bed after sleeping).",
+        "options": ["get off", "get up", "get over"],
+        "correctAnswer": "get up"
+    },
+    {
+        "question": "327. ______ the gaps (complete).",
+        "options": ["Fill in", "Fill on", "Fill over"],
+        "correctAnswer": "Fill in"
+    },
+    {
+        "question": "328. I ______ later (opened my eyes after sleeping).",
+        "options": ["woke on", "woke up", "woke over"],
+        "correctAnswer": "woke up"
+    },
+    {
+        "question": "329. ______ (enter).",
+        "options": ["Come in!", "Come off!", "Come within!"],
+        "correctAnswer": "Come in!"
+    },
+    {
+        "question": "330. She ______ her grandmother (takes care of).",
+        "options": ["looks with", "looks at", "looks after"],
+        "correctAnswer": "looks after"
+    },
+    {
+        "question": "331. The lesson ______ (finished).",
+        "options": ["is done", "is off", "is over"],
+        "correctAnswer": "is over"
+    },
+    {
+        "question": "332. I ______ well with my neighbours (have good relations).",
+        "options": ["get with", "get on", "get up"],
+        "correctAnswer": "get on"
+    },
+    {
+        "question": "333. The police will ______ the crime (investigate).",
+        "options": ["look into", "look over", "look inside"],
+        "correctAnswer": "look into"
+    },
+    {
+        "question": "334. I ______ my boss (respect).",
+        "options": ["look in at", "look up to", "look down on"],
+        "correctAnswer": "look up to"
+    },
+    {
+        "question": "335. ______ ahead, I think it's the right decision (planning).",
+        "options": ["Seeing", "Foreseeing", "Looking"],
+        "correctAnswer": "Looking"
+    },
+    {
+        "question": "336. I will ______ (call you again).",
+        "options": ["call you on", "call you over", "call you back"],
+        "correctAnswer": "call you back"
+    },
+    {
+        "question": "337. I ______ with my classmates.",
+        "options": ["get over", "get along", "get back"],
+        "correctAnswer": "get along"
+    },
+    {
+        "question": "338. She ______ on her employees (disrespects).",
+        "options": ["looks up", "looks down", "look over"],
+        "correctAnswer": "looks down"
+    },
+    {
+        "question": "339. I will look it ______ in a dictionary (find).",
+        "options": ["up", "for", "on"],
+        "correctAnswer": "up"
+    },
+    {
+        "question": "340. When will she ______ (return)?",
+        "options": ["come on", "come for", "come back"],
+        "correctAnswer": "come back"
+    },
+    {
+        "question": "341. ______ back, I think it was a mistake.",
+        "options": ["Watching", "Looking", "Seeing"],
+        "correctAnswer": "Looking"
+    },
+    {
+        "question": "342. Choose the correct answer:",
+        "options": ["She criticizes him always.", "She always criticizes him.", "Always she criticizes him."],
+        "correctAnswer": "She always criticizes him."
+    },
+    {
+        "question": "343. Choose the correct answer:",
+        "options": ["She often visits this place.", "Often she visits this place.", "She visits often this place."],
+        "correctAnswer": "She often visits this place."
+    },
+    {
+        "question": "344. Choose the correct answer:",
+        "options": ["Usually I get up very early.", "I get up usually very early.", "I usually get up very early."],
+        "correctAnswer": "I usually get up very early."
+    },
+    {
+        "question": "345. Choose the correct answer:",
+        "options": ["We usually do it.", "We do it usually.", "Usually we do it."],
+        "correctAnswer": "We usually do it."
+    },
+    {
+        "question": "346. Choose the correct answer:",
+        "options": ["Always you are right.", "You are right always.", "You are always right."],
+        "correctAnswer": "You are always right."
+    },
+    {
+        "question": "347. Choose the correct answer:",
+        "options": ["I always listen to her.", "Always I listen to her.", "I listen to her always."],
+        "correctAnswer": "I always listen to her."
+    },
+    {
+        "question": "348. Choose the correct answer:",
+        "options": ["She usually ignores him.", "Usually she ignores him.", "She ignores him usually."],
+        "correctAnswer": "She usually ignores him."
+    },
+    {
+        "question": "349. Choose the correct answer:",
+        "options": ["He arrives late often.", "He often arrives late.", "Often he arrives late."],
+        "correctAnswer": "He often arrives late."
+    },
+    {
+        "question": "350. Choose the correct answer:",
+        "options": ["Often it happens.", "It happens often.", "It often happens."],
+        "correctAnswer": "It often happens."
+    },
+    {
+        "question": "351. Choose the correct answer:",
+        "options": ["Often I do it.", "I do it often.", "I often do it."],
+        "correctAnswer": "I often do it."
+    },
+    {
+        "question": "352. Choose the correct answer:",
+        "options": ["Tell me where is she.", "Where is she tell me.", "Tell me where she is."],
+        "correctAnswer": "Tell me where she is."
+    },
+    {
+        "question": "353. Choose the correct answer:",
+        "options": ["Do you understand what is it?", "Do you understand what it is?", "Do you understand what has it?"],
+        "correctAnswer": "Do you understand what it is?"
+    },
+    {
+        "question": "354. Choose the correct answer:",
+        "options": ["Does he know how is he?", "Does he know how has he been?", "Does he know how he is?"],
+        "correctAnswer": "Does he know how he is?"
+    },
+    {
+        "question": "355. Choose the correct answer:",
+        "options": ["Do you know how much it is?", "Do you know how much is it?", "Do you know how much has it been?"],
+        "correctAnswer": "Do you know how much it is?"
+    },
+    {
+        "question": "356. Choose the correct answer:",
+        "options": ["Could you tell me how far is it?", "Could you tell me how far it is?", "Could you tell me how far away is it?"],
+        "correctAnswer": "Could you tell me how far it is?"
+    },
+    {
+        "question": "357. Choose the correct answer:",
+        "options": ["Tell me where is it.", "Tell me where has it.", "Tell me where it is."],
+        "correctAnswer": "Tell me where it is."
+    },
+    {
+        "question": "358. Choose the correct answer:",
+        "options": ["Tell us how expensive it is.", "Tell us how it is expensive.", "Tell us how expensive is it."],
+        "correctAnswer": "Tell us how expensive it is."
+    },
+    {
+        "question": "359. Choose the correct answer:",
+        "options": ["Can you tell me how dangerous it is?", "Can you tell me how it dangerous is?", "Can you tell me how dangerous is it?"],
+        "correctAnswer": "Can you tell me how dangerous it is?"
+    },
+    {
+        "question": "360. Choose the correct answer:",
+        "options": ["Do you know where is it?", "Do you know where it is?", "Do you know where has it?"],
+        "correctAnswer": "Do you know where it is?"
+    },
+    {
+        "question": "361. Choose the correct answer:",
+        "options": ["Do you see how lucky are we?", "Do you see lucky how we are?", "Do you see how lucky we are?"],
+        "correctAnswer": "Do you see how lucky we are?"
+    },
+    {
+        "question": "362. Choose the correct answer:",
+        "options": ["Do you know how much does it cost?", "Do you know how much it costs?", "Do you know how much it cost?"],
+        "correctAnswer": "Do you know how much it costs?"
+    },
+    {
+        "question": "363. Choose the correct answer:",
+        "options": ["I need to understand how this device works.", "I need to understand how does this device work.", "I need to understand how this device work."],
+        "correctAnswer": "I need to understand how this device works."
+    },
+    {
+        "question": "364. Choose the correct answer:",
+        "options": ["I can't remember where does she live.", "I can't remember where did she live.", "I can't remember where she lives."],
+        "correctAnswer": "I can't remember where she lives."
+    },
+    {
+        "question": "365. Choose the correct answer:",
+        "options": ["Do you have any idea how does it happen?", "Do you have any idea how it happens?", "Do you have any idea how happens it?"],
+        "correctAnswer": "Do you have any idea how it happens?"
+    },
+    {
+        "question": "366. Choose the correct answer:",
+        "options": ["I need to know what problems do they have.", "I need to know what problems they have.", "I need to know what problems did they had."],
+        "correctAnswer": "I need to know what problems they have."
+    },
+    {
+        "question": "367. Choose the correct answer:",
+        "options": ["Do you know where he lives?", "Do you know where does he live?", "Do you know he where does live?"],
+        "correctAnswer": "Do you know where he lives?"
+    },
+    {
+        "question": "368. Choose the correct answer:",
+        "options": ["I'd like to know how they do it.", "I'd like to know how do they do it.", "I'd like to know how they does it."],
+        "correctAnswer": "I'd like to know how they do it."
+    },
+    {
+        "question": "369. Choose the correct answer:",
+        "options": ["Could you tell me how does it work?", "Could you tell me how it work?", "Could you tell me how it works?"],
+        "correctAnswer": "Could you tell me how it works?"
+    },
+    {
+        "question": "370. Choose the correct answer:",
+        "options": ["Can you tell me why does she think so?", "Can you tell me why she thinks so?", "Can you tell me why did she thinks so?"],
+        "correctAnswer": "Can you tell me why she thinks so?"
+    },
+    {
+        "question": "371. Choose the correct answer:",
+        "options": ["Can you tell me where they buy it?", "Can you tell me where do they buy it?", "Can you tell me where they did buy it?"],
+        "correctAnswer": "Can you tell me where they buy it?"
+    },
+    {
+        "question": "372. Choose the correct answer:",
+        "options": ["Do you have any idea why did she choose it?", "Do you have any idea why she chose it?", "Do you have any idea why does she choose it?"],
+        "correctAnswer": "Do you have any idea why she chose it?"
+    },
+    {
+        "question": "373. Choose the correct answer:",
+        "options": ["Tell me what did seem so difficult?", "Tell me what does seem so difficult?", "Tell me what seemed so difficult?"],
+        "correctAnswer": "Tell me what seemed so difficult?"
+    },
+    {
+        "question": "374. Choose the correct answer:",
+        "options": ["Can you tell me what look so strange?", "Can you tell me what looked so strange?", "Can you tell me what did look so strange?"],
+        "correctAnswer": "Can you tell me what looked so strange?"
+    },
+    {
+        "question": "375. Choose the correct answer:",
+        "options": ["Does she see what really helped her?", "Does she see what did really help her?", "Does she see what her helped really?"],
+        "correctAnswer": "Does she see what really helped her?"
+    },
+    {
+        "question": "376. Choose the correct answer:",
+        "options": ["Do know how did he do it?", "Do you know how did he it?", "Do you know how he did it?"],
+        "correctAnswer": "Do you know how he did it?"
+    },
+    {
+        "question": "377. Choose the correct answer:",
+        "options": ["I need to understand why did they supported him.", "I need to understand why they supported him.", "I need to understand why did supported him they."],
+        "correctAnswer": "I need to understand why they supported him."
+    },
+    {
+        "question": "378. Choose the correct answer:",
+        "options": ["I'd like to know how they lived together.", "I'd like to know how did they live together.", "I'd like to know how did they together lived."],
+        "correctAnswer": "I'd like to know how they lived together."
+    },
+    {
+        "question": "379. Choose the correct answer:",
+        "options": ["Can you say how did you get this job?", "Can you say how you got this job?", "Can you say how have you get this job?"],
+        "correctAnswer": "Can you say how you got this job?"
+    },
+    {
+        "question": "380. Choose the correct answer:",
+        "options": ["Do you understand why did she lie to him?", "Do you understood why she lied to him?", "Do you understand why she lied to him?"],
+        "correctAnswer": "Do you understand why she lied to him?"
+    },
+    {
+        "question": "381. Choose the correct answer:",
+        "options": ["Do you remember how much money did he owe him?", "Do you remember how much money he owed him?", "Do you remember how much money does he owe him?"],
+        "correctAnswer": "Do you remember how much money he owed him?"
+    },
+    {
+        "question": "382. Choose the correct answer:",
+        "options": ["Can you say how profitable was his business?", "Can you say how profitable his business was?", "Can you say how was profitable his business?"],
+        "correctAnswer": "Can you say how profitable his business was?"
+    },
+    {
+        "question": "383. Choose the correct answer:",
+        "options": ["Do you know how rich was he?", "Do you know how he was rich?", "Do you know how rich he was?"],
+        "correctAnswer": "Do you know how rich he was?"
+    },
+    {
+        "question": "384. Choose the correct answer:",
+        "options": ["Do you know why was she so angry?", "Do you know why was so angry she?", "Do you know why she was so angry?"],
+        "correctAnswer": "Do you know why she was so angry?"
+    },
+    {
+        "question": "385. Choose the correct answer:",
+        "options": ["We need to understand why it was so difficult.", "We need to understand why it so difficult was.", "We need to understand why was it so difficult."],
+        "correctAnswer": "We need to understand why it was so difficult."
+    },
+    {
+        "question": "386. Choose the correct answer:",
+        "options": ["Do you remember how long ago it was?", "Do you remember how it was long time ago?", "Do you remember how long time ago was it?"],
+        "correctAnswer": "Do you remember how long ago it was?"
+    },
+    {
+        "question": "387. Choose the correct answer:",
+        "options": ["I don't understand why were they absent.", "I don't understand why they were absent.", "I don't understand why absent they were."],
+        "correctAnswer": "I don't understand why they were absent."
+    },
+    {
+        "question": "388. Choose the correct answer:",
+        "options": ["Tell me how was the exam.", "Tell me the exam how was.", "Tell me how the exam was."],
+        "correctAnswer": "Tell me how the exam was."
+    },
+    {
+        "question": "389. Choose the correct answer:",
+        "options": ["Do you know how expensive it was?", "Do you know how was it expensive?", "Do you know how expensive was it?"],
+        "correctAnswer": "Do you know how expensive it was?"
+    },
+    {
+        "question": "390. Choose the correct answer:",
+        "options": ["I'd like to know how serious were his intentions.", "I'd like to know how serious his intentions were.", "I'd like to know how were his intentions serious."],
+        "correctAnswer": "I'd like to know how serious his intentions were."
+    },
+    {
+        "question": "391. Choose the correct answer:",
+        "options": ["Would you like to know how important was it?", "Would you like to know how important it was?", "Would you like to know how was it important?"],
+        "correctAnswer": "Would you like to know how important it was?"
+    },
+    {
+        "question": "392. Choose the correct answer:",
+        "options": ["Do you realize why it will happen?", "Do you realize why will it happen?", "Do you realize why happen will it?"],
+        "correctAnswer": "Do you realize why it will happen?"
+    },
+    {
+        "question": "393. Choose the correct answer:",
+        "options": ["I need to see how profitable will it be.", "I need to see how much profitable will it be.", "I need to see how profitable it will be."],
+        "correctAnswer": "I need to see how profitable it will be."
+    },
+    {
+        "question": "394. Choose the correct answer:",
+        "options": ["It's interesting where will live she.", "It's interesting where she will live.", "It's interesting where will she live."],
+        "correctAnswer": "It's interesting where she will live."
+    },
+    {
+        "question": "395. Choose the correct answer:",
+        "options": ["Can you say why it will happen?", "Can you say why will it happen?", "Can you say why will happen it?"],
+        "correctAnswer": "Can you say why it will happen?"
+    },
+    {
+        "question": "396. Choose the correct answer:",
+        "options": ["I'd like to know what will they teach us.", "I'd like to know what will teach us they.", "I'd like to know what they will teach us."],
+        "correctAnswer": "I'd like to know what they will teach us."
+    },
+    {
+        "question": "397. Choose the correct answer:",
+        "options": ["I don't know how she will find a better job.", "I don't know how will she find a better job.", "I don't know how will find she a better job."],
+        "correctAnswer": "I don't know how she will find a better job."
+    },
+    {
+        "question": "398. Choose the correct answer:",
+        "options": ["Can you say why you will study there?", "Can you say why will you study there?", "Can you say why will there you study?"],
+        "correctAnswer": "Can you say why you will study there?"
+    },
+    {
+        "question": "399. Choose the correct answer:",
+        "options": ["Do you know how will it be?", "Do you know how it will be?", "Do you know how be it will?"],
+        "correctAnswer": "Do you know how it will be?"
+    },
+    {
+        "question": "400. Choose the correct answer:",
+        "options": ["I don't know where will it take place.", "I don't know where it will take place.", "I don't know where take place will it."],
+        "correctAnswer": "I don't know where it will take place."
+    },
+    {
+        "question": "401. Choose the correct answer:",
+        "options": ["I don't understand why will you spend time on it.", "I don't understand why you spend time will on it.", "I don't understand why you will spend time on it."],
+        "correctAnswer": "I don't understand why you will spend time on it."
+    },
+    {
+        "question": "402. Choose the correct answer:",
+        "options": ["I don't understand why are you listening to it.", "I don't understand why you are listening to it.", "I don't understand why listening to it are you."],
+        "correctAnswer": "I don't understand why you are listening to it."
+    },
+    {
+        "question": "403. Choose the correct answer:",
+        "options": ["Tell me what are they discussing.", "Tell me what they are discussing.", "Tell me they are discussing what."],
+        "correctAnswer": "Tell me what they are discussing."
+    },
+    {
+        "question": "404. Choose the correct answer:",
+        "options": ["Can you say what you are doing?", "Can you say what are you doing?", "Can you say what doing are you?"],
+        "correctAnswer": "Can you say what you are doing?"
+    },
+    {
+        "question": "405. Choose the correct answer:",
+        "options": ["I need to know how are they working this week.", "I need to know they are working this week how.", "I need to know how they are working this week."],
+        "correctAnswer": "I need to know how they are working this week."
+    },
+    {
+        "question": "406. Choose the correct answer:",
+        "options": ["I'd like to know why are the prices getting higher and higher.", "I'd like to know why the prices are getting higher and higher.", "I'd like to know why the prices higher and higher are getting."],
+        "correctAnswer": "I'd like to know why the prices are getting higher and higher."
+    },
+    {
+        "question": "407. Choose the correct answer:",
+        "options": ["Do you know why she is looking at us?", "Do you know she is looking at us why?", "Do you know why is she looking at us?"],
+        "correctAnswer": "Do you know why she is looking at us?"
+    },
+    {
+        "question": "408. Choose the correct answer:",
+        "options": ["It's interesting why are they laughing.", "It's interesting why they are laughing.", "It's interesting they are laughing why."],
+        "correctAnswer": "It's interesting why they are laughing."
+    },
+    {
+        "question": "409. Choose the correct answer:",
+        "options": ["Would you like to know where are they having a rest?", "Would you like to know where having they a rest?", "Would you like to know where they are having a rest?"],
+        "correctAnswer": "Would you like to know where they are having a rest?"
+    },
+    {
+        "question": "410. Choose the correct answer:",
+        "options": ["I don't know why is it happening.", "I don't know why it's happening.", "I don't know it's happening why."],
+        "correctAnswer": "I don't know why it's happening."
+    },
+    {
+        "question": "411. Choose the correct answer:",
+        "options": ["Please, tell me why they are making us problems.", "Please, tell me why are they making us problems.", "Please tell me why us they are making problems."],
+        "correctAnswer": "Please, tell me why they are making us problems."
+    },
+    {
+        "question": "412. Choose the correct answer:",
+        "options": ["I will tell you how many money I have got.", "I will tell you how much money I have got.", "I will tell you how much money have I got."],
+        "correctAnswer": "I will tell you how much money I have got."
+    },
+    {
+        "question": "413. Choose the correct answer:",
+        "options": ["It's interesting why she has got so many job offers.", "It's interesting why has she got so many job offers.", "It's interesting why she has got so much job offers."],
+        "correctAnswer": "It's interesting why she has got so many job offers."
+    },
+    {
+        "question": "414. Choose the correct answer:",
+        "options": ["Do you have any idea how much free time have they got?", "Do you have any idea how much free time they have got?", "Do you have any idea how much have they free time?"],
+        "correctAnswer": "Do you have any idea how much free time they have got?"
+    },
+    {
+        "question": "415. Choose the correct answer:",
+        "options": ["I see why has she got this alternative.", "I see why this alternative has she got.", "I see why she has got this alternative."],
+        "correctAnswer": "I see why she has got this alternative."
+    },
+    {
+        "question": "416. Choose the correct answer:",
+        "options": ["Do you know what job has he got?", "Do you know what job he has got?", "Do you know what he has got job?"],
+        "correctAnswer": "Do you know what job he has got?"
+    },
+    {
+        "question": "417. Choose the correct answer:",
+        "options": ["Do you see what problems we have got?", "Do you see what problems have we got?", "Do you see what we have got problems?"],
+        "correctAnswer": "Do you see what problems we have got?"
+    },
+    {
+        "question": "418. Choose the correct answer:",
+        "options": ["We don't understand why she has got such strange offers.", "We don't understand why has she got such strange offers.", "We don't understand why such strange offers has she got."],
+        "correctAnswer": "We don't understand why she has got such strange offers."
+    },
+    {
+        "question": "419. Choose the correct answer:",
+        "options": ["I don't know how many children has she got.", "I don't know how many children she has got.", "I don't know how she has got many children."],
+        "correctAnswer": "I don't know how many children she has got."
+    },
+    {
+        "question": "420. Choose the correct answer:",
+        "options": ["I know how many good friends has he got.", "I know how many he has got good friends.", "I know how many good friends he has got."],
+        "correctAnswer": "I know how many good friends he has got."
+    },
+    {
+        "question": "421. Choose the correct answer:",
+        "options": ["Do you know what plan she has got?", "Do you know what plan has she got?", "Do you know she has got what plan?"],
+        "correctAnswer": "Do you know what plan she has got?"
+    },
+    {
+        "question": "422. Choose the correct answer:",
+        "options": ["Tell me how can I do it.", "Tell me how I can do it.", "Tell me can I do it how."],
+        "correctAnswer": "Tell me how I can do it."
+    },
+    {
+        "question": "423. Choose the correct answer:",
+        "options": ["Do you see what problems it can bring?", "Do you see what problems can it bring?", "Do you see what can it bring problems?"],
+        "correctAnswer": "Do you see what problems it can bring?"
+    },
+    {
+        "question": "424. Choose the correct answer:",
+        "options": ["Tell me what other things can I do.", "Tell me other things what can I do.", "Tell me what other things I can do."],
+        "correctAnswer": "Tell me what other things I can do."
+    },
+    {
+        "question": "425. Choose the correct answer:",
+        "options": ["Would you like to know what else can she do?", "Would you like to know what else she can do?", "Would you like to know she can do what else?"],
+        "correctAnswer": "Would you like to know what else she can do?"
+    },
+    {
+        "question": "426. Choose the correct answer:",
+        "options": ["I see how professionally he can teach English.", "I see how professionally can he teach English.", "I see how can he teach English professionally."],
+        "correctAnswer": "I see how professionally he can teach English."
+    },
+    {
+        "question": "427. Choose the correct answer:",
+        "options": ["I don't understand how can I speak English better.", "I don't understand I can speak English better how.", "I don't understand how I can speak English better."],
+        "correctAnswer": "I don't understand how I can speak English better."
+    },
+    {
+        "question": "428. Choose the correct answer:",
+        "options": ["I don't know how can I achieve better results.", "I don't know how I can achieve better results.", "I don't know I can achieve better results how."],
+        "correctAnswer": "I don't know how I can achieve better results."
+    },
+    {
+        "question": "429. Choose the correct answer:",
+        "options": ["We'd like to know how can we do it better.", "We'd like to know how we can do it better.", "We'd like to know we can do it better how."],
+        "correctAnswer": "We'd like to know how we can do it better."
+    },
+    {
+        "question": "430. Choose the correct answer:",
+        "options": ["I need to understand what it can give me.", "I need to understand what can it give me.", "I need to understand it can give me what."],
+        "correctAnswer": "I need to understand what it can give me."
+    },
+    {
+        "question": "431. Choose the correct answer:",
+        "options": ["It's interesting how much money can we earn there.", "It's interesting how much money we there can earn.", "It's interesting how much money we can earn there."],
+        "correctAnswer": "It's interesting how much money we can earn there."
+    },
+    {
+        "question": "432. Choose the correct answer:",
+        "options": ["It's interesting why must we buy it here.", "It's interesting why we must buy it here.", "It's interesting why must we here buy it."],
+        "correctAnswer": "It's interesting why we must buy it here."
+    },
+    {
+        "question": "433. Choose the correct answer:",
+        "options": ["Do you remember what must we say in this case?", "Do you remember what we in this case must say?", "Do you remember what we must say in this case?"],
+        "correctAnswer": "Do you remember what we must say in this case?"
+    },
+    {
+        "question": "434. Choose the correct answer:",
+        "options": ["I see why must he work more.", "I see why he must work more.", "I see why work more he must."],
+        "correctAnswer": "I see why he must work more."
+    },
+    {
+        "question": "435. Choose the correct answer:",
+        "options": ["I know why it must happen.", "I know why must it happen.", "I know must it happen why."],
+        "correctAnswer": "I know why it must happen."
+    },
+    {
+        "question": "436. Choose the correct answer:",
+        "options": ["I need to know what must I prepare.", "I need to know what I must prepare.", "I need to know prepare what I must."],
+        "correctAnswer": "I need to know what I must prepare."
+    },
+    {
+        "question": "437. Choose the correct answer:",
+        "options": ["I understand why must she study harder.", "I understand must she why study harder.", "I understand why she must study harder."],
+        "correctAnswer": "I understand why she must study harder."
+    },
+    {
+        "question": "438. Choose the correct answer:",
+        "options": ["Tell me what I must do.", "Tell me what must I do.", "Tell me must what I do."],
+        "correctAnswer": "Tell me what I must do."
+    },
+    {
+        "question": "439. Choose the correct answer:",
+        "options": ["Do you have any idea why must I continue doing it?", "Do you have any idea why I must continue doing it?", "Do you have any idea I must continue doing it why?"],
+        "correctAnswer": "Do you have any idea why I must continue doing it?"
+    },
+    {
+        "question": "440. Choose the correct answer:",
+        "options": ["I'd like to know what must we change.", "I'd like to know what we must change.", "I'd like to know we must change what."],
+        "correctAnswer": "I'd like to know what we must change."
+    },
+    {
+        "question": "441. Choose the correct answer:",
+        "options": ["Do you know why must you improve your English?", "Do you know why improve your English you must?", "Do you know why you must improve your English?"],
+        "correctAnswer": "Do you know why you must improve your English?"
+    },
+    {
+        "question": "442. Choose the correct answer:",
+        "options": ["Can you tell me why it should happen?", "Can you tell me why should it happen?", "Can you tell me should it happen why?"],
+        "correctAnswer": "Can you tell me why it should happen?"
+    },
+    {
+        "question": "443. Choose the correct answer:",
+        "options": ["Tell me what steps should I take.", "Tell me what steps I should took.", "Tell me what steps I should take."],
+        "correctAnswer": "Tell me what steps I should take."
+    },
+    {
+        "question": "444. Choose the correct answer:",
+        "options": ["I need to know where should I start doing it.", "I need to know where I should start doing it.", "I need to know I should start it doing where."],
+        "correctAnswer": "I need to know where I should start doing it."
+    },
+    {
+        "question": "445. Choose the correct answer:",
+        "options": ["I don't understand why I should spend more time on it.", "I don't understand why should I spend more time on it", "I don't understand should I why spend more time on it."],
+        "correctAnswer": "I don't understand why I should spend more time on it."
+    },
+    {
+        "question": "446. Choose the correct answer:",
+        "options": ["I don't know what things should I explain.", "I don't know what things I should explain.", "I don't know I should explain what things."],
+        "correctAnswer": "I don't know what things I should explain."
+    },
+    {
+        "question": "447. Choose the correct answer:",
+        "options": ["Tell me why should I do it.", "Tell me should I do it why.", "Tell me why I should do it."],
+        "correctAnswer": "Tell me why I should do it."
+    },
+    {
+        "question": "448. Choose the correct answer:",
+        "options": ["Tell me how I should work on my mistakes.", "Tell me how should I work on my mistakes.", "Tell me how work on my mistakes should I."],
+        "correctAnswer": "Tell me how I should work on my mistakes."
+    },
+    {
+        "question": "449. Choose the correct answer:",
+        "options": ["Can you say how should I look after my health?", "Can you say how I should look after my health?", "Can you say should I look how after my health?"],
+        "correctAnswer": "Can you say how I should look after my health?"
+    },
+    {
+        "question": "450. Choose the correct answer:",
+        "options": ["It's interesting why does everyone should think about it.", "It's interesting why everyone should think about it.", "It's interesting why should everyone think about it."],
+        "correctAnswer": "It's interesting why everyone should think about it."
+    },
+    {
+        "question": "451. Choose the correct answer:",
+        "options": ["I don't remember why should we choose this answer.", "I don't remember should we why choose this answer.", "I don't remember why we should choose this answer."],
+        "correctAnswer": "I don't remember why we should choose this answer."
+    },
+    {
+        "question": "452. ______ our life.",
+        "options": ["Its", "It's", "Its is"],
+        "correctAnswer": "It's"
+    },
+    {
+        "question": "453. This thing has ______ own advantages and disadvantages.",
+        "options": ["its", "it is", "its is"],
+        "correctAnswer": "its"
+    },
+    {
+        "question": "454. ______ incredible!",
+        "options": ["Its is", "Its", "It's"],
+        "correctAnswer": "It's"
+    },
+    {
+        "question": "455. ______ what I need.",
+        "options": ["It", "It's", "Its"],
+        "correctAnswer": "It's"
+    },
+    {
+        "question": "456. Look at ______ side!",
+        "options": ["its", "it's", "its is"],
+        "correctAnswer": "its"
+    },
+    {
+        "question": "457. ______ an excellent result!",
+        "options": ["It's", "Its is", "Its"],
+        "correctAnswer": "It's"
+    },
+    {
+        "question": "458. ______ mission is very simple.",
+        "options": ["It's", "Its", "Its is"],
+        "correctAnswer": "Its"
+    },
+    {
+        "question": "459. We need to look at ______ results.",
+        "options": ["it's", "its is", "its"],
+        "correctAnswer": "its"
+    },
+    {
+        "question": "460. ______ so difficult!",
+        "options": ["It's", "Its", "Its is"],
+        "correctAnswer": "It's"
+    },
+    {
+        "question": "461. ______ success is incredible.",
+        "options": ["It's", "Its", "Its is"],
+        "correctAnswer": "Its"
+    },
+    {
+        "question": "462. Let's ______ this subject!",
+        "options": ["to change", "change", "changing"],
+        "correctAnswer": "change"
+    },
+    {
+        "question": "463. Let's ______ it down!",
+        "options": ["writing", "to write", "write"],
+        "correctAnswer": "write"
+    },
+    {
+        "question": "464. Let's ______ at this document!",
+        "options": ["to look", "look", "looking"],
+        "correctAnswer": "look"
+    },
+    {
+        "question": "465. Let's ______ football!",
+        "options": ["play", "to play", "playing"],
+        "correctAnswer": "play"
+    },
+    {
+        "question": "466. Let's ______ about it!",
+        "options": ["to think", "think", "thinking"],
+        "correctAnswer": "think"
+    },
+    {
+        "question": "467. Let's ______ it later!",
+        "options": ["to discuss", "discussing", "discuss"],
+        "correctAnswer": "discuss"
+    },
+    {
+        "question": "468. Let's ______!",
+        "options": ["to do it", "do it", "doing it"],
+        "correctAnswer": "do it"
+    },
+    {
+        "question": "469. Let's ______ there!",
+        "options": ["to go", "go", "going"],
+        "correctAnswer": "go"
+    },
+    {
+        "question": "470. Let's ______ about it!",
+        "options": ["talking", "talk", "to talk"],
+        "correctAnswer": "talk"
+    },
+    {
+        "question": "471. Let's ______ them!",
+        "options": ["to join", "joining", "join"],
+        "correctAnswer": "join"
+    },
+    {
+        "question": "472. His English level is the same ______ mine.",
+        "options": ["to", "like", "as"],
+        "correctAnswer": "as"
+    },
+    {
+        "question": "473. My idea is ______ yours.",
+        "options": ["as", "like", "to"],
+        "correctAnswer": "like"
+    },
+    {
+        "question": "474. He works the same ______ him.",
+        "options": ["as", "like", "to"],
+        "correctAnswer": "as"
+    },
+    {
+        "question": "475. Do it ______ me!",
+        "options": ["like", "similar", "as"],
+        "correctAnswer": "like"
+    },
+    {
+        "question": "476. He works ______ him.",
+        "options": ["as", "to", "like"],
+        "correctAnswer": "like"
+    },
+    {
+        "question": "477. I think the same ______ you.",
+        "options": ["like", "to", "as"],
+        "correctAnswer": "as"
+    },
+    {
+        "question": "478. She plays the same ______ me.",
+        "options": ["like", "as", "to"],
+        "correctAnswer": "as"
+    },
+    {
+        "question": "479. My idea is the same ______ yours.",
+        "options": ["as", "like", "to"],
+        "correctAnswer": "as"
+    },
+    {
+        "question": "480. I think ______ you.",
+        "options": ["as", "similar", "like"],
+        "correctAnswer": "like"
+    },
+    {
+        "question": "481. He plays ______ me.",
+        "options": ["like", "to", "as"],
+        "correctAnswer": "like"
+    },
+    {
+        "question": "482. ______ is absent?",
+        "options": ["Whose", "Who", "Who's"],
+        "correctAnswer": "Who"
+    },
+    {
+        "question": "483. ______ problem is it?",
+        "options": ["Who's", "Whose", "Whos"],
+        "correctAnswer": "Whose"
+    },
+    {
+        "question": "484. ______ bike is it?",
+        "options": ["Who's", "Whose", "Who"],
+        "correctAnswer": "Whose"
+    },
+    {
+        "question": "485. ______ listening to us?",
+        "options": ["Whose", "Whos", "Who's"],
+        "correctAnswer": "Who's"
+    },
+    {
+        "question": "486. ______ coming?",
+        "options": ["Who's", "Whos", "Whose"],
+        "correctAnswer": "Who's"
+    },
+    {
+        "question": "487. ______ idea is it?",
+        "options": ["Whose", "Who's", "Whos"],
+        "correctAnswer": "Whose"
+    },
+    {
+        "question": "488. ______ in trouble?",
+        "options": ["Who", "Who's", "Whose"],
+        "correctAnswer": "Who"
+    },
+    {
+        "question": "489. ______ bag is it?",
+        "options": ["Whose", "Who", "Who's"],
+        "correctAnswer": "Whose"
+    },
+    {
+        "question": "490. ______ work is it?",
+        "options": ["Who", "Who's", "Whose"],
+        "correctAnswer": "Whose"
+    },
+    {
+        "question": "491. ______ waiting for me?",
+        "options": ["Who's", "Whose", "Who"],
+        "correctAnswer": "Who's"
+    },
+    {
+        "question": "492. We ______ on the phone!",
+        "options": ["said", "talked", "tell"],
+        "correctAnswer": "talked"
+    },
+    {
+        "question": "493. I'll ______ him about this website!",
+        "options": ["tell", "say", "talk"],
+        "correctAnswer": "tell"
+    },
+    {
+        "question": "494. Can you ______ it in English one more time?",
+        "options": ["speak", "tell", "say"],
+        "correctAnswer": "say"
+    },
+    {
+        "question": "495. Let's ______ Spanish.",
+        "options": ["tell", "speak", "say"],
+        "correctAnswer": "speak"
+    },
+    {
+        "question": "496. ______ it in English!",
+        "options": ["Say", "Speak", "Tell"],
+        "correctAnswer": "Say"
+    },
+    {
+        "question": "497. ______ me it in English!",
+        "options": ["Tell", "Say", "Speak"],
+        "correctAnswer": "Tell"
+    },
+    {
+        "question": "498. I ______ Spanish.",
+        "options": ["say", "tell", "speak"],
+        "correctAnswer": "speak"
+    },
+    {
+        "question": "499. I will ______ you about it later!",
+        "options": ["talk", "tell", "say"],
+        "correctAnswer": "tell"
+    },
+    {
+        "question": "500. I'm ______ about it now!",
+        "options": ["telling", "talking", "saying"],
+        "correctAnswer": "talking"
+    },
+    {
+        "question": "501. Let's ______ about it!",
+        "options": ["say", "tell", "talk"],
+        "correctAnswer": "talk"
+    },
+    {
+        "question": "502. The dog ______ him.",
+        "options": ["bited", "bit", "beaten"],
+        "correctAnswer": "bit"
+    },
+    {
+        "question": "503. He ______ his jacket.",
+        "options": ["hanged", "hunged", "hung"],
+        "correctAnswer": "hung"
+    },
+    {
+        "question": "504. She has ______ back.",
+        "options": ["come", "comed", "came"],
+        "correctAnswer": "come"
+    },
+    {
+        "question": "505. I have ______ a glass of juice.",
+        "options": ["drinked", "drank", "drunk"],
+        "correctAnswer": "drunk"
+    },
+    {
+        "question": "506. She has ______ many problems.",
+        "options": ["have", "did", "had"],
+        "correctAnswer": "had"
+    },
+    {
+        "question": "507. You ______ it brilliantly.",
+        "options": ["does", "done", "did"],
+        "correctAnswer": "did"
+    },
+    {
+        "question": "508. The car ______ down.",
+        "options": ["broken", "broke", "breaked"],
+        "correctAnswer": "broke"
+    },
+    {
+        "question": "509. He ______ the ball to him.",
+        "options": ["threw", "thrown", "throwed"],
+        "correctAnswer": "threw"
+    },
+    {
+        "question": "510. They ______ the thieves.",
+        "options": ["catched", "caught", "catcht"],
+        "correctAnswer": "caught"
+    },
+    {
+        "question": "511. He ______ the money.",
+        "options": ["withdrew", "withdrawn", "withdrawed"],
+        "correctAnswer": "withdrew"
+    },
+    {
+        "question": "512. The conference ______ later.",
+        "options": ["begined", "begun", "began"],
+        "correctAnswer": "began"
+    },
+    {
+        "question": "513. I'm afraid I ______ it.",
+        "options": ["misheart", "misheared", "misheard"],
+        "correctAnswer": "misheard"
+    },
+    {
+        "question": "514. He ______ up in Brazil.",
+        "options": ["grown", "grew", "growed"],
+        "correctAnswer": "grew"
+    },
+    {
+        "question": "515. It was ______.",
+        "options": ["forbidded", "forbade", "forbidden"],
+        "correctAnswer": "forbidden"
+    },
+    {
+        "question": "516. He ______ the town.",
+        "options": ["left", "leaved", "leavet"],
+        "correctAnswer": "left"
+    },
+    {
+        "question": "517. We ______ those difficulties.",
+        "options": ["overcomed", "overcame", "overcomet"],
+        "correctAnswer": "overcame"
+    },
+    {
+        "question": "518. He ______ on the floor.",
+        "options": ["fallen", "fell", "falled"],
+        "correctAnswer": "fell"
+    },
+    {
+        "question": "519. He has ______ it completely.",
+        "options": ["forgeted", "forgot", "forgotten"],
+        "correctAnswer": "forgotten"
+    },
+    {
+        "question": "520. She ______ her bag.",
+        "options": ["loosed", "losed", "lost"],
+        "correctAnswer": "lost"
+    },
+    {
+        "question": "521. The water was ______.",
+        "options": ["frozen", "freezed", "freezet"],
+        "correctAnswer": "frozen"
+    },
+    {
+        "question": "522. Before he moved to Japan, he ______ English professionally.",
+        "options": ["teach", "has taught", "had taught"],
+        "correctAnswer": "had taught"
+    },
+    {
+        "question": "523. It ______ my strong and weak points.",
+        "options": ["showed", "shown", "shew"],
+        "correctAnswer": "showed"
+    },
+    {
+        "question": "524. We ______ everything.",
+        "options": ["redone", "redoing", "redid"],
+        "correctAnswer": "redid"
+    },
+    {
+        "question": "525. She ______ two pieces.",
+        "options": ["sticked", "stuck", "stucked"],
+        "correctAnswer": "stuck"
+    },
+    {
+        "question": "526. I ______ more than enough.",
+        "options": ["sleeped", "slept", "sleped"],
+        "correctAnswer": "slept"
+    },
+    {
+        "question": "527. They always ______.",
+        "options": ["overpay", "overpayed", "overpaid"],
+        "correctAnswer": "overpay"
+    },
+    {
+        "question": "528. He ______ them into groups.",
+        "options": ["splitted", "split", "splot"],
+        "correctAnswer": "split"
+    },
+    {
+        "question": "529. She ______ the book.",
+        "options": ["rereaded", "rereadt", "reread"],
+        "correctAnswer": "reread"
+    },
+    {
+        "question": "530. He ______ the ring.",
+        "options": ["reselled", "resold", "reselt"],
+        "correctAnswer": "resold"
+    },
+    {
+        "question": "531. I have ______ the story.",
+        "options": ["retold", "retell", "retelled"],
+        "correctAnswer": "retold"
+    },
+    {
+        "question": "532. We ______ English for 2 hours.",
+        "options": ["speaked", "spoken", "have been speaking"],
+        "correctAnswer": "have been speaking"
+    },
+    {
+        "question": "533. I ______ here since last year.",
+        "options": ["lived", "am living", "have been living"],
+        "correctAnswer": "have been living"
+    },
+    {
+        "question": "534. She ______ been lying to him for many years.",
+        "options": ["has", "have", "had"],
+        "correctAnswer": "has"
+    },
+    {
+        "question": "535. He ______ collecting this information for two weeks.",
+        "options": ["has", "has been", "had"],
+        "correctAnswer": "has been"
+    },
+    {
+        "question": "536. They have been ______ since last year.",
+        "options": ["dated", "date", "dating"],
+        "correctAnswer": "dating"
+    },
+    {
+        "question": "537. We have been ______ it since last week.",
+        "options": ["tested", "testing", "test"],
+        "correctAnswer": "testing"
+    },
+    {
+        "question": "538. I have ______ English for two years.",
+        "options": ["learn", "been", "been learning"],
+        "correctAnswer": "been learning"
+    },
+    {
+        "question": "539. I have ______ this text for half an hour.",
+        "options": ["translating", "translated", "been translating"],
+        "correctAnswer": "been translating"
+    },
+    {
+        "question": "540. They have been ______ her for many years.",
+        "options": ["criticizing", "criticized", "criticize"],
+        "correctAnswer": "criticizing"
+    },
+    {
+        "question": "541. She has been ______ there for two weeks.",
+        "options": ["worked", "working", "work"],
+        "correctAnswer": "working"
+    },
+    {
+        "question": "542. She ______ it for more than 10 minutes.",
+        "options": ["hadn't been explaining", "hasn't been explaining", "didn't been explaining"],
+        "correctAnswer": "hasn't been explaining"
+    },
+    {
+        "question": "543. I ______ it for many years.",
+        "options": ["didn't do", "haven't do", "haven't been doing"],
+        "correctAnswer": "haven't been doing"
+    },
+    {
+        "question": "544. She ______ them for more than two weeks.",
+        "options": ["hasn't been paid", "hasn't been paying", "hadn't been paying"],
+        "correctAnswer": "hasn't been paying"
+    },
+    {
+        "question": "545. We ______ for 20 minutes.",
+        "options": ["hadn't talked", "hadn't been talking", "haven't been talking"],
+        "correctAnswer": "haven't been talking"
+    },
+    {
+        "question": "546. They ______ for such a long time.",
+        "options": ["didn't complaining", "haven't been complaining", "hadn't been complaining"],
+        "correctAnswer": "haven't been complaining"
+    },
+    {
+        "question": "547. She ______ us for many years.",
+        "options": ["hasn't been helping", "isn't been helping", "didn't been helping"],
+        "correctAnswer": "hasn't been helping"
+    },
+    {
+        "question": "548. I see you ______ for the exam since yesterday.",
+        "options": ["haven't been preparing", "haven't preparing", "didn't been preparing"],
+        "correctAnswer": "haven't been preparing"
+    },
+    {
+        "question": "549. I ______ English since last week.",
+        "options": ["hadn't learning", "haven't been learning", "didn't been learning"],
+        "correctAnswer": "haven't been learning"
+    },
+    {
+        "question": "550. We ______ it since last Friday.",
+        "options": ["didn't checking", "hadn't been checking", "haven't been checking"],
+        "correctAnswer": "haven't been checking"
+    },
+    {
+        "question": "551. She ______ English since last year.",
+        "options": ["hasn't been teaching", "hadn't been teaching", "didn't been teaching"],
+        "correctAnswer": "hasn't been teaching"
+    },
+    {
+        "question": "552. How long ______ the situation?",
+        "options": ["have been controlling", "did they controlled", "have they been controlling"],
+        "correctAnswer": "have they been controlling"
+    },
+    {
+        "question": "553. How long ______ in this place?",
+        "options": ["had she living", "has she been living", "had she been living"],
+        "correctAnswer": "has she been living"
+    },
+    {
+        "question": "554. How long ______ learning English?",
+        "options": ["have you being", "have you been", "did you being"],
+        "correctAnswer": "have you been"
+    },
+    {
+        "question": "555. How long ______ you?",
+        "options": ["did she teaching", "has she teaching", "has she been teaching"],
+        "correctAnswer": "has she been teaching"
+    },
+    {
+        "question": "556. How long ______ it?",
+        "options": ["have you been discussing", "had you discussing", "did you discussing"],
+        "correctAnswer": "have you been discussing"
+    },
+    {
+        "question": "557. How long ______ about it?",
+        "options": ["have you think", "have you been thinking", "had you been thinking"],
+        "correctAnswer": "have you been thinking"
+    },
+    {
+        "question": "558. How long ______ for me?",
+        "options": ["have you been waiting", "did you waited", "had you been waiting"],
+        "correctAnswer": "have you been waiting"
+    },
+    {
+        "question": "559. How long ______ this website?",
+        "options": ["has she using", "did she using", "has she been using"],
+        "correctAnswer": "has she been using"
+    },
+    {
+        "question": "560. How long ______ here?",
+        "options": ["have you worked", "have you been working", "had you been working"],
+        "correctAnswer": "have you been working"
+    },
+    {
+        "question": "561. How long ______ for this exam?",
+        "options": ["have you been preparing", "did you preparing", "had you been preparing"],
+        "correctAnswer": "have you been preparing"
+    },
+    {
+        "question": "562. I don't know how he is. I ______ to him for a long time.",
+        "options": ["didn't talk", "hadn't talked", "haven't been talking"],
+        "correctAnswer": "haven't been talking"
+    },
+    {
+        "question": "563. I ______ Spanish for 3 years.",
+        "options": ["have been learning", "learned", "have learned"],
+        "correctAnswer": "have been learning"
+    },
+    {
+        "question": "564. I ______ for you for 15 minutes.",
+        "options": ["am waiting", "had waited", "have been waiting"],
+        "correctAnswer": "have been waiting"
+    },
+    {
+        "question": "565. She ______ there since last month.",
+        "options": ["worked", "had worked", "has been working"],
+        "correctAnswer": "has been working"
+    },
+    {
+        "question": "566. She ______ it for six months.",
+        "options": ["had done", "has been doing", "has did"],
+        "correctAnswer": "has been doing"
+    },
+    {
+        "question": "567. How long ______ together?",
+        "options": ["do you live", "have you been living", "had you lived"],
+        "correctAnswer": "have you been living"
+    },
+    {
+        "question": "568. I ______ to say it for ten minutes.",
+        "options": ["am trying", "had tried", "have been trying"],
+        "correctAnswer": "have been trying"
+    },
+    {
+        "question": "569. How long ______ correspondence?",
+        "options": ["do you maintain", "have you been maintaining", "had you maintained"],
+        "correctAnswer": "have you been maintaining"
+    },
+    {
+        "question": "570. I know you ______ English for many years.",
+        "options": ["have been teaching", "taught", "had taught"],
+        "correctAnswer": "have been teaching"
+    },
+    {
+        "question": "571. How long ______ for this competition?",
+        "options": ["had you prepared", "did you prepared", "have you been preparing"],
+        "correctAnswer": "have you been preparing"
+    },
+    {
+        "question": "572. I ______ her for a long time.",
+        "options": ["haven't been seeing", "haven't seen", "didn't see"],
+        "correctAnswer": "haven't seen"
+    },
+    {
+        "question": "573. I ______ here for ten minutes.",
+        "options": ["have been being", "have been", "had been"],
+        "correctAnswer": "have been"
+    },
+    {
+        "question": "574. She ______ this problem for many years.",
+        "options": ["has been having", "had had", "has had"],
+        "correctAnswer": "has had"
+    },
+    {
+        "question": "575. I ______ in this place for more than 2 hours.",
+        "options": ["have been", "had been", "have been being"],
+        "correctAnswer": "have been"
+    },
+    {
+        "question": "576. ______ him since you finished school?",
+        "options": ["Have you been knowing", "Had you known", "Have you known"],
+        "correctAnswer": "Have you known"
+    },
+    {
+        "question": "577. It ______ to him for two months.",
+        "options": ["has been belonging", "has belonged", "had belonged"],
+        "correctAnswer": "has belonged"
+    },
+    {
+        "question": "578. We ______ each other since childhood.",
+        "options": ["have known", "had been knowing", "have been knowing"],
+        "correctAnswer": "have known"
+    },
+    {
+        "question": "579. How long have you  ______ it?",
+        "options": ["been waiting", "wait", "had you waited"],
+        "correctAnswer": "been waiting"
+    },
+    {
+        "question": "580. How long ______ him?",
+        "options": ["have you known", "have you been knowing", "had you known"],
+        "correctAnswer": "have you known"
+    },
+    {
+        "question": "581. We ______ each other for more than 20 years.",
+        "options": ["have been knowing", "had known", "have known"],
+        "correctAnswer": "have known"
+    },
+    {
+        "question": "582. She realized she ______ inappropriate words.",
+        "options": ["was used", "had used", "has used"],
+        "correctAnswer": "had used"
+    },
+    {
+        "question": "583. They said they ______ there.",
+        "options": ["already were", "have already been", "had already been"],
+        "correctAnswer": "had already been"
+    },
+    {
+        "question": "584. We knew it ______.",
+        "options": ["had already happened", "has already happened", "already happened"],
+        "correctAnswer": "had already happened"
+    },
+    {
+        "question": "585. It turned out he ______ another club.",
+        "options": ["has joined", "had joined", "joined"],
+        "correctAnswer": "had joined"
+    },
+    {
+        "question": "586. When he came home, she ______ dinner.",
+        "options": ["already cooked", "has already cooked", "had already cooked"],
+        "correctAnswer": "had already cooked"
+    },
+    {
+        "question": "587. He said he ______ there.",
+        "options": ["was been", "has been", "had been"],
+        "correctAnswer": "had been"
+    },
+    {
+        "question": "588. I told him I ______ her.",
+        "options": ["already saw", "have already seen", "had already seen"],
+        "correctAnswer": "had already seen"
+    },
+    {
+        "question": "589. We found out they ______ it.",
+        "options": ["already stole", "had already stolen", "have already stolen"],
+        "correctAnswer": "had already stolen"
+    },
+    {
+        "question": "590. That time, we read they ______ him.",
+        "options": ["had arrested", "have arrested", "arrested"],
+        "correctAnswer": "had arrested"
+    },
+    {
+        "question": "591. When he arrived, we ______ a decision.",
+        "options": ["already made", "had already made", "have already made"],
+        "correctAnswer": "had already made"
+    },
+    {
+        "question": "592. He informed us he ______ his job.",
+        "options": ["hadn't lost", "weren't lost", "hasn't lost"],
+        "correctAnswer": "hadn't lost"
+    },
+    {
+        "question": "593. I understood they ______ that mistake.",
+        "options": ["haven't made", "hadn't made", "weren't made"],
+        "correctAnswer": "hadn't made"
+    },
+    {
+        "question": "594. She said he ______ those employees.",
+        "options": ["hasn't fired", "hadn't fired", "wasn't fired"],
+        "correctAnswer": "hadn't fired"
+    },
+    {
+        "question": "595. We knew she ______ to us.",
+        "options": ["hasn't lied", "didn't lied", "hadn't lied"],
+        "correctAnswer": "hadn't lied"
+    },
+    {
+        "question": "596. He remembered he ______ there yet.",
+        "options": ["wasn't", "haven't been", "hadn't been"],
+        "correctAnswer": "hadn't been"
+    },
+    {
+        "question": "597. I discovered he ______ it correctly.",
+        "options": ["hadn't done", "haven't done", "didn't do"],
+        "correctAnswer": "hadn't done"
+    },
+    {
+        "question": "598. It was said they ______ another choice.",
+        "options": ["haven't made", "hadn't made", "didn't make"],
+        "correctAnswer": "hadn't made"
+    },
+    {
+        "question": "599. She realized it ______ her fault.",
+        "options": ["hadn't been", "weren't", "hasn't been"],
+        "correctAnswer": "hadn't been"
+    },
+    {
+        "question": "600. She noticed they ______ the documents.",
+        "options": ["haven't stolen", "weren't stolen", "hadn't stolen"],
+        "correctAnswer": "hadn't stolen"
+    },
+    {
+        "question": "601. I knew he ______ the test.",
+        "options": ["hasn't failed", "hadn't failed", "wasn't failed"],
+        "correctAnswer": "hadn't failed"
+    },
+    {
+        "question": "602. ______ it when she visited you?",
+        "options": ["Did you already finish", "Have you already finished", "Had you already finished"],
+        "correctAnswer": "Had you already finished"
+    },
+    {
+        "question": "603. ______ it when he came?",
+        "options": ["Did she already do", "Had she already done", "Have she already done"],
+        "correctAnswer": "Had she already done"
+    },
+    {
+        "question": "604. ______ him before they called you?",
+        "options": ["Had you already informed", "Did you already inform", "Have you already informed"],
+        "correctAnswer": "Had you already informed"
+    },
+    {
+        "question": "605. ______ to work before they got the first call?",
+        "options": ["Did he already got", "Had he already got", "Have he already got"],
+        "correctAnswer": "Had he already got"
+    },
+    {
+        "question": "606. ______ the building by the time they arrived?",
+        "options": ["Have they left", "Did they leave", "Had they left"],
+        "correctAnswer": "Had they left"
+    },
+    {
+        "question": "607. ______ the test before we arrived?",
+        "options": ["Had he completed", "Did he complete", "Have he completed"],
+        "correctAnswer": "Had he completed"
+    },
+    {
+        "question": "608. ______ before they left the country?",
+        "options": ["Did they got divorced", "Had they got divorced", "Have they got divorced"],
+        "correctAnswer": "Had they got divorced"
+    },
+    {
+        "question": "609. ______ it before he went to school?",
+        "options": ["Was he read", "Has he read", "Had he read"],
+        "correctAnswer": "Had he read"
+    },
+    {
+        "question": "610. ______ off the computer before he left home?",
+        "options": ["Had he turned", "Did he turned", "Has he turned"],
+        "correctAnswer": "Had he turned"
+    },
+    {
+        "question": "611. ______ when he came back?",
+        "options": ["Has he already finished cooking", "Had he already finished cooking", "Did he already finish cooking"],
+        "correctAnswer": "Had he already finished cooking"
+    },
+    {
+        "question": "612. When I returned he ______ for about 4 hours.",
+        "options": ["has been sleeping", "did sleep", "had been sleeping"],
+        "correctAnswer": "had been sleeping"
+    },
+    {
+        "question": "613. She told me they ______ on this project for half a year.",
+        "options": ["were working", "had been working", "have been working"],
+        "correctAnswer": "had been working"
+    },
+    {
+        "question": "614. When she noticed me I ______ a car for about an hour.",
+        "options": ["had been driving", "was driving", "have been driving"],
+        "correctAnswer": "had been driving"
+    },
+    {
+        "question": "615. She said she ______ it for two hours.",
+        "options": ["has been doing", "had been doing", "was doing"],
+        "correctAnswer": "had been doing"
+    },
+    {
+        "question": "616. When he realized it she ______ him for more than half a year.",
+        "options": ["was deceiving", "has been deceiving", "had been deceiving"],
+        "correctAnswer": "had been deceiving"
+    },
+    {
+        "question": "617. When he came there she ______ for him for a very long time.",
+        "options": ["was waiting", "had been waiting", "has been waiting"],
+        "correctAnswer": "had been waiting"
+    },
+    {
+        "question": "618. When she arrived we ______ that problem for about twenty minutes.",
+        "options": ["had been discussing", "had discuss", "have discuss"],
+        "correctAnswer": "had been discussing"
+    },
+    {
+        "question": "619. He said he ______ for half an hour.",
+        "options": ["has been working", "worked", "had been working"],
+        "correctAnswer": "had been working"
+    },
+    {
+        "question": "620. When she returned home he ______ that movie for an hour.",
+        "options": ["has watched", "had been watching", "has been watching"],
+        "correctAnswer": "had been watching"
+    },
+    {
+        "question": "621. When he got to work I ______ a report for 20 minutes.",
+        "options": ["had been making", "was making", "have been making"],
+        "correctAnswer": "had been making"
+    },
+    {
+        "question": "622. They ______ now.",
+        "options": ["are criticized", "are being criticized", "have been criticized"],
+        "correctAnswer": "are being criticized"
+    },
+    {
+        "question": "623. They ______ very thoroughly now.",
+        "options": ["are examined", "have being examined", "are being examined"],
+        "correctAnswer": "are being examined"
+    },
+    {
+        "question": "624. It ______ now.",
+        "options": ["is checked", "is being checked", "has being checked"],
+        "correctAnswer": "is being checked"
+    },
+    {
+        "question": "625. He ______ too much these days.",
+        "options": ["is being paid", "is paid", "has being paid"],
+        "correctAnswer": "is being paid"
+    },
+    {
+        "question": "626. He ______ now.",
+        "options": ["is controlled", "is being controlled", "has being controlled"],
+        "correctAnswer": "is being controlled"
+    },
+    {
+        "question": "627. He ______ very professionally now.",
+        "options": ["is taught", "has being taught", "is being taught"],
+        "correctAnswer": "is being taught"
+    },
+    {
+        "question": "628. This problem ______ now.",
+        "options": ["is discussed", "is being discussed", "has being discussed"],
+        "correctAnswer": "is being discussed"
+    },
+    {
+        "question": "629. The costs ______ now.",
+        "options": ["are reduced", "are being reduced", "have being reduced"],
+        "correctAnswer": "are being reduced"
+    },
+    {
+        "question": "630. He ______ with murder now.",
+        "options": ["is being charged", "is charged", "has been charged"],
+        "correctAnswer": "is being charged"
+    },
+    {
+        "question": "631. The room ______ now.",
+        "options": ["is repaired", "has been repaired", "is being repaired"],
+        "correctAnswer": "is being repaired"
+    },
+    {
+        "question": "632. Their names ______ now.",
+        "options": ["aren't being included", "aren't included", "haven't been included"],
+        "correctAnswer": "aren't being included"
+    },
+    {
+        "question": "633. The children ______ now.",
+        "options": ["aren't encouraged", "aren't being encouraged", "haven't been encouraged"],
+        "correctAnswer": "aren't being encouraged"
+    },
+    {
+        "question": "634. The wrong answers ______ now.",
+        "options": ["aren't being copied", "aren't copied", "haven't been copied"],
+        "correctAnswer": "aren't being copied"
+    },
+    {
+        "question": "635. This food ______ now.",
+        "options": ["hasn't been eaten", "isn't eaten", "isn't being eaten"],
+        "correctAnswer": "isn't being eaten"
+    },
+    {
+        "question": "636. This way ______ now.",
+        "options": ["isn't chosen", "isn't being chosen", "hasn't been chosen"],
+        "correctAnswer": "isn't being chosen"
+    },
+    {
+        "question": "637. The workers ______ now.",
+        "options": ["aren't controlled", "haven't been controlled", "aren't being controlled"],
+        "correctAnswer": "aren't being controlled"
+    },
+    {
+        "question": "638. All the necessary conditions ______ now.",
+        "options": ["aren't provided", "aren't being provided", "haven't been provided"],
+        "correctAnswer": "aren't being provided"
+    },
+    {
+        "question": "639. It ______ these days.",
+        "options": ["isn't being discussed", "hasn't been discussed", "isn't discussed"],
+        "correctAnswer": "isn't being discussed"
+    },
+    {
+        "question": "640. His mistakes ______ now.",
+        "options": ["aren't corrected", "haven't been corrected", "aren't being corrected"],
+        "correctAnswer": "aren't being corrected"
+    },
+    {
+        "question": "641. They ______ now.",
+        "options": ["aren't attacked", "aren't being attacked", "haven't been attacked"],
+        "correctAnswer": "aren't being attacked"
+    },
+    {
+        "question": "642. ______ now?",
+        "options": ["Is she protected", "Has she protected", "Is she being protected"],
+        "correctAnswer": "Is she being protected"
+    },
+    {
+        "question": "643. ______ now?",
+        "options": ["Does this thing mention", "Has this thing mention", "Is this thing being mentioned"],
+        "correctAnswer": "Is this thing being mentioned"
+    },
+    {
+        "question": "644. ______ now?",
+        "options": ["Are they being trained", "Are they trained", "Have they been trained"],
+        "correctAnswer": "Are they being trained"
+    },
+    {
+        "question": "645. ______ now?",
+        "options": ["Is it spoilt", "Is it being spoilt", "Has it been spoilt"],
+        "correctAnswer": "Is it being spoilt"
+    },
+    {
+        "question": "646. ______ now?",
+        "options": ["Are their mistakes analyzed", "Are their mistakes being analyzed", "Have their mistakes analyzed"],
+        "correctAnswer": "Are their mistakes being analyzed"
+    },
+    {
+        "question": "647. ______ now?",
+        "options": ["Is this problem being solved", "Is this problem solving", "Has this problem been solved"],
+        "correctAnswer": "Is this problem being solved"
+    },
+    {
+        "question": "648. ______ now?",
+        "options": ["Are they chosen", "Have they been chosen", "Are they being chosen"],
+        "correctAnswer": "Are they being chosen"
+    },
+    {
+        "question": "649. ______ now?",
+        "options": ["Is the money investing", "Is the money being invested", "Has the money been invested"],
+        "correctAnswer": "Is the money being invested"
+    },
+    {
+        "question": "650. ______ now?",
+        "options": ["Are these things compared", "Are these things being compared", "Have these things been compared"],
+        "correctAnswer": "Are these things being compared"
+    },
+    {
+        "question": "651. ______ now?",
+        "options": ["Are the trees being cut down", "Have the trees been cut down", "Are the trees cut down"],
+        "correctAnswer": "Are the trees being cut down"
+    },
+    {
+        "question": "652. How ______ now?",
+        "options": ["is it checked", "is it being checked", "has it been checked"],
+        "correctAnswer": "is it being checked"
+    },
+    {
+        "question": "653. What ______ now?",
+        "options": ["is being installed", "is installed", "has been installed"],
+        "correctAnswer": "is being installed"
+    },
+    {
+        "question": "654. Why ______ now?",
+        "options": ["is it produced", "has it been produced", "is it being produced"],
+        "correctAnswer": "is it being produced"
+    },
+    {
+        "question": "655. Why ______ now?",
+        "options": ["is it said", "is it being said", "has it been said"],
+        "correctAnswer": "is it being said"
+    },
+    {
+        "question": "656. What ______ now?",
+        "options": ["is delivered", "has been delivered", "is being delivered"],
+        "correctAnswer": "is being delivered"
+    },
+    {
+        "question": "657. Why ______ now?",
+        "options": ["is she ignored", "has she been ignored", "is she being ignored"],
+        "correctAnswer": "is she being ignored"
+    },
+    {
+        "question": "658. Where ______ now?",
+        "options": ["are they being sent", "are they sent", "have they been sent"],
+        "correctAnswer": "are they being sent"
+    },
+    {
+        "question": "659. Why ______ now?",
+        "options": ["is it being proved", "is it proved", "has it been proved"],
+        "correctAnswer": "is it being proved"
+    },
+    {
+        "question": "660. Why ______ now?",
+        "options": ["have they accused", "are they being accused", "are they accused"],
+        "correctAnswer": "are they being accused"
+    },
+    {
+        "question": "661. How ______ now?",
+        "options": ["is it controlled", "is it being controlled", "has it been controlled"],
+        "correctAnswer": "is it being controlled"
+    },
+    {
+        "question": "662. Choose the correct answer:",
+        "options": ["The building is destroyed now.", "The building has been destroyed now.", "The building is being destroyed now."],
+        "correctAnswer": "The building is being destroyed now."
+    },
+    {
+        "question": "663. Choose the correct answer:",
+        "options": ["He is paid three times a week.", "He is being paid three times a week.", "He has being paid three time a week."],
+        "correctAnswer": "He is paid three times a week."
+    },
+    {
+        "question": "664. Choose the correct answer:",
+        "options": ["Maria is often being criticized.", "Maria is often criticized.", "Maria have often been criticized."],
+        "correctAnswer": "Maria is often criticized."
+    },
+    {
+        "question": "665. Choose the correct answer:",
+        "options": ["The food is cooked at the moment.", "The food has been cooked at the moment.", "The food is being cooked at the moment."],
+        "correctAnswer": "The food is being cooked at the moment."
+    },
+    {
+        "question": "666. Choose the correct answer:",
+        "options": ["Are they supported now?", "Are they being supported now?", "Have they been supported now?"],
+        "correctAnswer": "Are they being supported now?"
+    },
+    {
+        "question": "667. Choose the correct answer:",
+        "options": ["The house is being sold now.", "The house is sold now.", "The house has been sold now."],
+        "correctAnswer": "The house is being sold now."
+    },
+    {
+        "question": "668. Choose the correct answer:",
+        "options": ["They are sometimes being helped.", "They are sometimes helped.", "They had been sometimes helped."],
+        "correctAnswer": "They are sometimes helped."
+    },
+    {
+        "question": "669. Choose the correct answer:",
+        "options": ["This thing isn't produced nowadays.", "This thing isn't being produced nowadays.", "This thing hasn't been produced nowadays."],
+        "correctAnswer": "This thing isn't being produced nowadays."
+    },
+    {
+        "question": "670. Choose the correct answer:",
+        "options": ["The text is translated at the moment.", "The text has been translated at the moment.", "The text is being translated at the moment."],
+        "correctAnswer": "The text is being translated at the moment."
+    },
+    {
+        "question": "671. Choose the correct answer:",
+        "options": ["It is usually checked.", "It is being usually checked.", "It has being usually checked."],
+        "correctAnswer": "It is usually checked."
+    },
+    {
+        "question": "672. The conference ______.",
+        "options": ["has put off", "has been put off", "had been put off"],
+        "correctAnswer": "has been put off"
+    },
+    {
+        "question": "673. They have ______.",
+        "options": ["being attacked", "been attacked", "had been attacked"],
+        "correctAnswer": "been attacked"
+    },
+    {
+        "question": "674. Choose the correct answer:",
+        "options": ["He has already been informed.", "He had already been informed.", "He was already informed."],
+        "correctAnswer": "He has already been informed."
+    },
+    {
+        "question": "675. Choose the correct answer:",
+        "options": ["The goods have sold.", "The goods had been sold.", "The goods have been sold."],
+        "correctAnswer": "The goods have been sold."
+    },
+    {
+        "question": "676. Choose the correct answer:",
+        "options": ["The documents have just been printed.", "The documents had just been printed.", "The documents were just ben printed."],
+        "correctAnswer": "The documents have just been printed."
+    },
+    {
+        "question": "677. Choose the correct answer:",
+        "options": ["The meeting has cancelled.", "The meeting has been cancelled.", "The meeting was been cancelled."],
+        "correctAnswer": "The meeting has been cancelled."
+    },
+    {
+        "question": "678. Choose the correct answer:",
+        "options": ["His life was been saved.", "His life has being saved.", "His life has been saved."],
+        "correctAnswer": "His life has been saved."
+    },
+    {
+        "question": "679. Choose the correct answer:",
+        "options": ["It has been reported.", "It had reporting.", "It was been reported."],
+        "correctAnswer": "It has been reported."
+    },
+    {
+        "question": "680. Choose the correct answer:",
+        "options": ["It was already mentioned.", "It has already been mentioned.", "It had already been mentioned."],
+        "correctAnswer": "It has already been mentioned."
+    },
+    {
+        "question": "681. Choose the correct answer:",
+        "options": ["It has just been discussed (not a long time ago).", "It was just been discussed (not a long time ago).", "It had just been discussed (not a long time ago)."],
+        "correctAnswer": "It has just been discussed (not a long time ago)."
+    },
+    {
+        "question": "682. His letter ______ yet.",
+        "options": ["hasn't read", "hadn't read", "hasn't been read"],
+        "correctAnswer": "hasn't been read"
+    },
+    {
+        "question": "683. His room ______ yet.",
+        "options": ["wasn't repaired", "hasn't been repaired", "hadn't been repaired"],
+        "correctAnswer": "hasn't been repaired"
+    },
+    {
+        "question": "684. All the details ______ yet.",
+        "options": ["haven't been considered", "weren't considered", "hadn't been considered"],
+        "correctAnswer": "haven't been considered"
+    },
+    {
+        "question": "685. The dog ______ fed yet.",
+        "options": ["wasn't been", "hadn't been", "hasn't been"],
+        "correctAnswer": "hasn't been"
+    },
+    {
+        "question": "686. It ______.",
+        "options": ["was never been discussed", "has never been discussed", "had never been discussed"],
+        "correctAnswer": "has never been discussed"
+    },
+    {
+        "question": "687. The truth ______.",
+        "options": ["hasn't been revealed", "wasn't revealed", "hadn't been revealed"],
+        "correctAnswer": "hasn't been revealed"
+    },
+    {
+        "question": "688. The parcel ______ yet.",
+        "options": ["wasn't delivered", "hasn't delivered", "hasn't been delivered"],
+        "correctAnswer": "hasn't been delivered"
+    },
+    {
+        "question": "689. The third name ______.",
+        "options": ["wasn't considered", "hadn't been considered", "hasn't been considered"],
+        "correctAnswer": "hasn't been considered"
+    },
+    {
+        "question": "690. His questions ______ answered.",
+        "options": ["weren't been", "haven't been", "hadn't been"],
+        "correctAnswer": "haven't been"
+    },
+    {
+        "question": "691. The conflict ______ yet.",
+        "options": ["hasn't been resolved", "wasn't been resolved", "hadn't been resolved"],
+        "correctAnswer": "hasn't been resolved"
+    },
+    {
+        "question": "692. ______ the letters been received?",
+        "options": ["Did", "Had", "Have"],
+        "correctAnswer": "Have"
+    },
+    {
+        "question": "693. Choose the correct answer:",
+        "options": ["Has he been forgiven?", "Did he been forgiven?", "Had he been forgiven?"],
+        "correctAnswer": "Has he been forgiven?"
+    },
+    {
+        "question": "694. ______ the letter been received?",
+        "options": ["Had", "Has", "Did"],
+        "correctAnswer": "Has"
+    },
+    {
+        "question": "695. ______ the salary been increased?",
+        "options": ["Has", "Did", "Was"],
+        "correctAnswer": "Has"
+    },
+    {
+        "question": "696. ______ 3000 dollars been paid?",
+        "options": ["Had", "Have", "Was"],
+        "correctAnswer": "Have"
+    },
+    {
+        "question": "697. Choose the correct answer:",
+        "options": ["Did they already been punished?", "Had they already been punished?", "Have they already been punished?"],
+        "correctAnswer": "Have they already been punished?"
+    },
+    {
+        "question": "698. Choose the correct answer:",
+        "options": ["Has it ever been controlled?", "Did it ever been controlled?", "Had it ever been controlled?"],
+        "correctAnswer": "Has it ever been controlled?"
+    },
+    {
+        "question": "699. ______ the money been paid?",
+        "options": ["Has", "Have", "Was"],
+        "correctAnswer": "Has"
+    },
+    {
+        "question": "700. Choose the correct answer:",
+        "options": ["Were the rules forgotten?", "Have the rules been forgotten?", "Had the rules been forgotten?"],
+        "correctAnswer": "Have the rules been forgotten?"
+    },
+    {
+        "question": "701. Choose the correct answer:",
+        "options": ["Was the book been printed?", "Had the book been printed?", "Has the book been printed?"],
+        "correctAnswer": "Has the book been printed?"
+    },
+    {
+        "question": "702. What ideas ______?",
+        "options": ["had been rejected", "were been rejected", "have been rejected"],
+        "correctAnswer": "have been rejected"
+    },
+    {
+        "question": "703. Where ______?",
+        "options": ["has it been corrected", "was it been corrected", "had it been corrected"],
+        "correctAnswer": "has it been corrected"
+    },
+    {
+        "question": "704. What ______?",
+        "options": ["had been deleted", "has been deleted", "was been deleted"],
+        "correctAnswer": "has been deleted"
+    },
+    {
+        "question": "705. What news ______?",
+        "options": ["have been heard", "has been heard", "were heard"],
+        "correctAnswer": "has been heard"
+    },
+    {
+        "question": "706. What ______?",
+        "options": ["has being changing", "has been changed", "had been changed"],
+        "correctAnswer": "has been changed"
+    },
+    {
+        "question": "707. What ______?",
+        "options": ["has been revised", "had been revised", "was been revised"],
+        "correctAnswer": "has been revised"
+    },
+    {
+        "question": "708. What information ______?",
+        "options": ["had been found", "was been found", "has been found"],
+        "correctAnswer": "has been found"
+    },
+    {
+        "question": "709. Why ______?",
+        "options": ["has it adding", "has it been added", "had it been added"],
+        "correctAnswer": "has it been added"
+    },
+    {
+        "question": "710. Why ______?",
+        "options": ["has it being said", "has it been said", "did it been said"],
+        "correctAnswer": "has it been said"
+    },
+    {
+        "question": "711. Who ______?",
+        "options": ["has been awarded", "did been awarded", "had been awarded"],
+        "correctAnswer": "has been awarded"
+    },
+    {
+        "question": "712. The method ______ yet.",
+        "options": ["hadn't been modified", "hasn't modified", "hasn't been modified"],
+        "correctAnswer": "hasn't been modified"
+    },
+    {
+        "question": "713. They ______ this lesson.",
+        "options": ["already taught", "have already been taught", "had already been taught"],
+        "correctAnswer": "have already been taught"
+    },
+    {
+        "question": "714. Choose the correct answer:",
+        "options": ["Has the problem been solved?", "Have the problem already been solved?", "Were the problem solved?"],
+        "correctAnswer": "Has the problem been solved?"
+    },
+    {
+        "question": "715. All the information ______.",
+        "options": ["has added", "had been added", "has been added"],
+        "correctAnswer": "has been added"
+    },
+    {
+        "question": "716. Choose the correct answer:",
+        "options": ["Were the losses been covered?", "Have the losses been covered?", "Did the losses been covered?"],
+        "correctAnswer": "Have the losses been covered?"
+    },
+    {
+        "question": "717. This question ______ yet.",
+        "options": ["hasn't asked", "wasn't been asked", "hasn't been asked"],
+        "correctAnswer": "hasn't been asked"
+    },
+    {
+        "question": "718. His mistakes ______.",
+        "options": ["have been spotted", "had been spotted", "were been spotted"],
+        "correctAnswer": "have been spotted"
+    },
+    {
+        "question": "719. The truth ______ yet.",
+        "options": ["hasn't being discovered", "hasn't been discovered", "hadn't been discovered"],
+        "correctAnswer": "hasn't been discovered"
+    },
+    {
+        "question": "720. Choose the correct answer:",
+        "options": ["Had they ever been trained professionally?", "Did they ever been trained professionally?", "Have they ever been trained professionally?"],
+        "correctAnswer": "Have they ever been trained professionally?"
+    },
+    {
+        "question": "721. His knowledge ______.",
+        "options": ["have already been tested", "has already been tested", "had already been tested"],
+        "correctAnswer": "has already been tested"
+    },
+    {
+        "question": "722. We understood the truth ______.",
+        "options": ["had been hidden", "has hidden", "was been hidden"],
+        "correctAnswer": "had been hidden"
+    },
+    {
+        "question": "723. I saw his mistakes ______ yet.",
+        "options": ["weren't corrected", "haven't been corrected", "hadn't been corrected"],
+        "correctAnswer": "hadn't been corrected"
+    },
+    {
+        "question": "724. It was proved the bag ______.",
+        "options": ["had stolen", "had been stolen", "has been stolen"],
+        "correctAnswer": "had been stolen"
+    },
+    {
+        "question": "725. He was informed the goods ______ yet.",
+        "options": ["haven't been delivered", "didn't been delivered", "hadn't been delivered"],
+        "correctAnswer": "hadn't been delivered"
+    },
+    {
+        "question": "726. I told him my work ______.",
+        "options": ["was already checked", "had already been checked", "has already been checked"],
+        "correctAnswer": "had already been checked"
+    },
+    {
+        "question": "727. He said it ______.",
+        "options": ["was done", "has been done", "had been done"],
+        "correctAnswer": "had been done"
+    },
+    {
+        "question": "728. I came to the conclusion that we ______.",
+        "options": ["had been misinformed", "were been misinformed", "have been misinformed"],
+        "correctAnswer": "had been misinformed"
+    },
+    {
+        "question": "729. We knew the meeting ______.",
+        "options": ["was cancel", "had been cancelled", "has been cancelled"],
+        "correctAnswer": "had been cancelled"
+    },
+    {
+        "question": "730. It was said the test ______.",
+        "options": ["has been failed", "had been failed", "was been failed"],
+        "correctAnswer": "had been failed"
+    },
+    {
+        "question": "731. She told us the decision ______.",
+        "options": ["was already been made", "has already been made", "had already been made"],
+        "correctAnswer": "had already been made"
+    },
+    {
+        "question": "732. Choose the correct answer:",
+        "options": ["She currently works on this project.", "She is currently working on this project.", "She has currently been working on this project."],
+        "correctAnswer": "She is currently working on this project."
+    },
+    {
+        "question": "733. Listen! She ______.",
+        "options": ["sings", "sang", "is singing"],
+        "correctAnswer": "is singing"
+    },
+    {
+        "question": "734. Look! The boys ______ outside.",
+        "options": ["are playing", "play", "have played"],
+        "correctAnswer": "are playing"
+    },
+    {
+        "question": "735. Choose the correct answer:",
+        "options": ["They see each other very rarely.", "They are seeing each other very rarely.", "They had seen each other very rarely."],
+        "correctAnswer": "They see each other very rarely."
+    },
+    {
+        "question": "736. Choose the correct answer:",
+        "options": ["This thing isn't belonging to her now.", "This thing doesn't belong to her now.", "This thing hasn't belonged to her now."],
+        "correctAnswer": "This thing doesn't belong to her now."
+    },
+    {
+        "question": "737. Choose the correct answer:",
+        "options": ["It is seeming very strange now.", "It has been seeming very strange now.", "It seems very strange now."],
+        "correctAnswer": "It seems very strange now."
+    },
+    {
+        "question": "738. Choose the correct answer:",
+        "options": ["What are you doing right now?", "What do you do right now?", "What have you been doing right now?"],
+        "correctAnswer": "What are you doing right now?"
+    },
+    {
+        "question": "739. Choose the correct answer:",
+        "options": ["She is frequently visiting this place.", "She frequently visits this place.", "She has frequently visiting this place."],
+        "correctAnswer": "She frequently visits this place."
+    },
+    {
+        "question": "740. Choose the correct answer:",
+        "options": ["He doesn't experience any difficulties these days.", "He isn't experiencing any difficulties these days.", "He hasn't experiencing any difficulties these days."],
+        "correctAnswer": "He isn't experiencing any difficulties these days."
+    },
+    {
+        "question": "741. Choose the correct answer:",
+        "options": ["She still has problems.", "She has still having problems.", "She is still having problems."],
+        "correctAnswer": "She still has problems."
+    },
+    {
+        "question": "742. What will you do in case it ______?",
+        "options": ["will happen", "happens", "happened"],
+        "correctAnswer": "happens"
+    },
+    {
+        "question": "743. We ______ next week.",
+        "options": ["meet", "would met", "will meet"],
+        "correctAnswer": "will meet"
+    },
+    {
+        "question": "744. I will do it after she ______.",
+        "options": ["comes back", "had come", "will come"],
+        "correctAnswer": "comes back"
+    },
+    {
+        "question": "745. If it ______ stop raining, we'll stay at home.",
+        "options": ["won't", "didn't", "doesn't"],
+        "correctAnswer": "doesn't"
+    },
+    {
+        "question": "746. Will you warn her when you ______ her?",
+        "options": ["will see", "see", "are seeing"],
+        "correctAnswer": "see"
+    },
+    {
+        "question": "747. I won't do it unless he ______ his words back.",
+        "options": ["will take", "takes", "doesn't take"],
+        "correctAnswer": "takes"
+    },
+    {
+        "question": "748. I hope we'll do everything before they ______.",
+        "options": ["arrive", "will arrive", "arrived"],
+        "correctAnswer": "arrive"
+    },
+    {
+        "question": "749. I think this news ______ fantastic.",
+        "options": ["will be", "are", "have been"],
+        "correctAnswer": "will be"
+    },
+    {
+        "question": "750. Your knowledge ______ enough.",
+        "options": ["are", "will be", "had been"],
+        "correctAnswer": "is"
+    },
+    {
+        "question": "751. The Earth ______ round.",
+        "options": ["will", "is", "has"],
+        "correctAnswer": "is"
+    },
+    {
+        "question": "752. It ______ this week.",
+        "options": ["happened", "happened", "has happened"],
+        "correctAnswer": "has happened"
+    },
+    {
+        "question": "753. I ______ about that when I was a child.",
+        "options": ["never thought", "has never thought", "will never thought"],
+        "correctAnswer": "never thought"
+    },
+    {
+        "question": "754. I ______ in China.",
+        "options": ["had been", "was", "have been"],
+        "correctAnswer": "have been"
+    },
+    {
+        "question": "755. It ______.",
+        "options": ["already happened", "had already happened", "has already happened"],
+        "correctAnswer": "has already happened"
+    },
+    {
+        "question": "756. I ______ there. I hope I'll visit it next month for the first time.",
+        "options": ["was never", "had been", "have never been"],
+        "correctAnswer": "have never been"
+    },
+    {
+        "question": "757. She ______ to Italy.",
+        "options": ["had been", "was", "has been"],
+        "correctAnswer": "has been"
+    },
+    {
+        "question": "758. I ______ it two years ago.",
+        "options": ["did", "have done", "had done"],
+        "correctAnswer": "did"
+    },
+    {
+        "question": "759. Choose the correct answer:",
+        "options": ["Did you ever been to India?", "Have you ever been to India?", "Had you ever been to India?"],
+        "correctAnswer": "Have you ever been to India?"
+    },
+    {
+        "question": "760. They ______ all the goods yet.",
+        "options": ["didn't deliver", "haven't delivered", "hadn't delivered"],
+        "correctAnswer": "haven't delivered"
+    },
+    {
+        "question": "761. Choose the correct answer:",
+        "options": ["When has it happened?", "When did it happen?", "When had it happened?"],
+        "correctAnswer": "When did it happen?"
+    },
+    {
+        "question": "762. How long ______ English?",
+        "options": ["have you been learning", "had you been learning", "do you learn"],
+        "correctAnswer": "have you been learning"
+    },
+    {
+        "question": "763. We ______ here since last year. We'll continue living here.",
+        "options": ["had been living", "lived", "have been living"],
+        "correctAnswer": "have been living"
+    },
+    {
+        "question": "764. How long ______ this video?",
+        "options": ["do you watch", "have you been watching", "had you watched"],
+        "correctAnswer": "have you been watching"
+    },
+    {
+        "question": "765. How long ______ here?",
+        "options": ["is she working", "has she worked", "has she been working"],
+        "correctAnswer": "has she been working"
+    },
+    {
+        "question": "766. I ______ English for almost two years.",
+        "options": ["have been learning", "had learnt", "learnt"],
+        "correctAnswer": "have been learning"
+    },
+    {
+        "question": "767. This website is so informative. I ______ it for a year.",
+        "options": ["use", "had used", "have been using"],
+        "correctAnswer": "have been using"
+    },
+    {
+        "question": "768. We ______ with them since last week.",
+        "options": ["cooperated", "have been cooperating", "had been cooperating"],
+        "correctAnswer": "have been cooperating"
+    },
+    {
+        "question": "769. She ______ it for many years.",
+        "options": ["does", "had been doing", "has been doing"],
+        "correctAnswer": "has been doing"
+    },
+    {
+        "question": "770. I ______ for you for half an hour.",
+        "options": ["am waiting", "had been waiting", "have been waiting"],
+        "correctAnswer": "have been waiting"
+    },
+    {
+        "question": "771. How long ______ here?",
+        "options": ["have you been staying", "are you staying", "did you stayed"],
+        "correctAnswer": "have you been staying"
+    },
+    {
+        "question": "772. She ______ our teacher for 2 years.",
+        "options": ["has been", "was", "had been"],
+        "correctAnswer": "has been"
+    },
+    {
+        "question": "773. How long ______ here?",
+        "options": ["had you been", "were you", "have you been"],
+        "correctAnswer": "have you been"
+    },
+    {
+        "question": "774. Choose the correct answer:",
+        "options": ["I don't know how long have you been learning English.", "I don't know how long you had been learning English.", "I don't know how long you have been learning English."],
+        "correctAnswer": "I don't know how long you have been learning English."
+    },
+    {
+        "question": "775. I know she ______ it for such a long time.",
+        "options": ["has been wanting", "has wanted", "had wanted"],
+        "correctAnswer": "has wanted"
+    },
+    {
+        "question": "776. How long ______?",
+        "options": ["has she married", "has she been married", "had she been married"],
+        "correctAnswer": "has she been married"
+    },
+    {
+        "question": "777. We ______ your help for such a long time.",
+        "options": ["have needed", "have been needing", "had needed"],
+        "correctAnswer": "have needed"
+    },
+    {
+        "question": "778. I ______ you for ages.",
+        "options": ["haven't been seeing", "hadn't seen", "haven't seen"],
+        "correctAnswer": "haven't seen"
+    },
+    {
+        "question": "779. They ______ for half a year.",
+        "options": ["being dating", "had been dating", "have been dating"],
+        "correctAnswer": "have been dating"
+    },
+    {
+        "question": "780. Where ______ all this time?",
+        "options": ["have you been", "were you", "had you been"],
+        "correctAnswer": "have you been"
+    },
+    {
+        "question": "781. How long ______ together?",
+        "options": ["have you been worked", "did you worked", "have you been working"],
+        "correctAnswer": "have you been working"
+    },
+    {
+        "question": "782. The students ______ the exam.",
+        "options": ["were taking", "failed", "had taken"],
+        "correctAnswer": "were taking"
+    },
+    {
+        "question": "783. The children ______ playing football when she arrived.",
+        "options": ["were", "have been", "had been"],
+        "correctAnswer": "were"
+    },
+    {
+        "question": "784. When he came back, she ______ a letter.",
+        "options": ["typed", "has typed", "was typing"],
+        "correctAnswer": "was typing"
+    },
+    {
+        "question": "785. The weather was fantastic! We were having a rest. We were talking. The sun ______ brightly.",
+        "options": ["shone", "shined", "was shining"],
+        "correctAnswer": "was shining"
+    },
+    {
+        "question": "786. The student ______ for the exam.",
+        "options": ["prepare", "prepared", "were preparing"],
+        "correctAnswer": "was preparing"
+    },
+    {
+        "question": "787. The price ______ getting higher and higher.",
+        "options": ["were", "was", "had been"],
+        "correctAnswer": "was"
+    },
+    {
+        "question": "788. While he was improving his English, I ______ my Spanish.",
+        "options": ["improved", "improving", "was improving"],
+        "correctAnswer": "was improving"
+    },
+    {
+        "question": "789. While we were dealing with clients, they ______ in the ocean.",
+        "options": ["swam", "swum", "were swimming"],
+        "correctAnswer": "were swimming"
+    },
+    {
+        "question": "790. When I saw him, he ______ with her.",
+        "options": ["chatted", "chatting", "was chatting"],
+        "correctAnswer": "was chatting"
+    },
+    {
+        "question": "791. When he came back, she ______ him everything.",
+        "options": ["told", "was telling", "had told"],
+        "correctAnswer": "told"
+    },
+    {
+        "question": "792. She said she ______ the text by heart.",
+        "options": ["already learnt", "has already learnt", "had already learnt"],
+        "correctAnswer": "had already learnt"
+    },
+    {
+        "question": "793. The meeting ______ by the time they arrived.",
+        "options": ["has already started", "had already started", "already started"],
+        "correctAnswer": "had already started"
+    },
+    {
+        "question": "794. He understood they ______ the house.",
+        "options": ["had robbed", "have robbed", "robbed"],
+        "correctAnswer": "had robbed"
+    },
+    {
+        "question": "795. I read they ______ him.",
+        "options": ["were punished", "had punished", "have punished"],
+        "correctAnswer": "had punished"
+    },
+    {
+        "question": "796. We found out some employees ______ the money.",
+        "options": ["was stealing", "stole", "had stolen"],
+        "correctAnswer": "had stolen"
+    },
+    {
+        "question": "797. She confessed she ______ him all the truth.",
+        "options": ["didn't told", "hadn't told", "haven't told"],
+        "correctAnswer": "hadn't told"
+    },
+    {
+        "question": "798. I knew he ______ her yet.",
+        "options": ["didn't reply", "hasn't reply", "hadn't replied"],
+        "correctAnswer": "hadn't replied"
+    },
+    {
+        "question": "799. She understood her friend ______ her.",
+        "options": ["had used", "were using", "has used"],
+        "correctAnswer": "had used"
+    },
+    {
+        "question": "800. It ______ a terrible mistake.",
+        "options": ["has been", "were", "had being"],
+        "correctAnswer": "had been"
+    },
+    {
+        "question": "801. She said everything ______ OK.",
+        "options": ["had being", "was", "have been"],
+        "correctAnswer": "was"
+    },
+    {
+        "question": "802. When I called her, she ______ a shower.",
+        "options": ["was taking", "has been taking", "had been taking"],
+        "correctAnswer": "was taking"
+    },
+    {
+        "question": "803. By the time we got the letter we ______ that problem.",
+        "options": ["have already been solving", "had already solved", "have already solved"],
+        "correctAnswer": "had already solved"
+    },
+    {
+        "question": "804. By the time she arrived we ______ for her for 20 minutes.",
+        "options": ["had waited", "had been waiting", "have been waiting"],
+        "correctAnswer": "had been waiting"
+    },
+    {
+        "question": "805. When they noticed it we ______ it.",
+        "options": ["had already done", "did", "have already done"],
+        "correctAnswer": "had already done"
+    },
+    {
+        "question": "806. He was extremely exhausted. He ______ incredibly hard all morning.",
+        "options": ["had work", "had been working", "worked"],
+        "correctAnswer": "had been working"
+    },
+    {
+        "question": "807. When she came back I ______ on the phone for half an hour.",
+        "options": ["was talking", "have talking", "had been talking"],
+        "correctAnswer": "was talking"
+    },
+    {
+        "question": "808. I started learning English five years ago and I'm still learning it. In other words, I ______ English for five years.",
+        "options": ["had been learning", "have been learning", "was learning"],
+        "correctAnswer": "have been learning"
+    },
+    {
+        "question": "809. When I joined that club, he ______ his member for two hours.",
+        "options": ["was being", "had been", "has been"],
+        "correctAnswer": "had been"
+    },
+    {
+        "question": "810. I ______ for about 10 minutes before the bell rang.",
+        "options": ["had eaten", "had been eating", "ate"],
+        "correctAnswer": "had been eating"
+    },
+    {
+        "question": "811. I ______ English for an hour when he called me.",
+        "options": ["had been learning", "was learning", "have been learning"],
+        "correctAnswer": "had been learning"
+    },
+    {
+        "question": "812. These opportunities ______ today.",
+        "options": ["are considered", "are being considered", "have considered"],
+        "correctAnswer": "are being considered"
+    },
+    {
+        "question": "813. As a rule, they ______ there.",
+        "options": ["aren't being seen", "haven't been seen", "aren't seen"],
+        "correctAnswer": "aren't seen"
+    },
+    {
+        "question": "814. They ______ from time to time.",
+        "options": ["are being criticized", "are criticized", "had been criticizing"],
+        "correctAnswer": "are criticized"
+    },
+    {
+        "question": "815. The money ______ controlled.",
+        "options": ["isn't", "aren't", "won't"],
+        "correctAnswer": "isn't"
+    },
+    {
+        "question": "816. Choose the correct answer:",
+        "options": ["It is currently monitored.", "It is currently being monitored.", "It has currently been monitored."],
+        "correctAnswer": "It is currently being monitored."
+    },
+    {
+        "question": "817. This answer ______ chosen.",
+        "options": ["is never", "has never", "won't never be"],
+        "correctAnswer": "is never"
+    },
+    {
+        "question": "818. Very poor conditions ______ there.",
+        "options": ["provide", "is provided", "are provided"],
+        "correctAnswer": "are provided"
+    },
+    {
+        "question": "819. It ______ checked now.",
+        "options": ["is", "is being", "has being"],
+        "correctAnswer": "is being"
+    },
+    {
+        "question": "820. Choose the correct answer:",
+        "options": ["They are always being thanked.", "They are always thanked.", "They have always being thanked."],
+        "correctAnswer": "They are always thanked."
+    },
+    {
+        "question": "821. ______ these days?",
+        "options": ["Are they being watched", "Are they watched", "Have they watched"],
+        "correctAnswer": "Are they being watched"
+    },
+    {
+        "question": "822. Choose the correct answer:",
+        "options": ["It was already said.", "It has already been said.", "It had already been said."],
+        "correctAnswer": "It has already been said."
+    },
+    {
+        "question": "823. The message ______ yet.",
+        "options": ["wasn't written", "hadn't been written", "hasn't been written"],
+        "correctAnswer": "hasn't been written"
+    },
+    {
+        "question": "824. It ______ discussed since last week.",
+        "options": ["has been", "was", "had been"],
+        "correctAnswer": "has been"
+    },
+    {
+        "question": "825. These things ______ discussed yet.",
+        "options": ["weren't", "have", "haven't been"],
+        "correctAnswer": "haven't been"
+    },
+    {
+        "question": "826. Choose the correct answer:",
+        "options": ["Was he ever criticized?", "Has he ever been criticized?", "Had he ever been criticized?"],
+        "correctAnswer": "Has he ever been criticized?"
+    },
+    {
+        "question": "827. Looking back, it ______. It was impossible and we knew it.",
+        "options": ["has never been mentioned", "was never mentioned", "had never mentioned"],
+        "correctAnswer": "had never mentioned"
+    },
+    {
+        "question": "828. It's still true. It ______. Maybe one day it will be different.",
+        "options": ["was never mentioned", "has never been mentioned", "had never been mentioned"],
+        "correctAnswer": "has never been mentioned"
+    },
+    {
+        "question": "829. It ______ last week.",
+        "options": ["had been discussed", "has been discussed", "was discussed"],
+        "correctAnswer": "was discussed"
+    },
+    {
+        "question": "830. When ______?",
+        "options": ["was it discussed", "has it been discussed", "had it been discussed"],
+        "correctAnswer": "was it discussed"
+    },
+    {
+        "question": "831. The news ______.",
+        "options": ["have been deleted", "was deleted", "were deleted"],
+        "correctAnswer": "was deleted"
+    },
+    {
+        "question": "832. We heard the thieves ______.",
+        "options": ["didn't punished", "had been punished", "were been punished"],
+        "correctAnswer": "had been punished"
+    },
+    {
+        "question": "833. He said the file ______.",
+        "options": ["was already deleted", "has already been deleted", "had already been deleted"],
+        "correctAnswer": "had already been deleted"
+    },
+    {
+        "question": "834. When she came home, the food ______.",
+        "options": ["had already been cooked", "was already cooked", "has already been cooked"],
+        "correctAnswer": "had already been cooked"
+    },
+    {
+        "question": "835. It was said it ______.",
+        "options": ["was already announced", "had already been announced", "has already been announced"],
+        "correctAnswer": "had already been announced"
+    },
+    {
+        "question": "836. We knew the truth ______ yet.",
+        "options": ["wasn't discovered", "hasn't discovered", "hadn't been discovered"],
+        "correctAnswer": "hadn't been discovered"
+    },
+    {
+        "question": "837. By the time I returned, some things ______ yet.",
+        "options": ["weren't prepared", "hadn't been prepared", "haven't been prepared"],
+        "correctAnswer": "hadn't been prepared"
+    },
+    {
+        "question": "838. It was written that the building ______.",
+        "options": ["had already been destroyed", "were destroyed", "has already been destroyed"],
+        "correctAnswer": "had already been destroyed"
+    },
+    {
+        "question": "839. She realized her keys ______ at home.",
+        "options": ["were left", "had been left", "have been left"],
+        "correctAnswer": "had been left"
+    },
+    {
+        "question": "840. We found out some things ______.",
+        "options": ["were stole", "have stolen", "had been stolen"],
+        "correctAnswer": "had been stolen"
+    },
+    {
+        "question": "841. I told her the singer ______.",
+        "options": ["has been awarded", "had been awarded", "were awarded"],
+        "correctAnswer": "had been awarded"
+    },
+    {
+        "question": "842. If I had one more chance, I ______ show much better results.",
+        "options": ["would", "will", "won't"],
+        "correctAnswer": "would"
+    },
+    {
+        "question": "843. If I were you, I ______ think about it one more time.",
+        "options": ["have", "will", "would"],
+        "correctAnswer": "would"
+    },
+    {
+        "question": "844. If I had more money, I ______ buy it.",
+        "options": ["will", "could", "can"],
+        "correctAnswer": "could"
+    },
+    {
+        "question": "845. I wouldn't say it if I ______ you now.",
+        "options": ["have been", "were", "am"],
+        "correctAnswer": "were"
+    },
+    {
+        "question": "846. If I were you, I ______ choose another way.",
+        "options": ["would", "will", "can"],
+        "correctAnswer": "would"
+    },
+    {
+        "question": "847. If I knew English better, I ______ find a better job.",
+        "options": ["can", "will", "could"],
+        "correctAnswer": "could"
+    },
+    {
+        "question": "848. He would work there if he ______ a millionaire.",
+        "options": ["were", "is", "will be"],
+        "correctAnswer": "were"
+    },
+    {
+        "question": "849. If I earned more money, I ______ buy much more things.",
+        "options": ["can", "could", "will"],
+        "correctAnswer": "could"
+    },
+    {
+        "question": "850. If I ______ a helicopter, I wouldn't waste time in traffic jams.",
+        "options": ["have", "have had", "had"],
+        "correctAnswer": "had"
+    },
+    {
+        "question": "851. If she ______ it, she would be very angry.",
+        "options": ["knew", "knows", "will know"],
+        "correctAnswer": "knew"
+    },
+    {
+        "question": "852. If she had passed the exam, her parents ______ much happier.",
+        "options": ["would had been", "were", "would have been"],
+        "correctAnswer": "would have been"
+    },
+    {
+        "question": "853. If he ______ the test, he would have entered that university.",
+        "options": ["didn't fail", "hadn't failed", "haven't failed"],
+        "correctAnswer": "hadn't failed"
+    },
+    {
+        "question": "854. If I ______ more money, I would have bought it much earlier.",
+        "options": ["had had", "have had", "should have had"],
+        "correctAnswer": "had had"
+    },
+    {
+        "question": "855. If they had caught him, they ______ him to prison.",
+        "options": ["would sent", "would have sent", "sent"],
+        "correctAnswer": "would have sent"
+    },
+    {
+        "question": "856. If he ______ one more project last year, he would have felt much more independent.",
+        "options": ["had", "have had", "had had"],
+        "correctAnswer": "had had"
+    },
+    {
+        "question": "857. If I had known it, my total score ______ much higher.",
+        "options": ["was", "have had", "would have been"],
+        "correctAnswer": "would have been"
+    },
+    {
+        "question": "858. If he ______ it much earlier, he would have left the house.",
+        "options": ["knew", "had known", "will know"],
+        "correctAnswer": "had known"
+    },
+    {
+        "question": "859. If she ______ another person, her parents would have criticized her very sharply.",
+        "options": ["had married", "married", "would marry"],
+        "correctAnswer": "had married"
+    },
+    {
+        "question": "860. If I ______ another method, my results would have been terrible.",
+        "options": ["chose", "had chosen", "have chosen"],
+        "correctAnswer": "had chosen"
+    },
+    {
+        "question": "861. If I had studied harder, I ______ better marks last year.",
+        "options": ["got", "had got", "would have got"],
+        "correctAnswer": "would have got"
+    },
+    {
+        "question": "862. I wish I ______ a pet.",
+        "options": ["have", "had", "have had"],
+        "correctAnswer": "had"
+    },
+    {
+        "question": "863. I wish my result ______ better.",
+        "options": ["were", "is", "be"],
+        "correctAnswer": "were"
+    },
+    {
+        "question": "864. I wish I ______ a better job.",
+        "options": ["have", "have had", "had"],
+        "correctAnswer": "had"
+    },
+    {
+        "question": "865. I wish there ______ only happiness in the world.",
+        "options": ["was", "is", "be"],
+        "correctAnswer": "was"
+    },
+    {
+        "question": "866. I wish you ______ here.",
+        "options": ["are", "were", "have been"],
+        "correctAnswer": "were"
+    },
+    {
+        "question": "867. I wish he ______ know about it.",
+        "options": ["doesn't", "haven't", "didn't"],
+        "correctAnswer": "didn't"
+    },
+    {
+        "question": "868. I wish I ______ speak English completely fluently.",
+        "options": ["could", "can", "be able"],
+        "correctAnswer": "could"
+    },
+    {
+        "question": "869. I wish I ______ in America.",
+        "options": ["lived", "live", "been"],
+        "correctAnswer": "lived"
+    },
+    {
+        "question": "870. I wish I ______ 1 million dollars.",
+        "options": ["have had", "had", "have"],
+        "correctAnswer": "had"
+    },
+    {
+        "question": "871. I wish it ______ true.",
+        "options": ["isn't", "hasn't", "weren't"],
+        "correctAnswer": "weren't"
+    },
+    {
+        "question": "872. I wish I ______ it two weeks ago.",
+        "options": ["bought", "had bought", "have bought"],
+        "correctAnswer": "had bought"
+    },
+    {
+        "question": "873. I wish I ______ Latin America last year.",
+        "options": ["had visited", "visited", "could visited"],
+        "correctAnswer": "had visited"
+    },
+    {
+        "question": "874. I wish I ______ it yesterday.",
+        "options": ["had known", "knew", "have known"],
+        "correctAnswer": "had known"
+    },
+    {
+        "question": "875. I wish he ______ an hour ago.",
+        "options": ["came", "had come", "could come"],
+        "correctAnswer": "had come"
+    },
+    {
+        "question": "876. I wish she ______ the test last week.",
+        "options": ["has passed", "passed", "had passed"],
+        "correctAnswer": "had passed"
+    },
+    {
+        "question": "877. I wish I ______ in another country.",
+        "options": ["was born", "were born", "had been born"],
+        "correctAnswer": "had been born"
+    },
+    {
+        "question": "878. I wish I ______ one more attempt yesterday.",
+        "options": ["would had", "had had", "have had"],
+        "correctAnswer": "had had"
+    },
+    {
+        "question": "879. I wish he ______ another job last year.",
+        "options": ["had found", "have found", "found"],
+        "correctAnswer": "had found"
+    },
+    {
+        "question": "880. I wish I ______ more free time a week ago.",
+        "options": ["had had", "have had", "had"],
+        "correctAnswer": "had had"
+    },
+    {
+        "question": "881. I wish I ______ the city last night.",
+        "options": ["left", "have left", "had left"],
+        "correctAnswer": "had left"
+    },
+    {
+        "question": "882. If only she ______ know about it!",
+        "options": ["doesn't", "didn't", "haven't"],
+        "correctAnswer": "didn't"
+    },
+    {
+        "question": "883. If only I ______ speak English better!",
+        "options": ["could", "can", "be able"],
+        "correctAnswer": "could"
+    },
+    {
+        "question": "884. If only I ______ another chance!",
+        "options": ["have", "would have", "had"],
+        "correctAnswer": "had"
+    },
+    {
+        "question": "885. If only she ______ my girlfriend!",
+        "options": ["were", "be", "is"],
+        "correctAnswer": "were"
+    },
+    {
+        "question": "886. If only there ______ a way out!",
+        "options": ["be", "was", "will be"],
+        "correctAnswer": "was"
+    },
+    {
+        "question": "887. If only they ______ more professional!",
+        "options": ["are", "be", "were"],
+        "correctAnswer": "were"
+    },
+    {
+        "question": "888. If only I ______ more money!",
+        "options": ["earn", "earned", "can earn"],
+        "correctAnswer": "earned"
+    },
+    {
+        "question": "889. If only they ______ me more money!",
+        "options": ["paid", "Pay", "will pay"],
+        "correctAnswer": "paid"
+    },
+    {
+        "question": "890. If only I ______ more time!",
+        "options": ["have", "had", "will have"],
+        "correctAnswer": "had"
+    },
+    {
+        "question": "891. If only you ______ here!",
+        "options": ["are", "have been", "were"],
+        "correctAnswer": "were"
+    },
+    {
+        "question": "892. If only she ______ more professional!",
+        "options": ["is", "had been", "be"],
+        "correctAnswer": "had been"
+    },
+    {
+        "question": "893. If only he ______ our client last week!",
+        "options": ["had become", "became", "would become"],
+        "correctAnswer": "had become"
+    },
+    {
+        "question": "894. If only he ______ there yesterday!",
+        "options": ["be", "had been", "was"],
+        "correctAnswer": "had been"
+    },
+    {
+        "question": "895. If only he ______ the exam three days ago!",
+        "options": ["didn't fail", "failed not", "hadn't failed"],
+        "correctAnswer": "hadn't failed"
+    },
+    {
+        "question": "896. If only he ______ their offer last week!",
+        "options": ["took", "had taken", "has taken"],
+        "correctAnswer": "had taken"
+    },
+    {
+        "question": "897. If only he ______ about it earlier!",
+        "options": ["knows", "has known", "hadn't known"],
+        "correctAnswer": "had known"
+    },
+    {
+        "question": "898. If only she ______ it yesterday!",
+        "options": ["noticed", "had noticed", "has noticed"],
+        "correctAnswer": "had noticed"
+    },
+    {
+        "question": "899. If only I ______ another way!",
+        "options": ["had chosen", "chose", "have chosen"],
+        "correctAnswer": "had chosen"
+    },
+    {
+        "question": "900. If only he ______ her yesterday!",
+        "options": ["didn't call", "called", "hadn't called"],
+        "correctAnswer": "hadn't called"
+    },
+    {
+        "question": "901. If only we ______ her last night!",
+        "options": ["had warned", "warned", "have warned"],
+        "correctAnswer": "had warned"
+    },
+    {
+        "question": "902. Choose the correct answer:",
+        "options": ["It's high time the truth was discovered.", "It's high time the truth will be discovered.", "It's high time we discover the truth."],
+        "correctAnswer": "It's high time the truth was discovered."
+    },
+    {
+        "question": "903. Choose the correct answer:",
+        "options": ["It's high time he paying all the money.", "It's high time he paid them all the money.", "It's high time he had paid them all the money."],
+        "correctAnswer": "It's high time he paid them all the money."
+    },
+    {
+        "question": "904. Choose the correct answer:",
+        "options": ["It's time we will do it.", "It's time to had done it.", "It's time to open our eyes on it."],
+        "correctAnswer": "It's time to open our eyes on it."
+    },
+    {
+        "question": "905. Choose the correct answer:",
+        "options": ["It's time visit the place.", "It's time we visited this place.", "It's time we have visited this place."],
+        "correctAnswer": "It's time we visited this place."
+    },
+    {
+        "question": "906. Choose the correct answer:",
+        "options": ["It's time to do it.", "It's time we do it.", "It's time we done it."],
+        "correctAnswer": "It's time to do it."
+    },
+    {
+        "question": "907. Choose the correct answer:",
+        "options": ["It's time he starts looking for another job.", "It's high time for him to start looking for another job.", "It's high time for him to had started looking for another job."],
+        "correctAnswer": "It's high time for him to start looking for another job."
+    },
+    {
+        "question": "908. Choose the correct answer:",
+        "options": ["It's time show your knowledge.", "It's time you had been showed your skills.", "It's time you showed your skills."],
+        "correctAnswer": "It's time you showed your skills."
+    },
+    {
+        "question": "909. Choose the correct answer:",
+        "options": ["It's high time we went there.", "It's high time we go there.", "It's high time we had been there."],
+        "correctAnswer": "It's high time we went there."
+    },
+    {
+        "question": "910. Choose the correct answer:",
+        "options": ["It's time you go home.", "It's time you had went home.", "It's time you went home."],
+        "correctAnswer": "It's time you went home."
+    },
+    {
+        "question": "911. Choose the correct answer:",
+        "options": ["It's time for you say it.", "It's time you said it.", "It's time you had said it."],
+        "correctAnswer": "It's time you said it."
+    },
+    {
+        "question": "912. If he had won the lottery, he ______ very rich now.",
+        "options": ["would be", "could be", "would have been"],
+        "correctAnswer": "would be"
+    },
+    {
+        "question": "913. If he hadn't shown such terrible results, his parents ______ so angry now.",
+        "options": ["wouldn't have been", "could have been", "wouldn't be"],
+        "correctAnswer": "wouldn't be"
+    },
+    {
+        "question": "914. If I hadn't eaten enough, I ______ hungry now.",
+        "options": ["will be", "would be", "can be"],
+        "correctAnswer": "would be"
+    },
+    {
+        "question": "915. If he had kept his word, he ______ my friend now.",
+        "options": ["would be", "could be", "would have been"],
+        "correctAnswer": "would be"
+    },
+    {
+        "question": "916. If I had met him later, he ______ my boss now.",
+        "options": ["won't be", "wouldn't be", "can't be"],
+        "correctAnswer": "wouldn't be"
+    },
+    {
+        "question": "917. If he had passed the test successfully, he ______ in our group now.",
+        "options": ["would be", "will be", "would have been"],
+        "correctAnswer": "would be"
+    },
+    {
+        "question": "918. If your parents hadn't me, you ______ here now.",
+        "options": ["won't be", "can't be", "wouldn't be"],
+        "correctAnswer": "wouldn't be"
+    },
+    {
+        "question": "919. If he ______ my advice yesterday, he wouldn't be in trouble now.",
+        "options": ["heard", "had heard", "have heard"],
+        "correctAnswer": "had heard"
+    },
+    {
+        "question": "920. If I had studied better, my English ______ better now.",
+        "options": ["would be", "can be", "should have been"],
+        "correctAnswer": "would be"
+    },
+    {
+        "question": "921. If she had followed our recommendations, she ______ in such a bad situation now.",
+        "options": ["won't be", "wouldn't be", "couldn't have been"],
+        "correctAnswer": "wouldn't be"
+    },
+    {
+        "question": "922. I ______ finish this report by 5 p.m. (it isn't my choice).",
+        "options": ["must", "have to", "had had to"],
+        "correctAnswer": "have to"
+    },
+    {
+        "question": "923. I ______ answer her by Friday (I have no choice).",
+        "options": ["must", "could", "have to"],
+        "correctAnswer": "must"
+    },
+    {
+        "question": "924. I ______ change my life (it's my desire).",
+        "options": ["have to", "must", "will must"],
+        "correctAnswer": "have to"
+    },
+    {
+        "question": "925. I ______ be in a better shape (it's my desire).",
+        "options": ["have to", "must have", "must"],
+        "correctAnswer": "must"
+    },
+    {
+        "question": "926. I ______ wake up very early (I don't like it).",
+        "options": ["have to", "must", "can"],
+        "correctAnswer": "have to"
+    },
+    {
+        "question": "927. I ______ speak English without any mistakes at all (it's my desire).",
+        "options": ["have to", "must can", "must"],
+        "correctAnswer": "must"
+    },
+    {
+        "question": "928. I ______ find a new job (it's my desire).",
+        "options": ["must", "have to", "must have"],
+        "correctAnswer": "must"
+    },
+    {
+        "question": "929. I ______ improve my English as soon as possible (it's my desire).",
+        "options": ["have to", "must have", "must"],
+        "correctAnswer": "must"
+    },
+    {
+        "question": "930. I ______ wear a uniform (it isn't my choice).",
+        "options": ["must", "have to", "must have to"],
+        "correctAnswer": "have to"
+    },
+    {
+        "question": "931. I ______ overwork (I have no choice).",
+        "options": ["must", "must to", "have to"],
+        "correctAnswer": "must"
+    },
+    {
+        "question": "932. You needn't ______.",
+        "options": ["worry", "to worry", "to have worried"],
+        "correctAnswer": "worry"
+    },
+    {
+        "question": "933. He doesn't need ______ it.",
+        "options": ["repeat", "to repeat", "to had repeated"],
+        "correctAnswer": "to repeat"
+    },
+    {
+        "question": "934. She doesn't have ______ so early.",
+        "options": ["get up", "got up", "to get up"],
+        "correctAnswer": "to get up"
+    },
+    {
+        "question": "935. You don't have ______ it again.",
+        "options": ["say", "to say", "said"],
+        "correctAnswer": "to say"
+    },
+    {
+        "question": "936. She needn't ______ it.",
+        "options": ["to mention", "mentioned", "mention"],
+        "correctAnswer": "mention"
+    },
+    {
+        "question": "937. Choose the correct answer:",
+        "options": ["You needn't to explain it.", "You don't need to explain it.", "You don't need to had explained it."],
+        "correctAnswer": "You don't need to explain it."
+    },
+    {
+        "question": "938. Choose the correct answer:",
+        "options": ["You don't have prepare these documents.", "You needn't stay there until 8 p.m.", "You don't have to be prepare these documents."],
+        "correctAnswer": "You needn't stay there until 8 p.m."
+    },
+    {
+        "question": "939. You needn't ______ him.",
+        "options": ["call", "to call", "called"],
+        "correctAnswer": "call"
+    },
+    {
+        "question": "940. Choose the correct answer:",
+        "options": ["You don't need overwork.", "You needn't to overwork.", "You don't have to overwork."],
+        "correctAnswer": "You don't have to overwork."
+    },
+    {
+        "question": "941. You don't need ______.",
+        "options": ["say it", "said it", "to say it"],
+        "correctAnswer": "to say it"
+    },
+    {
+        "question": "942. He ______ something inappropriate last week.",
+        "options": ["may say", "may said", "may have said"],
+        "correctAnswer": "may have said"
+    },
+    {
+        "question": "943. You ______ him tomorrow.",
+        "options": ["should call", "have called", "should have called"],
+        "correctAnswer": "should call"
+    },
+    {
+        "question": "944. He ______ to school tomorrow.",
+        "options": ["must went", "must go", "must have gone"],
+        "correctAnswer": "must go"
+    },
+    {
+        "question": "945. It ______ much better.",
+        "options": ["would to be", "would been", "would have been"],
+        "correctAnswer": "would have been"
+    },
+    {
+        "question": "946. He ______ us next week.",
+        "options": ["may visit", "may visited", "may have visited"],
+        "correctAnswer": "may visit"
+    },
+    {
+        "question": "947. I think you ______ me tomorrow.",
+        "options": ["can helped", "could help", "could have helped"],
+        "correctAnswer": "could help"
+    },
+    {
+        "question": "948. We ought to ______ the meeting last night.",
+        "options": ["attend", "attended", "have attended"],
+        "correctAnswer": "have attended"
+    },
+    {
+        "question": "949. It ______ true.",
+        "options": ["must been", "must to be", "must have been"],
+        "correctAnswer": "must have been"
+    },
+    {
+        "question": "950. She ______ her mistakes yesterday.",
+        "options": ["should corrected", "should have corrected", "should had corrected"],
+        "correctAnswer": "should have corrected"
+    },
+    {
+        "question": "951. She ______ the first place last month.",
+        "options": ["could take", "could took", "could have taken"],
+        "correctAnswer": "could have taken"
+    },
+    {
+        "question": "952. They ______ him.",
+        "options": ["mustn't to inform", "mustn't have informed", "mustn't informed"],
+        "correctAnswer": "mustn't have informed"
+    },
+    {
+        "question": "953. They ______ our letter the day before yesterday.",
+        "options": ["might not receive", "might not have received", "might not received"],
+        "correctAnswer": "might not have received"
+    },
+    {
+        "question": "954. He ______ her to do it during their conversation which took place several days ago.",
+        "options": ["might not have persuaded", "might not persuade", "might not persuaded"],
+        "correctAnswer": "might not have persuaded"
+    },
+    {
+        "question": "955. She ______ all the text several hours ago.",
+        "options": ["mustn't translated", "mustn't have translated", "mustn't translated"],
+        "correctAnswer": "mustn't have translated"
+    },
+    {
+        "question": "956. You ______ him that thing yesterday.",
+        "options": ["shouldn't tell", "shouldn't have told", "shouldn't had told"],
+        "correctAnswer": "shouldn't have told"
+    },
+    {
+        "question": "957. He ______ more money last year.",
+        "options": ["ought not to have invested", "ought not to invest", "ought not invested"],
+        "correctAnswer": "ought not to have invested"
+    },
+    {
+        "question": "958. He ______ her yesterday.",
+        "options": ["may not see", "may not seen", "may not have seen"],
+        "correctAnswer": "may not have seen"
+    },
+    {
+        "question": "959. You ______ us so late.",
+        "options": ["shouldn't informed", "shouldn't have informed", "shouldn't had informed"],
+        "correctAnswer": "shouldn't have informed"
+    },
+    {
+        "question": "960. I ______ it during our meeting which was yesterday.",
+        "options": ["wouldn't say", "wouldn't had said", "wouldn't have said"],
+        "correctAnswer": "wouldn't have said"
+    },
+    {
+        "question": "961. He ______.",
+        "options": ["could have won", "could won", "could had won"],
+        "correctAnswer": "could have won"
+    },
+    {
+        "question": "962. You ______ it.",
+        "options": ["didn't need do", "needn't have done", "didn't need done"],
+        "correctAnswer": "needn't have done"
+    },
+    {
+        "question": "963. He ______ them.",
+        "options": ["didn't need to warn", "needn't warned", "needn't had warned"],
+        "correctAnswer": "needn't have warned"
+    },
+    {
+        "question": "964. I ______ to do it anyway.",
+        "options": ["could", "had", "could had"],
+        "correctAnswer": "could"
+    },
+    {
+        "question": "965. You ______ insist on it.",
+        "options": ["needn't have", "didn't need to", "didn't need had to"],
+        "correctAnswer": "didn't need to"
+    },
+    {
+        "question": "966. I ______ to wear a uniform. I had no choice.",
+        "options": ["could", "must", "had"],
+        "correctAnswer": "had"
+    },
+    {
+        "question": "967. You ______ him one more time.",
+        "options": ["didn't need criticize", "needn't have criticized", "needn't had criticized"],
+        "correctAnswer": "needn't have criticized"
+    },
+    {
+        "question": "968. I ______ run very fast.",
+        "options": ["could", "must to", "could to"],
+        "correctAnswer": "could"
+    },
+    {
+        "question": "969. I know she ______ win.",
+        "options": ["could to", "had to", "must to"],
+        "correctAnswer": "had to"
+    },
+    {
+        "question": "970. I ______ there so early.",
+        "options": ["needn't had come", "needn't have come", "needn't came"],
+        "correctAnswer": "needn't have come"
+    },
+    {
+        "question": "971. She ______ him.",
+        "options": ["didn't need ignore", "needn't had ignored", "needn't have ignored"],
+        "correctAnswer": "needn't have ignored"
+    },
+    {
+        "question": "972. We weren't allowed ______ there.",
+        "options": ["stay", "to stay", "stayed"],
+        "correctAnswer": "to stay"
+    },
+    {
+        "question": "973. He ______ to play computer games.",
+        "options": ["didn't allowed", "wasn't allowed", "hadn't allowed"],
+        "correctAnswer": "wasn't allowed"
+    },
+    {
+        "question": "974. They let her ______ out.",
+        "options": ["go", "to go", "to gone"],
+        "correctAnswer": "go"
+    },
+    {
+        "question": "975. He won't be allowed ______ there until midnight.",
+        "options": ["stay", "stayed", "to stay"],
+        "correctAnswer": "to stay"
+    },
+    {
+        "question": "976. He won't let you ______ it.",
+        "options": ["do", "done", "to do"],
+        "correctAnswer": "do"
+    },
+    {
+        "question": "977. They were ______ to tell them everything.",
+        "options": ["force", "forced", "forcing"],
+        "correctAnswer": "forced"
+    },
+    {
+        "question": "978. I'll be forced ______ with them.",
+        "options": ["to agree", "agreed", "agree"],
+        "correctAnswer": "to agree"
+    },
+    {
+        "question": "979. He was forced ______.",
+        "options": ["surrender", "surrendered", "to surrender"],
+        "correctAnswer": "to surrender"
+    },
+    {
+        "question": "980. She let him ______ in.",
+        "options": ["to come", "came", "come"],
+        "correctAnswer": "come"
+    },
+    {
+        "question": "981. I won't let you ______ it.",
+        "options": ["to do", "do", "done"],
+        "correctAnswer": "do"
+    },
+    {
+        "question": "982. I think he is capable ______ doing it.",
+        "options": ["of", "for", "to"],
+        "correctAnswer": "of"
+    },
+    {
+        "question": "983. He's really interested ______ it.",
+        "options": ["of", "in", "to"],
+        "correctAnswer": "in"
+    },
+    {
+        "question": "984. She is always full ______ innovative ideas.",
+        "options": ["in", "for", "of"],
+        "correctAnswer": "of"
+    },
+    {
+        "question": "985. This town is crowded ______ tourists.",
+        "options": ["of", "with", "off"],
+        "correctAnswer": "with"
+    },
+    {
+        "question": "986. She's bad ______ table tennis.",
+        "options": ["to", "in", "at"],
+        "correctAnswer": "at"
+    },
+    {
+        "question": "987. He's proud ______ his students.",
+        "options": ["to", "of", "for"],
+        "correctAnswer": "of"
+    },
+    {
+        "question": "988. He's disappointed ______ the results.",
+        "options": ["for", "to", "with"],
+        "correctAnswer": "with"
+    },
+    {
+        "question": "989. I'm accustomed ______ it.",
+        "options": ["to", "in", "of"],
+        "correctAnswer": "to"
+    },
+    {
+        "question": "990. She's quite good ______ English.",
+        "options": ["for", "in", "at"],
+        "correctAnswer": "at"
+    },
+    {
+        "question": "991. Your idea is different ______ mine.",
+        "options": ["for", "from", "of"],
+        "correctAnswer": "from"
+    },
+    {
+        "question": "992. He's very rude ______ her.",
+        "options": ["of", "about", "to"],
+        "correctAnswer": "to"
+    },
+    {
+        "question": "993. We're fond ______ sport.",
+        "options": ["of", "to", "with"],
+        "correctAnswer": "of"
+    },
+    {
+        "question": "994. She was scared ______ his threats.",
+        "options": ["by", "to", "of"],
+        "correctAnswer": "of"
+    },
+    {
+        "question": "995. Who is responsible ______ it?",
+        "options": ["in", "for", "at"],
+        "correctAnswer": "for"
+    },
+    {
+        "question": "996. She's keen ______ classical music.",
+        "options": ["of", "about", "on"],
+        "correctAnswer": "on"
+    },
+    {
+        "question": "997. He's frightened ______ her words.",
+        "options": ["about", "of", "by"],
+        "correctAnswer": "of"
+    },
+    {
+        "question": "998. Don't be afraid ______ him!",
+        "options": ["to", "by", "of"],
+        "correctAnswer": "of"
+    },
+    {
+        "question": "999. I'm fed up ______ this job.",
+        "options": ["with", "about", "in"],
+        "correctAnswer": "with"
+    },
+    {
+        "question": "1000. He's really worried ______ his future.",
+        "options": ["in", "about", "on"],
+        "correctAnswer": "about"
+    }
+]
+```
