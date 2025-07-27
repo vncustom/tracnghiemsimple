@@ -1,0 +1,752 @@
+[
+  {
+    "question": "1. Trong vườn có 10 bông hoa hồng và 5 bông hoa cúc. Hỏi trong vườn có tất cả bao nhiêu bông hoa?",
+    "options": ["2", "5", "15", "50"],
+    "correctAnswer": "15"
+  },
+  {
+    "question": "2. An có 12 viên bi, Bình cho An thêm 4 viên nữa. Hỏi An có tất cả bao nhiêu viên bi?",
+    "options": ["3", "8", "16", "48"],
+    "correctAnswer": "16"
+  },
+  {
+    "question": "3. Mẹ mua 15 quả cam và 5 quả táo. Hỏi mẹ mua tất cả bao nhiêu quả trái cây?",
+    "options": ["3", "10", "20", "75"],
+    "correctAnswer": "20"
+  },
+  {
+    "question": "4. Một hộp có 18 cái kẹo, bạn bỏ thêm 3 cái nữa vào. Hỏi hộp đó có tất cả bao nhiêu cái kẹo?",
+    "options": ["6", "15", "21", "54"],
+    "correctAnswer": "21"
+  },
+  {
+    "question": "5. Lan có 20 con tem, bạn được tặng thêm 2 con tem. Hỏi Lan có tất cả bao nhiêu con tem?",
+    "options": ["10", "18", "22", "40"],
+    "correctAnswer": "22"
+  },
+  {
+    "question": "6. Lớp 3A có 24 bạn học sinh, có thêm 3 bạn mới chuyển đến. Hỏi lớp 3A có tất cả bao nhiêu học sinh?",
+    "options": ["8", "21", "27", "72"],
+    "correctAnswer": "27"
+  },
+  {
+    "question": "7. Trên cây có 30 con chim, sau đó bay đến thêm 5 con nữa. Hỏi trên cây có tất cả bao nhiêu con chim?",
+    "options": ["6", "25", "35", "150"],
+    "correctAnswer": "35"
+  },
+  {
+    "question": "8. Cửa hàng bán được 32 chiếc bánh buổi sáng và 4 chiếc buổi chiều. Hỏi cả ngày cửa hàng bán được bao nhiêu chiếc bánh?",
+    "options": ["8", "28", "36", "128"],
+    "correctAnswer": "36"
+  },
+  {
+    "question": "9. Một con đường dài 36 km, người ta làm thêm 6 km nữa. Hỏi con đường đó dài bao nhiêu km?",
+    "options": ["6", "30", "42", "216"],
+    "correctAnswer": "42"
+  },
+  {
+    "question": "10. Hùng có 40 viên bi, bạn nhặt thêm được 5 viên nữa. Hỏi Hùng có tất cả bao nhiêu viên bi?",
+    "options": ["8", "35", "45", "200"],
+    "correctAnswer": "45"
+  },
+  {
+    "question": "11. Trong một rạp xiếc có 48 ghế trống, có 6 người nữa đến xem. Hỏi rạp xiếc có tổng cộng bao nhiêu người nếu tất cả đều có chỗ ngồi?",
+    "options": ["8", "42", "54", "288"],
+    "correctAnswer": "54"
+  },
+  {
+    "question": "12. Một thùng nước có 50 lít, người ta đổ thêm 2 lít nữa. Hỏi thùng nước có tất cả bao nhiêu lít?",
+    "options": ["25", "48", "52", "100"],
+    "correctAnswer": "52"
+  },
+  {
+    "question": "13. Bà đi chợ mua 60 quả trứng, sau đó mua thêm 3 quả nữa. Hỏi bà có tất cả bao nhiêu quả trứng?",
+    "options": ["20", "57", "63", "180"],
+    "correctAnswer": "63"
+  },
+  {
+    "question": "14. Trong lớp có 20 quyển sách, cô giáo đã lấy đi 5 quyển. Hỏi trong lớp còn lại bao nhiêu quyển sách?",
+    "options": ["4", "15", "25", "100"],
+    "correctAnswer": "15"
+  },
+  {
+    "question": "15. Minh có 24 chiếc bút màu, Minh cho bạn 4 chiếc. Hỏi Minh còn lại bao nhiêu chiếc bút màu?",
+    "options": ["6", "20", "28", "96"],
+    "correctAnswer": "20"
+  },
+  {
+    "question": "16. Một sợi dây dài 28 mét, người ta cắt đi 7 mét. Hỏi sợi dây còn lại dài bao nhiêu mét?",
+    "options": ["4", "21", "35", "196"],
+    "correctAnswer": "21"
+  },
+  {
+    "question": "17. An có 30 viên kẹo, An đã ăn hết 3 viên. Hỏi An còn lại bao nhiêu viên kẹo?",
+    "options": ["10", "27", "33", "90"],
+    "correctAnswer": "27"
+  },
+  {
+    "question": "18. Trên sân có 35 con gà, có 5 con chạy đi. Hỏi trên sân còn lại bao nhiêu con gà?",
+    "options": ["7", "30", "40", "175"],
+    "correctAnswer": "30"
+  },
+  {
+    "question": "19. Một thùng có 40 quả táo, người ta bán đi 8 quả. Hỏi trong thùng còn lại bao nhiêu quả táo?",
+    "options": ["5", "32", "48", "320"],
+    "correctAnswer": "32"
+  },
+  {
+    "question": "20. Lan có 42 bông hoa, Lan tặng bạn 6 bông. Hỏi Lan còn lại bao nhiêu bông hoa?",
+    "options": ["7", "36", "48", "252"],
+    "correctAnswer": "36"
+  },
+  {
+    "question": "21. Có 45 quyển vở, Hạnh đã dùng hết 9 quyển. Hỏi còn lại bao nhiêu quyển vở?",
+    "options": ["5", "36", "54", "405"],
+    "correctAnswer": "36"
+  },
+  {
+    "question": "22. Một xe buýt có 50 hành khách, đến trạm dừng có 10 hành khách xuống. Hỏi xe buýt còn lại bao nhiêu hành khách?",
+    "options": ["5", "40", "60", "500"],
+    "correctAnswer": "40"
+  },
+  {
+    "question": "23. Bố có 60 nghìn đồng, bố mua một quyển sách hết 5 nghìn đồng. Hỏi bố còn lại bao nhiêu tiền?",
+    "options": ["12", "55", "65", "300"],
+    "correctAnswer": "55"
+  },
+  {
+    "question": "24. Cây xoài nhà bạn An có 70 quả, An đã hái đi 7 quả. Hỏi trên cây còn lại bao nhiêu quả xoài?",
+    "options": ["10", "63", "77", "490"],
+    "correctAnswer": "63"
+  },
+  {
+    "question": "25. Mẹ có 80 hạt ngô, mẹ cho gà ăn hết 4 hạt. Hỏi mẹ còn lại bao nhiêu hạt ngô?",
+    "options": ["20", "76", "84", "320"],
+    "correctAnswer": "76"
+  },
+  {
+    "question": "26. Bác nông dân có 90 con vịt, bác đã bán 9 con. Hỏi bác còn lại bao nhiêu con vịt?",
+    "options": ["10", "81", "99", "810"],
+    "correctAnswer": "81"
+  },
+  {
+    "question": "27. Mỗi túi có 6 cái kẹo. Mua 2 túi như vậy thì có tất cả bao nhiêu cái kẹo?",
+    "options": ["3", "4", "8", "12"],
+    "correctAnswer": "12"
+  },
+  {
+    "question": "28. Mỗi gói có 8 chiếc bánh. Mua 2 gói như vậy thì có tất cả bao nhiêu chiếc bánh?",
+    "options": ["4", "6", "10", "16"],
+    "correctAnswer": "16"
+  },
+  {
+    "question": "29. Mỗi hộp bút có 9 chiếc. Mua 3 hộp như vậy thì có tất cả bao nhiêu chiếc bút?",
+    "options": ["3", "6", "12", "27"],
+    "correctAnswer": "27"
+  },
+  {
+    "question": "30. Mỗi bạn được phát 10 cuốn vở. Lớp có 2 bạn thì được phát tất cả bao nhiêu cuốn vở?",
+    "options": ["5", "8", "12", "20"],
+    "correctAnswer": "20"
+  },
+  {
+    "question": "31. Mỗi học sinh trồng 12 cây. Có 3 học sinh thì trồng được tất cả bao nhiêu cây?",
+    "options": ["4", "9", "15", "36"],
+    "correctAnswer": "36"
+  },
+  {
+    "question": "32. Mỗi ngày Minh đọc 14 trang sách. Sau 2 ngày Minh đọc được bao nhiêu trang sách?",
+    "options": ["7", "12", "16", "28"],
+    "correctAnswer": "28"
+  },
+  {
+    "question": "33. Một con ong có 6 chân. Hỏi 3 con ong như vậy có tất cả bao nhiêu chân?",
+    "options": ["2", "9", "18", "3"],
+    "correctAnswer": "18"
+  },
+  {
+    "question": "34. Mỗi hộp có 16 viên bi. Mua 4 hộp như vậy thì có tất cả bao nhiêu viên bi?",
+    "options": ["4", "12", "20", "64"],
+    "correctAnswer": "64"
+  },
+  {
+    "question": "35. Mỗi chiếc xe có 18 bánh. Hỏi 3 chiếc xe như vậy có tất cả bao nhiêu bánh?",
+    "options": ["6", "15", "21", "54"],
+    "correctAnswer": "54"
+  },
+  {
+    "question": "36. Mỗi bàn có 20 cái ghế. Trong phòng có 4 bàn như vậy. Hỏi có tất cả bao nhiêu cái ghế?",
+    "options": ["5", "16", "24", "80"],
+    "correctAnswer": "80"
+  },
+  {
+    "question": "37. Mỗi chùm có 21 quả nho. Hỏi 3 chùm nho như vậy có tất cả bao nhiêu quả nho?",
+    "options": ["7", "18", "24", "63"],
+    "correctAnswer": "63"
+  },
+  {
+    "question": "38. Một hàng có 24 cái cây. Có 2 hàng như vậy. Hỏi có tất cả bao nhiêu cái cây?",
+    "options": ["12", "22", "26", "48"],
+    "correctAnswer": "48"
+  },
+  {
+    "question": "39. Mỗi túi gạo nặng 24 kg. Mua 4 túi gạo như vậy thì nặng bao nhiêu kg?",
+    "options": ["6", "20", "28", "96"],
+    "correctAnswer": "96"
+  },
+  {
+    "question": "40. Có 10 cái bánh, chia đều cho 2 bạn. Hỏi mỗi bạn được mấy cái bánh?",
+    "options": ["5", "8", "12", "20"],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "41. Có 12 bông hoa, cắm đều vào 3 lọ. Hỏi mỗi lọ có bao nhiêu bông hoa?",
+    "options": ["4", "9", "15", "36"],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "42. Có 15 quả cam, chia đều vào 5 đĩa. Hỏi mỗi đĩa có bao nhiêu quả cam?",
+    "options": ["3", "10", "20", "75"],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "43. Mẹ có 18 cái kẹo, mẹ chia đều cho 2 anh em. Hỏi mỗi người được bao nhiêu cái kẹo?",
+    "options": ["9", "16", "20", "36"],
+    "correctAnswer": "9"
+  },
+  {
+    "question": "44. Có 20 quả táo, xếp đều vào 5 giỏ. Hỏi mỗi giỏ có bao nhiêu quả táo?",
+    "options": ["4", "15", "25", "100"],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "45. Một sợi dây dài 24 mét, cắt thành các đoạn nhỏ, mỗi đoạn dài 6 mét. Hỏi cắt được bao nhiêu đoạn như vậy?",
+    "options": ["4", "18", "30", "144"],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "46. Có 27 học sinh, chia thành các nhóm, mỗi nhóm có 3 học sinh. Hỏi chia được bao nhiêu nhóm?",
+    "options": ["9", "24", "30", "81"],
+    "correctAnswer": "9"
+  },
+  {
+    "question": "47. Có 30 chiếc bánh, chia đều cho 5 người. Hỏi mỗi người được bao nhiêu chiếc bánh?",
+    "options": ["6", "25", "35", "150"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "48. Bác nông dân có 32 quả trứng, bác xếp vào các vỉ, mỗi vỉ 4 quả. Hỏi bác xếp được bao nhiêu vỉ trứng?",
+    "options": ["8", "28", "36", "128"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "49. Có 36 cuốn sách, xếp đều vào 9 ngăn. Hỏi mỗi ngăn có bao nhiêu cuốn sách?",
+    "options": ["4", "27", "45", "324"],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "50. Có 40 viên bi, chia đều vào 8 hộp. Hỏi mỗi hộp có bao nhiêu viên bi?",
+    "options": ["5", "32", "48", "320"],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "51. Một cửa hàng có 10 chiếc xe đạp, hôm nay bán được 5 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc xe đạp?",
+    "options": ["50", "15", "5", "2"],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "52. Có 8 cái bánh, mỗi bạn ăn 2 cái. Hỏi có bao nhiêu bạn được ăn bánh?",
+    "options": ["10", "6", "16", "4"],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "53. Mỗi hộp có 9 viên bi. Mua 3 hộp như vậy thì có tất cả bao nhiêu viên bi?",
+    "options": ["3", "6", "12", "27"],
+    "correctAnswer": "27"
+  },
+  {
+    "question": "54. Lan có 10 quyển vở, Minh cho Lan thêm 2 quyển nữa. Hỏi Lan có tất cả bao nhiêu quyển vở?",
+    "options": ["12", "8", "20", "5"],
+    "correctAnswer": "12"
+  },
+  {
+    "question": "55. Bà có 10 quả trứng, bà dùng 5 quả để làm bánh. Hỏi bà còn lại bao nhiêu quả trứng?",
+    "options": ["15", "5", "50", "2"],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "56. Có 12 bông hoa, cắm đều vào 2 lọ. Hỏi mỗi lọ có bao nhiêu bông hoa?",
+    "options": ["14", "10", "24", "6"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "57. Mỗi ngày An đọc 12 trang sách. Sau 3 ngày An đọc được bao nhiêu trang sách?",
+    "options": ["15", "9", "36", "4"],
+    "correctAnswer": "36"
+  },
+  {
+    "question": "58. Có 12 con gà trong sân, có thêm 4 con nữa chạy vào. Hỏi trong sân có tất cả bao nhiêu con gà?",
+    "options": ["16", "8", "48", "3"],
+    "correctAnswer": "16"
+  },
+  {
+    "question": "59. Có 14 cái bút chì, bạn tặng 2 cái cho em. Hỏi còn lại bao nhiêu cái bút chì?",
+    "options": ["16", "12", "28", "7"],
+    "correctAnswer": "12"
+  },
+  {
+    "question": "60. Một cái bàn có 15 quyển sách, xếp đều vào 3 ngăn. Hỏi mỗi ngăn có bao nhiêu quyển sách?",
+    "options": ["18", "12", "45", "5"],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "61. Mỗi rổ có 15 quả cam. Có 5 rổ như vậy thì có tất cả bao nhiêu quả cam?",
+    "options": ["20", "10", "75", "3"],
+    "correctAnswer": "75"
+  },
+  {
+    "question": "62. Một hộp có 18 viên bi. Nếu bỏ thêm 2 viên nữa vào hộp thì có tất cả bao nhiêu viên bi?",
+    "options": ["20", "16", "36", "9"],
+    "correctAnswer": "20"
+  },
+  {
+    "question": "63. Có 18 quả táo, chia đều cho 3 bạn. Hỏi mỗi bạn được bao nhiêu quả táo?",
+    "options": ["21", "15", "54", "6"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "64. Có 20 quả quýt, bạn ăn hết 2 quả. Hỏi còn lại bao nhiêu quả quýt?",
+    "options": ["22", "18", "40", "10"],
+    "correctAnswer": "18"
+  },
+  {
+    "question": "65. Một cuộn dây dài 20 mét, người ta cắt thành các đoạn dài 4 mét. Hỏi cắt được bao nhiêu đoạn?",
+    "options": ["24", "16", "80", "5"],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "66. Mỗi bạn được tặng 21 bông hoa. Nếu có 3 bạn thì có tất cả bao nhiêu bông hoa?",
+    "options": ["24", "18", "63", "7"],
+    "correctAnswer": "63"
+  },
+  {
+    "question": "67. Lớp 3B có 22 học sinh, có thêm 2 bạn mới đến. Hỏi lớp 3B có tất cả bao nhiêu học sinh?",
+    "options": ["24", "20", "44", "11"],
+    "correctAnswer": "24"
+  },
+  {
+    "question": "68. Có 24 viên kẹo, bạn đã ăn hết 2 viên. Hỏi còn lại bao nhiêu viên kẹo?",
+    "options": ["26", "22", "48", "12"],
+    "correctAnswer": "22"
+  },
+  {
+    "question": "69. Một hộp có 24 cái bút chì, chia đều cho 3 bạn. Hỏi mỗi bạn được bao nhiêu cái bút chì?",
+    "options": ["27", "21", "72", "8"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "70. Mỗi bao gạo nặng 26 kg. Mua 2 bao như vậy thì nặng bao nhiêu kg?",
+    "options": ["28", "24", "52", "13"],
+    "correctAnswer": "52"
+  },
+  {
+    "question": "71. Trong vườn có 27 cây táo, có 3 cây bị sâu bệnh. Hỏi còn lại bao nhiêu cây táo?",
+    "options": ["30", "24", "81", "9"],
+    "correctAnswer": "24"
+  },
+  {
+    "question": "72. Có 28 quả cam, chia đều vào 2 rổ. Hỏi mỗi rổ có bao nhiêu quả cam?",
+    "options": ["30", "26", "56", "14"],
+    "correctAnswer": "14"
+  },
+  {
+    "question": "73. Mỗi nhóm có 30 bạn. Nếu có 2 nhóm như vậy thì có tất cả bao nhiêu bạn?",
+    "options": ["32", "28", "60", "15"],
+    "correctAnswer": "60"
+  },
+  {
+    "question": "74. Bác nông dân có 30 con vịt, bác đã bán đi 3 con. Hỏi bác còn lại bao nhiêu con vịt?",
+    "options": ["33", "27", "90", "10"],
+    "correctAnswer": "27"
+  },
+  {
+    "question": "75. Có 32 cái kẹo, chia đều cho 2 bạn. Hỏi mỗi bạn được bao nhiêu cái kẹo?",
+    "options": ["34", "30", "64", "16"],
+    "correctAnswer": "16"
+  },
+  {
+    "question": "76. Có 33 chiếc lá trên cây, thêm 3 chiếc lá nữa mọc ra. Hỏi trên cây có tất cả bao nhiêu chiếc lá?",
+    "options": ["36", "30", "99", "11"],
+    "correctAnswer": "36"
+  },
+  {
+    "question": "77. Mẹ có 36 quả dâu tây, mẹ chia đều vào 2 hộp. Hỏi mỗi hộp có bao nhiêu quả dâu tây?",
+    "options": ["38", "34", "72", "18"],
+    "correctAnswer": "18"
+  },
+  {
+    "question": "78. Mỗi cuốn sách có 40 trang. Mua 2 cuốn sách như vậy thì có tất cả bao nhiêu trang?",
+    "options": ["42", "38", "80", "20"],
+    "correctAnswer": "80"
+  },
+  {
+    "question": "79. Lan có 42 con tem, bạn cho đi 2 con tem. Hỏi Lan còn lại bao nhiêu con tem?",
+    "options": ["44", "40", "84", "21"],
+    "correctAnswer": "40"
+  },
+  {
+    "question": "80. Có 44 bông hoa, chia đều vào 2 lọ. Hỏi mỗi lọ có bao nhiêu bông hoa?",
+    "options": ["46", "42", "88", "22"],
+    "correctAnswer": "22"
+  },
+  {
+    "question": "81. Một sợi dây dài 46 mét, người ta cắt đi 2 mét. Hỏi sợi dây còn lại dài bao nhiêu mét?",
+    "options": ["48", "44", "92", "23"],
+    "correctAnswer": "44"
+  },
+  {
+    "question": "82. Có 48 viên bi, chia đều cho 2 bạn. Hỏi mỗi bạn được bao nhiêu viên bi?",
+    "options": ["50", "46", "96", "24"],
+    "correctAnswer": "24"
+  },
+  {
+    "question": "83. An có 6 quả cam, Bình có 2 quả cam. Hỏi cả hai bạn có tất cả bao nhiêu quả cam?",
+    "options": ["8", "4", "12", "3"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "84. Có 6 cái bánh, chia đều cho 3 bạn. Hỏi mỗi bạn được mấy cái bánh?",
+    "options": ["9", "3", "18", "2"],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "85. Mỗi túi có 8 cái kẹo. Mua 2 túi như vậy thì có tất cả bao nhiêu cái kẹo?",
+    "options": ["10", "6", "16", "4"],
+    "correctAnswer": "16"
+  },
+  {
+    "question": "86. Có 8 con chim trên cây, 4 con chim bay đi. Hỏi còn lại bao nhiêu con chim?",
+    "options": ["12", "4", "32", "2"],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "87. An có 9 viên bi, Bình cho An thêm 3 viên nữa. Hỏi An có tất cả bao nhiêu viên bi?",
+    "options": ["12", "6", "27", "3"],
+    "correctAnswer": "12"
+  },
+  {
+    "question": "88. Có 9 quyển sách, chia đều cho 3 bạn. Hỏi mỗi bạn được bao nhiêu quyển sách?",
+    "options": ["12", "6", "27", "3"],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "89. Mỗi bạn có 10 ngón tay. 2 bạn như vậy có tất cả bao nhiêu ngón tay?",
+    "options": ["12", "8", "20", "5"],
+    "correctAnswer": "20"
+  },
+  {
+    "question": "90. Một hộp có 10 chiếc kẹp tóc, đã dùng hết 5 chiếc. Hỏi hộp đó còn lại bao nhiêu chiếc kẹp tóc?",
+    "options": ["15", "5", "50", "2"],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "91. Có 10 bông hoa, chia đều vào 5 lọ. Hỏi mỗi lọ có bao nhiêu bông hoa?",
+    "options": ["15", "5", "50", "2"],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "92. Lan có 12 viên phấn, Minh cho Lan thêm 2 viên nữa. Hỏi Lan có tất cả bao nhiêu viên phấn?",
+    "options": ["14", "10", "24", "6"],
+    "correctAnswer": "14"
+  },
+  {
+    "question": "93. Một cái bánh có 12 miếng sô cô la. Nếu ăn hết 3 miếng thì còn lại bao nhiêu miếng?",
+    "options": ["15", "9", "36", "4"],
+    "correctAnswer": "9"
+  },
+  {
+    "question": "94. Mỗi túi có 12 quả quýt. Mua 4 túi như vậy thì có tất cả bao nhiêu quả quýt?",
+    "options": ["16", "8", "48", "3"],
+    "correctAnswer": "48"
+  },
+  {
+    "question": "95. Có 12 chiếc ô tô, chia đều vào 4 hàng. Hỏi mỗi hàng có bao nhiêu chiếc ô tô?",
+    "options": ["16", "8", "48", "3"],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "96. Một sợi dây dài 14 mét, người ta cắt đi 2 mét. Hỏi sợi dây còn lại dài bao nhiêu mét?",
+    "options": ["16", "12", "28", "7"],
+    "correctAnswer": "12"
+  },
+  {
+    "question": "97. Có 14 cái ghế, xếp đều vào 2 hàng. Hỏi mỗi hàng có bao nhiêu cái ghế?",
+    "options": ["16", "12", "28", "7"],
+    "correctAnswer": "7"
+  },
+  {
+    "question": "98. An có 15 quyển sách, Bình cho An thêm 3 quyển nữa. Hỏi An có tất cả bao nhiêu quyển sách?",
+    "options": ["18", "12", "45", "5"],
+    "correctAnswer": "18"
+  },
+  {
+    "question": "99. Trong lớp có 15 bạn học sinh, 5 bạn đi vệ sinh. Hỏi trong lớp còn lại bao nhiêu bạn học sinh?",
+    "options": ["20", "10", "75", "3"],
+    "correctAnswer": "10"
+  },
+  {
+    "question": "100. Có 15 quả táo, chia đều cho 5 bạn. Hỏi mỗi bạn được bao nhiêu quả táo?",
+    "options": ["20", "10", "75", "3"],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "101. Mỗi con vật có 18 chân. Nếu có 2 con vật như vậy thì có tất cả bao nhiêu chân?",
+    "options": ["20", "16", "36", "9"],
+    "correctAnswer": "36"
+  },
+  {
+    "question": "102. Có 18 viên kẹo, chia đều cho 2 bạn. Hỏi mỗi bạn được bao nhiêu viên kẹo?",
+    "options": ["20", "16", "36", "9"],
+    "correctAnswer": "9"
+  },
+  {
+    "question": "103. Một đàn có 18 con vịt, 3 con vịt bay đi. Hỏi còn lại bao nhiêu con vịt?",
+    "options": ["21", "15", "54", "6"],
+    "correctAnswer": "15"
+  },
+  {
+    "question": "104. Có 18 chiếc bánh, xếp đều vào 3 hộp. Hỏi mỗi hộp có bao nhiêu chiếc bánh?",
+    "options": ["21", "15", "54", "6"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "105. Một hộp có 20 cái bánh, bỏ thêm 2 cái nữa vào. Hỏi hộp đó có tất cả bao nhiêu cái bánh?",
+    "options": ["22", "18", "40", "10"],
+    "correctAnswer": "22"
+  },
+  {
+    "question": "106. Có 20 quả cam, bạn ăn hết 4 quả. Hỏi còn lại bao nhiêu quả cam?",
+    "options": ["24", "16", "80", "5"],
+    "correctAnswer": "16"
+  },
+  {
+    "question": "107. Mỗi chùm có 20 quả nho. Mua 4 chùm như vậy thì có tất cả bao nhiêu quả nho?",
+    "options": ["24", "16", "80", "5"],
+    "correctAnswer": "80"
+  },
+  {
+    "question": "108. Có 20 quyển truyện, chia đều cho 4 bạn. Hỏi mỗi bạn được bao nhiêu quyển truyện?",
+    "options": ["24", "16", "80", "5"],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "109. Trong vườn có 21 bông hoa cúc, 3 bông hoa bị héo. Hỏi còn lại bao nhiêu bông hoa cúc?",
+    "options": ["24", "18", "63", "7"],
+    "correctAnswer": "18"
+  },
+  {
+    "question": "110. Có 21 viên gạch, xếp thành các hàng, mỗi hàng 3 viên. Hỏi xếp được bao nhiêu hàng?",
+    "options": ["24", "18", "63", "7"],
+    "correctAnswer": "7"
+  },
+  {
+    "question": "111. Mỗi hàng có 22 học sinh. Có 2 hàng như vậy thì có tất cả bao nhiêu học sinh?",
+    "options": ["24", "20", "44", "11"],
+    "correctAnswer": "44"
+  },
+  {
+    "question": "112. An có 22 quả bóng, An cho bạn 2 quả. Hỏi An còn lại bao nhiêu quả bóng?",
+    "options": ["24", "20", "44", "11"],
+    "correctAnswer": "20"
+  },
+  {
+    "question": "113. Có 22 chiếc bút, chia đều cho 2 hộp. Hỏi mỗi hộp có bao nhiêu chiếc bút?",
+    "options": ["24", "20", "44", "11"],
+    "correctAnswer": "11"
+  },
+  {
+    "question": "114. Có 24 quả táo trên cây, có thêm 2 quả nữa mọc ra. Hỏi trên cây có tất cả bao nhiêu quả táo?",
+    "options": ["26", "22", "48", "12"],
+    "correctAnswer": "26"
+  },
+  {
+    "question": "115. Một bó hoa có 24 bông, đã tặng đi 3 bông. Hỏi bó hoa còn lại bao nhiêu bông?",
+    "options": ["27", "21", "72", "8"],
+    "correctAnswer": "21"
+  },
+  {
+    "question": "116. Mỗi thùng có 24 lít nước. Có 3 thùng như vậy thì có tất cả bao nhiêu lít nước?",
+    "options": ["27", "21", "72", "8"],
+    "correctAnswer": "72"
+  },
+  {
+    "question": "117. Có 24 con gà, nhốt đều vào 3 chuồng. Hỏi mỗi chuồng có bao nhiêu con gà?",
+    "options": ["27", "21", "72", "8"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "118. Lớp 3C có 26 bạn nam và 2 bạn nữ. Hỏi lớp 3C có tất cả bao nhiêu học sinh?",
+    "options": ["28", "24", "52", "13"],
+    "correctAnswer": "28"
+  },
+  {
+    "question": "119. Một lọ hoa có 26 bông hoa, 2 bông hoa bị héo. Hỏi lọ hoa còn lại bao nhiêu bông?",
+    "options": ["28", "24", "52", "13"],
+    "correctAnswer": "24"
+  },
+  {
+    "question": "120. Có 26 quả bóng, chia đều cho 2 đội. Hỏi mỗi đội có bao nhiêu quả bóng?",
+    "options": ["28", "24", "52", "13"],
+    "correctAnswer": "13"
+  },
+  {
+    "question": "121. Một cái bánh có 27 miếng sô cô la. Chia đều cho 3 bạn. Hỏi mỗi bạn được bao nhiêu miếng?",
+    "options": ["30", "24", "81", "9"],
+    "correctAnswer": "9"
+  },
+  {
+    "question": "122. Trong vườn có 27 bông hoa hồng, có thêm 3 bông nữa nở. Hỏi trong vườn có tất cả bao nhiêu bông hoa?",
+    "options": ["30", "24", "81", "9"],
+    "correctAnswer": "30"
+  },
+  {
+    "question": "123. Mỗi cái bàn có 28 chân. 2 cái bàn như vậy thì có tất cả bao nhiêu chân?",
+    "options": ["30", "26", "56", "14"],
+    "correctAnswer": "56"
+  },
+  {
+    "question": "124. Có 28 quả trứng trong rổ, 2 quả bị vỡ. Hỏi còn lại bao nhiêu quả trứng?",
+    "options": ["30", "26", "56", "14"],
+    "correctAnswer": "26"
+  },
+  {
+    "question": "125. Có 28 cuốn sách, chia đều vào 2 kệ. Hỏi mỗi kệ có bao nhiêu cuốn sách?",
+    "options": ["30", "26", "56", "14"],
+    "correctAnswer": "14"
+  },
+  {
+    "question": "126. Một hộp bút có 30 chiếc, bỏ thêm 2 chiếc nữa vào. Hỏi hộp đó có tất cả bao nhiêu chiếc bút?",
+    "options": ["32", "28", "60", "15"],
+    "correctAnswer": "32"
+  },
+  {
+    "question": "127. Có 30 viên kẹo, bạn đã ăn hết 3 viên. Hỏi còn lại bao nhiêu viên kẹo?",
+    "options": ["33", "27", "90", "10"],
+    "correctAnswer": "27"
+  },
+  {
+    "question": "128. Mỗi túi có 30 viên bi. Mua 3 túi như vậy thì có tất cả bao nhiêu viên bi?",
+    "options": ["33", "27", "90", "10"],
+    "correctAnswer": "90"
+  },
+  {
+    "question": "129. Có 30 quyển vở, chia đều cho 3 bạn. Hỏi mỗi bạn được bao nhiêu quyển vở?",
+    "options": ["33", "27", "90", "10"],
+    "correctAnswer": "10"
+  },
+  {
+    "question": "130. An có 32 quả bóng, Bình cho An thêm 2 quả nữa. Hỏi An có tất cả bao nhiêu quả bóng?",
+    "options": ["34", "30", "64", "16"],
+    "correctAnswer": "34"
+  },
+  {
+    "question": "131. Có 32 cái bánh, chia đều cho 2 hộp. Hỏi mỗi hộp có bao nhiêu cái bánh?",
+    "options": ["34", "30", "64", "16"],
+    "correctAnswer": "16"
+  },
+  {
+    "question": "132. Một cây có 33 quả, đã hái đi 3 quả. Hỏi trên cây còn lại bao nhiêu quả?",
+    "options": ["36", "30", "99", "11"],
+    "correctAnswer": "30"
+  },
+  {
+    "question": "133. Mỗi thùng có 33 lon nước. Có 3 thùng như vậy thì có tất cả bao nhiêu lon nước?",
+    "options": ["36", "30", "99", "11"],
+    "correctAnswer": "99"
+  },
+  {
+    "question": "134. Có 33 chiếc kẹo, chia đều cho 3 bạn. Hỏi mỗi bạn được bao nhiêu chiếc kẹo?",
+    "options": ["36", "30", "99", "11"],
+    "correctAnswer": "11"
+  },
+  {
+    "question": "135. Một cuốn truyện có 36 trang, đọc thêm 2 trang nữa. Hỏi cuốn truyện có tất cả bao nhiêu trang?",
+    "options": ["38", "34", "72", "18"],
+    "correctAnswer": "38"
+  },
+  {
+    "question": "136. Có 36 viên phấn, bạn dùng hết 2 viên. Hỏi còn lại bao nhiêu viên phấn?",
+    "options": ["38", "34", "72", "18"],
+    "correctAnswer": "34"
+  },
+  {
+    "question": "137. Mỗi bàn có 36 chiếc bút. Nếu chia đều cho 2 bạn thì mỗi bạn được bao nhiêu chiếc bút?",
+    "options": ["38", "34", "72", "18"],
+    "correctAnswer": "18"
+  },
+  {
+    "question": "138. Mỗi giỏ có 40 quả cam. Có 2 giỏ như vậy thì có tất cả bao nhiêu quả cam?",
+    "options": ["42", "38", "80", "20"],
+    "correctAnswer": "80"
+  },
+  {
+    "question": "139. Có 40 con cá, 2 con chết. Hỏi còn lại bao nhiêu con cá?",
+    "options": ["42", "38", "80", "20"],
+    "correctAnswer": "38"
+  },
+  {
+    "question": "140. Có 40 viên bi, chia đều cho 2 bạn. Hỏi mỗi bạn được bao nhiêu viên bi?",
+    "options": ["42", "38", "80", "20"],
+    "correctAnswer": "20"
+  },
+  {
+    "question": "141. Trong vườn có 42 bông hoa, có thêm 2 bông nữa nở. Hỏi trong vườn có tất cả bao nhiêu bông hoa?",
+    "options": ["44", "40", "84", "21"],
+    "correctAnswer": "44"
+  },
+  {
+    "question": "142. Có 42 cái bánh, chia đều cho 2 hộp. Hỏi mỗi hộp có bao nhiêu cái bánh?",
+    "options": ["44", "40", "84", "21"],
+    "correctAnswer": "21"
+  },
+  {
+    "question": "143. An có 44 viên kẹo, Bình cho An thêm 2 viên nữa. Hỏi An có tất cả bao nhiêu viên kẹo?",
+    "options": ["46", "42", "88", "22"],
+    "correctAnswer": "46"
+  },
+  {
+    "question": "144. Một cửa hàng có 44 chiếc áo, hôm nay bán được 2 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+    "options": ["46", "42", "88", "22"],
+    "correctAnswer": "42"
+  },
+  {
+    "question": "145. Có 44 quyển sách, chia đều vào 2 kệ. Hỏi mỗi kệ có bao nhiêu quyển sách?",
+    "options": ["46", "42", "88", "22"],
+    "correctAnswer": "22"
+  },
+  {
+    "question": "146. Một sợi dây dài 46 mét, nối thêm 2 mét nữa. Hỏi sợi dây dài bao nhiêu mét?",
+    "options": ["48", "44", "92", "23"],
+    "correctAnswer": "48"
+  },
+  {
+    "question": "147. Có 46 quả cam, bạn ăn hết 2 quả. Hỏi còn lại bao nhiêu quả cam?",
+    "options": ["48", "44", "92", "23"],
+    "correctAnswer": "44"
+  },
+  {
+    "question": "148. Mỗi hộp có 46 viên bi. Có 2 hộp như vậy thì có tất cả bao nhiêu viên bi?",
+    "options": ["48", "44", "92", "23"],
+    "correctAnswer": "92"
+  },
+  {
+    "question": "149. Có 46 chiếc bánh, chia đều cho 2 bạn. Hỏi mỗi bạn được bao nhiêu chiếc bánh?",
+    "options": ["48", "44", "92", "23"],
+    "correctAnswer": "23"
+  },
+  {
+    "question": "150. Một cái bàn có 48 cái kẹo, 2 cái bị rớt xuống đất. Hỏi còn lại bao nhiêu cái kẹo?",
+    "options": ["50", "46", "96", "24"],
+    "correctAnswer": "46"
+  }
+]
