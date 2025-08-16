@@ -8,64 +8,83 @@
     :root{--bg:#f7fbff;--card:#ffffff;--text:#243b53;--primary:#6c5ce7;--primary-dark:#5847d1;--accent:#00c2ff;--success:#2ecc71;--danger:#ff4757;--warning:#f39c12;--soft:#eef5ff}
     *{box-sizing:border-box}
     html,body{height:100%}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";color:var(--text);background:linear-gradient(135deg,#fdfbff 0%,#ecf5ff 40%,#f8fffe 100%)}
-    .container{max-width:980px;margin:24px auto;padding:16px}
-    .card{background:var(--card);border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.06);padding:20px}
-    header.hero{display:flex;align-items:center;gap:16px;padding:14px 18px;border-radius:16px;background:linear-gradient(135deg,var(--primary),#7ed6df);color:#fff;box-shadow:0 10px 25px rgba(108,92,231,.35)}
-    .mascot{font-size:38px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.2))}
-    .title h1{margin:0;font-size:26px}
-    .title p{margin:2px 0 0;opacity:.95}
-    .hud{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin:16px 0}
-    .hud-left{display:flex;align-items:center;gap:12px}
-    .progress{flex:1;min-width:220px;background:#eaf1ff;border-radius:999px;height:14px;overflow:hidden;box-shadow:inset 0 1px 3px rgba(0,0,0,.08)}
-    .progress>div{height:100%;width:0%;background:linear-gradient(90deg,var(--accent),#00e5a8);transition:width .35s ease}
-    .hud-right{display:flex;gap:10px;align-items:center}
-    .pill{display:inline-flex;align-items:center;gap:6px;background:var(--soft);padding:8px 12px;border-radius:999px;font-weight:700}
-    .pill .num{font-variant-numeric:tabular-nums}
-    .file-input-section{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin:16px 0}
-    .file-input-section .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-    select,input[type="file"],input[type="number"]{padding:10px 12px;border:1px solid #dfe7ff;border-radius:10px;background:#fff}
-    input[type="number"]{width:84px;text-align:center}
-    button{border:none;background:var(--primary);color:#fff;padding:12px 16px;border-radius:12px;cursor:pointer;font-weight:700;box-shadow:0 6px 16px rgba(108,92,231,.3);transition:.2s transform,.2s background}
-    button:hover{background:var(--primary-dark);transform:translateY(-1px)}
-    button:disabled{opacity:.6;cursor:not-allowed;transform:none}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color:var(--text);
+      background: linear-gradient(135deg, #fdfbff 0%, #ecf5ff 40%, #f8fffe 100%);
+    }
+    .container{max-width: 980px; margin: 24px auto; padding: 16px;}
+    .card{background:var(--card); border-radius:18px; box-shadow:0 10px 30px rgba(0,0,0,.06); padding:20px;}
+    header.hero{
+      display:flex; align-items:center; gap:16px; padding:14px 18px; border-radius:16px;
+      background:linear-gradient(135deg,var(--primary),#7ed6df); color:white; box-shadow:0 10px 25px rgba(108,92,231,.35);
+    }
+    .mascot{font-size:38px; filter: drop-shadow(0 4px 6px rgba(0,0,0,.2));}
+    .title h1{margin:0; font-size:26px;}
+    .title p{margin:2px 0 0; opacity:.95}
+
+    .hud{display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; margin:16px 0}
+    .hud-left{display:flex; align-items:center; gap:12px}
+    .progress{flex:1; min-width:220px; background:#eaf1ff; border-radius:999px; height:14px; overflow:hidden; box-shadow: inset 0 1px 3px rgba(0,0,0,.08)}
+    .progress > div{height:100%; width:0%; background:linear-gradient(90deg,var(--accent),#00e5a8); transition:width .35s ease;}
+    .hud-right{display:flex; gap:10px; align-items:center}
+    .pill{display:inline-flex; align-items:center; gap:6px; background:var(--soft); padding:8px 12px; border-radius:999px; font-weight:700}
+    .pill .num{font-variant-numeric: tabular-nums}
+
+    .file-input-section{display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; margin:16px 0}
+    .file-input-section .row{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+    select,input[type="file"],input[type="number"]{padding:10px 12px; border:1px solid #dfe7ff; border-radius:10px; background:white}
+    input[type="number"]{width:84px; text-align:center}
+    button{border:none; background:var(--primary); color:white; padding:12px 16px; border-radius:12px; cursor:pointer; font-weight:700; box-shadow:0 6px 16px rgba(108,92,231,.3); transition:.2s transform, .2s background}
+    button:hover{background:var(--primary-dark); transform: translateY(-1px)}
+    button:disabled{opacity:.6; cursor:not-allowed; transform:none}
     #loadQuizBtn{grid-column:1 / -1}
+
     .quiz-section{margin-top:10px}
-    .question-item{position:relative;margin:12px 0 18px;padding:16px;border:1px solid #e7efff;border-radius:16px;background:#fff}
-    .question-item p{margin:0 0 10px;font-weight:800}
-    .options{display:grid;gap:10px}
-    .option{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;border:1px solid #e8edff;background:#fbfdff;cursor:pointer;transition:.15s background,.15s transform}
+    .question-item{position:relative; margin:12px 0 18px; padding:16px; border:1px solid #e7efff; border-radius:16px; background:#ffffff}
+    .question-item p{margin:0 0 10px; font-weight:800}
+    .options{display:grid; gap:10px}
+    .option{display:flex; align-items:center; gap:10px; padding:10px 12px; border-radius:12px; border:1px solid #e8edff; background:#fbfdff; cursor:pointer; transition:.15s background, .15s transform}
     .option:hover{background:#f2f7ff}
-    .option input{transform:scale(1.25)}
-    .correct-answer-highlight{background:#eafff3 !important;border-color:var(--success)}
-    .incorrect-answer-highlight{background:#fff0f0 !important;border-color:var(--danger)}
-    .btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
-    .btn-subtle{background:#ecf2ff;color:#2d3a63;box-shadow:none}
-    .feedback-message{font-weight:800;margin-top:12px;padding:10px;border-radius:12px;text-align:center}
-    .feedback-correct{background:#eafff3;color:#23a85b;border:1px solid #b5f1cc}
-    .feedback-incorrect{background:#fff0f0;color:#e74c3c;border:1px solid #ffd0d0}
-    .results-section{margin-top:20px;display:none;background:#f3f8ff;border:1px solid #d8e6ff;border-radius:16px;padding:16px}
-    .results-section h2{margin-top:0;text-align:center}
-    .results-section ul{list-style:none;padding:0;margin:0}
-    .results-section li{padding:10px;border-radius:12px;margin-bottom:10px;border:1px solid #cfe2ff}
-    .result-answer.correct-text{color:var(--success);font-weight:800}
-    .result-answer.incorrect-text{color:var(--danger);font-weight:800}
-    .coach{margin-top:12px;display:flex;align-items:flex-start;gap:10px}
+    .option input{transform: scale(1.25)}
+
+    .correct-answer-highlight{background:#eafff3 !important; border-color:var(--success)}
+    .incorrect-answer-highlight{background:#fff0f0 !important; border-color:var(--danger)}
+
+    .btn-row{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
+    .btn-subtle{background:#ecf2ff; color:#2d3a63; box-shadow:none}
+
+    .feedback-message{font-weight:800; margin-top:12px; padding:10px; border-radius:12px; text-align:center}
+    .feedback-correct{background:#eafff3; color:#23a85b; border:1px solid #b5f1cc}
+    .feedback-incorrect{background:#fff0f0; color:#e74c3c; border:1px solid #ffd0d0}
+
+    .results-section{margin-top:20px; display:none; background:#f3f8ff; border:1px solid #d8e6ff; border-radius:16px; padding:16px}
+    .results-section h2{margin-top:0; text-align:center}
+    .results-section ul{list-style:none; padding:0; margin:0}
+    .results-section li{padding:10px; border-radius:12px; margin-bottom:10px; border:1px solid #cfe2ff}
+    .result-answer.correct-text{color:var(--success); font-weight:800}
+    .result-answer.incorrect-text{color:var(--danger); font-weight:800}
+
+    .coach{margin-top:12px; display:flex; align-items:flex-start; gap:10px}
     .coach .avatar{font-size:30px}
-    .coach .bubble{background:#fff;border:1px solid #e6ecff;padding:10px 12px;border-radius:14px;box-shadow:0 6px 16px rgba(0,0,0,.06)}
-    #confetti{pointer-events:none;position:fixed;inset:0;overflow:hidden}
-    .confetto{position:absolute;width:10px;height:14px;border-radius:3px;opacity:0;animation:confettiFall 900ms linear forwards}
-    @keyframes confettiFall{0%{transform:translateY(-10vh) rotate(0deg);opacity:1}100%{transform:translateY(100vh) rotate(540deg);opacity:0}}
+    .coach .bubble{background:#fff; border:1px solid #e6ecff; padding:10px 12px; border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.06)}
+
+    #confetti{pointer-events:none; position:fixed; inset:0; overflow:hidden}
+    .confetto{position:absolute; width:10px; height:14px; border-radius:3px; opacity:0; animation: confettiFall 900ms linear forwards}
+    @keyframes confettiFall{0%{transform:translateY(-10vh) rotate(0deg); opacity:1}100%{transform:translateY(100vh) rotate(540deg); opacity:0}}
+
     .pop{animation:pop .4s ease}
-    @keyframes pop{0%{transform:scale(.9)}60%{transform:scale(1.05)}100%{transform:scale(1)}}
+    @keyframes pop{0%{transform:scale(.9)} 60%{transform:scale(1.05)} 100%{transform:scale(1)}}
     .shake{animation:shake .35s ease}
-    @keyframes shake{10%{transform:translateX(-3px)}30%{transform:translateX(3px)}50%{transform:translateX(-3px)}70%{transform:translateX(3px)}100%{transform:none}}
-    .modal{position:fixed;inset:0;background:rgba(0,0,0,.3);display:none;align-items:center;justify-content:center}
-    .modal .box{background:#fff;border-radius:18px;padding:18px;width:min(92vw,420px);text-align:center;box-shadow:0 14px 40px rgba(0,0,0,.25)}
-    .stickers{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:8px 0}
-    .sticker{font-size:36px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.15))}
-    .sticker-board{display:flex;gap:8px;flex-wrap:wrap;padding:8px;min-height:54px;border:1px dashed #d7dcff;border-radius:12px;background:#fcfeff}
-    .center{display:flex;justify-content:center;gap:8px}
+    @keyframes shake{10%{transform:translateX(-3px)} 30%{transform:translateX(3px)} 50%{transform:translateX(-3px)} 70%{transform:translateX(3px)} 100%{transform:none}}
+
+    .modal{position:fixed; inset:0; background:rgba(0,0,0,.3); display:none; align-items:center; justify-content:center}
+    .modal .box{background:white; border-radius:18px; padding:18px; width:min(92vw,420px); text-align:center; box-shadow:0 14px 40px rgba(0,0,0,.25)}
+    .stickers{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:8px 0}
+    .sticker{font-size:36px; filter: drop-shadow(0 4px 6px rgba(0,0,0,.15))}
+    .sticker-board{display:flex; gap:8px; flex-wrap:wrap; padding:8px; min-height:54px; border:1px dashed #d7dcff; border-radius:12px; background:#fcfeff}
+    .center{display:flex; justify-content:center; gap:8px}
   </style>
 </head>
 <body>
@@ -87,10 +106,11 @@
           <div class="pill" title="Sao thưởng">⭐ <span id="starsCount" class="num">0</span></div>
           <div class="pill" title="Chuỗi đúng">🔥 <span id="streakCount" class="num">0</span></div>
           <div class="pill" title="Cấp độ">Lv. <span id="levelNum" class="num">1</span></div>
-          <!-- voice selector instead of toggle -->
+
+          <!-- Voice selector (ALWAYS ON speaking; no toggle) -->
           <label for="voiceSelect"><strong>🗣️</strong></label>
           <select id="voiceSelect">
-            <option value="vi-VN" selected>Tiếng Việt</option>
+            <option value="vi-VN">Tiếng Việt</option>
             <option value="en-US">English</option>
           </select>
         </div>
@@ -174,7 +194,7 @@
     const XP_PER_CORRECT = 10;
     const LEVEL_STEP = 50;
 
-    // Preferences: manual voice selection, default vi-VN
+    // Chỉ lưu giọng đọc câu hỏi (mặc định vi-VN). Lời khích lệ luôn vi-VN.
     const settings = {
       voiceLang: localStorage.getItem('kidsquiz_voiceLang') || 'vi-VN'
     };
@@ -206,7 +226,7 @@
 
     const STICKERS = ['🦄','🐼','🐯','🐶','🐱','🦁','🐷','🐸','🐨','🦊','🦖','🐳','🪐','🚀','🌈','🍭','🍎','🎹','🎨','⚽️'];
 
-    // ==== ÂM THANH ==== //
+    // ==== ÂM THANH (luôn bật) ==== //
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     const audioCtx = new AudioContext();
     function resumeAudio(){ if(audioCtx.state === 'suspended') audioCtx.resume(); }
@@ -227,19 +247,33 @@
     function soundReward(){ arpeggio([659,784,988,1319,1760], 80); }
 
     // ==== GIỌNG NÓI ==== //
-    function speak(text){
+    function pickVoice(lang){
+      const voices = speechSynthesis.getVoices();
+      return voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang.toLowerCase())) || null;
+    }
+    // Lời khích lệ: luôn tiếng Việt
+    function speakCoach(text){
+      try{
+        const u = new SpeechSynthesisUtterance(text);
+        const v = pickVoice('vi-VN');
+        if(v) u.voice = v;
+        u.lang = 'vi-VN';
+        u.rate = 1;
+        speechSynthesis.speak(u);
+      }catch(e){}
+    }
+    // Đọc câu hỏi: theo giọng user chọn
+    function speakQuestion(text){
       try{
         const lang = settings.voiceLang || 'vi-VN';
         const u = new SpeechSynthesisUtterance(text);
-        const voices = speechSynthesis.getVoices();
-        const v = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang.toLowerCase()));
+        const v = pickVoice(lang);
         if(v) u.voice = v;
         u.lang = lang;
         u.rate = 1;
         speechSynthesis.speak(u);
       }catch(e){}
     }
-    // refresh voices in some browsers
     speechSynthesis.onvoiceschanged = speechSynthesis.onvoiceschanged || (()=>{});
 
     // ==== TIỆN ÍCH ==== //
@@ -251,12 +285,12 @@
 
     quizModeSelect.addEventListener('change', (e)=>{ quizMode = e.target.value; updateSubmitButtonText(); });
 
-    // voice selection (persist & confirm)
+    // Voice select (luôn bật)
     voiceSelect.value = settings.voiceLang;
     voiceSelect.addEventListener('change', ()=>{
       settings.voiceLang = voiceSelect.value;
       localStorage.setItem('kidsquiz_voiceLang', settings.voiceLang);
-      speak(settings.voiceLang === 'vi-VN' ? 'Đã chuyển sang tiếng Việt' : 'Switched to English');
+      speakCoach('Đã chuyển giọng đọc câu hỏi.');
     });
 
     loadQuizBtn.addEventListener('click', ()=>{
@@ -364,9 +398,9 @@
 
       const btnRow = document.createElement('div'); btnRow.className='btn-row'; wrap.appendChild(btnRow);
 
-      // Nút đọc câu hỏi
+      // Nút đọc câu hỏi (theo giọng đã chọn)
       const readBtn = document.createElement('button'); readBtn.className='btn-subtle'; readBtn.textContent='Đọc câu hỏi 🔈';
-      readBtn.addEventListener('click', ()=> speak(q.question));
+      readBtn.addEventListener('click', ()=> speakQuestion(q.question));
       btnRow.appendChild(readBtn);
 
       if(quizMode==='single'){
@@ -398,12 +432,12 @@
       highlightQuestion(wrap, selected, q.correctAnswer);
 
       if(isCorrect){
-        totalScore++; stars++; streak++; xp += XP_PER_CORRECT; soundCorrect(); speak('Giỏi lắm!');
+        totalScore++; stars++; streak++; xp += XP_PER_CORRECT; soundCorrect(); speakCoach('Giỏi lắm!');
         coachBubble.innerHTML = 'Tuyệt vời! +1 ⭐ sao. Tiếp tục nhé!';
         feedbackDiv.textContent = 'Chính xác! 🎉'; feedbackDiv.className='feedback-message feedback-correct';
         burstConfetti();
       } else {
-        streak = 0; soundIncorrect(); speak('Chưa đúng. Thử lại ở câu sau nhé!');
+        streak = 0; soundIncorrect(); speakCoach('Chưa đúng. Thử lại ở câu sau nhé!');
         coachBubble.innerHTML = `Ôi! Đáp án đúng là <strong>${q.correctAnswer}</strong>. Không sao, mình tiếp tục nào!`;
         feedbackDiv.innerHTML = `Sai rồi. Đáp án đúng là: <strong>${q.correctAnswer}</strong>`; feedbackDiv.className='feedback-message feedback-incorrect';
       }
@@ -460,7 +494,7 @@
       submitQuizBtn.disabled = true; newQuizBtn.disabled = false;
 
       const ratio = (totalScore / currentQuizQuestions.length);
-      if(ratio >= 0.8){ openStickerReward(); soundReward(); speak('Tuyệt vời! Bạn đã nhận được phần thưởng.'); burstConfetti(2); }
+      if(ratio >= 0.8){ openStickerReward(); soundReward(); speakCoach('Tuyệt vời! Bạn đã nhận được phần thưởng.'); burstConfetti(2); }
       coachBubble.innerHTML = 'Xem lại đáp án và nhấn <strong>Làm bài mới</strong> để chơi tiếp nhé!';
     }
 
@@ -510,11 +544,22 @@
     closeSticker.addEventListener('click', closeStickerModal);
 
     // ==== KHỞI TẠO ==== //
-    window.onload = ()=>{
-      for(const path in availableTopics){ const o = document.createElement('option'); o.value = path; o.textContent = availableTopics[path]; topicSelect.appendChild(o); }
-      resetQuizState(); updateLoadButtonState();
-      voiceSelect.value = settings.voiceLang;
-    };
+    window.onload = () => {
+  for (const path in availableTopics) {
+    const o = document.createElement('option');
+    o.value = path;
+    o.textContent = availableTopics[path];
+    topicSelect.appendChild(o);
+  }
+  resetQuizState();
+  updateLoadButtonState();
+
+  // Thêm các dòng này để đảm bảo ngôn ngữ luôn được đặt lại thành Tiếng Việt
+  const defaultLanguage = 'vi-VN';
+  settings.voiceLang = defaultLanguage; // Cập nhật biến trạng thái
+  voiceSelect.value = defaultLanguage; // Cập nhật hiển thị trên giao diện
+  localStorage.setItem('kidsquiz_voiceLang', defaultLanguage); // Ghi đè giá trị cũ trong localStorage
+};
   </script>
 </body>
 </html>
