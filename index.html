@@ -5,106 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bài Kiểm Tra Vui Nhộn 🎈</title>
   <style>
-    :root{
-      --bg:#f7fbff;
-      --card:#ffffff;
-      --text:#243b53;
-      --primary:#6c5ce7;
-      --primary-dark:#5847d1;
-      --accent:#00c2ff;
-      --success:#2ecc71;
-      --danger:#ff4757;
-      --warning:#f39c12;
-      --soft:#eef5ff;
-    }
+    :root{--bg:#f7fbff;--card:#ffffff;--text:#243b53;--primary:#6c5ce7;--primary-dark:#5847d1;--accent:#00c2ff;--success:#2ecc71;--danger:#ff4757;--warning:#f39c12;--soft:#eef5ff}
     *{box-sizing:border-box}
     html,body{height:100%}
-    body{
-      margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-      color:var(--text);
-      background: linear-gradient(135deg, #fdfbff 0%, #ecf5ff 40%, #f8fffe 100%);
-    }
-    .container{ max-width: 980px; margin: 24px auto; padding: 16px; }
-    .card{ background:var(--card); border-radius:18px; box-shadow:0 10px 30px rgba(0,0,0,.06); padding:20px; }
-    header.hero{
-      display:flex; align-items:center; gap:16px; padding:14px 18px; border-radius:16px; background:linear-gradient(135deg,var(--primary),#7ed6df);
-      color:white; box-shadow:0 10px 25px rgba(108,92,231,.35);
-    }
-    .mascot{font-size:38px; filter: drop-shadow(0 4px 6px rgba(0,0,0,.2));}
-    .title h1{margin:0; font-size:26px;}
-    .title p{margin:2px 0 0; opacity:.95}
-
-    .hud{display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; margin:16px 0}
-    .hud-left{display:flex; align-items:center; gap:12px}
-    .progress{flex:1; min-width:220px; background:#eaf1ff; border-radius:999px; height:14px; overflow:hidden; box-shadow: inset 0 1px 3px rgba(0,0,0,.08)}
-    .progress > div{height:100%; width:0%; background:linear-gradient(90deg,var(--accent),#00e5a8); transition:width .35s ease;}
-    .hud-right{display:flex; gap:10px; align-items:center}
-    .pill{display:inline-flex; align-items:center; gap:6px; background:var(--soft); padding:8px 12px; border-radius:999px; font-weight:700}
-    .pill .num{font-variant-numeric: tabular-nums}
-
-    .toggle{border:none; background:var(--card); border:1px solid #e9eefc; box-shadow:0 4px 12px rgba(0,0,0,.05); padding:8px 12px; border-radius:999px; cursor:pointer}
-    .toggle[aria-pressed="true"]{background:#ecf2ff; border-color:#d7e2ff}
-
-    .file-input-section{display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; margin:16px 0}
-    .file-input-section .row{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
-    select,input[type="file"],input[type="number"]{padding:10px 12px; border:1px solid #dfe7ff; border-radius:10px; background:white}
-    input[type="number"]{width:84px; text-align:center}
-    button{border:none; background:var(--primary); color:white; padding:12px 16px; border-radius:12px; cursor:pointer; font-weight:700; box-shadow:0 6px 16px rgba(108,92,231,.3); transition:.2s transform, .2s background}
-    button:hover{background:var(--primary-dark); transform: translateY(-1px)}
-    button:disabled{opacity:.6; cursor:not-allowed; transform:none}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";color:var(--text);background:linear-gradient(135deg,#fdfbff 0%,#ecf5ff 40%,#f8fffe 100%)}
+    .container{max-width:980px;margin:24px auto;padding:16px}
+    .card{background:var(--card);border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.06);padding:20px}
+    header.hero{display:flex;align-items:center;gap:16px;padding:14px 18px;border-radius:16px;background:linear-gradient(135deg,var(--primary),#7ed6df);color:#fff;box-shadow:0 10px 25px rgba(108,92,231,.35)}
+    .mascot{font-size:38px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.2))}
+    .title h1{margin:0;font-size:26px}
+    .title p{margin:2px 0 0;opacity:.95}
+    .hud{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin:16px 0}
+    .hud-left{display:flex;align-items:center;gap:12px}
+    .progress{flex:1;min-width:220px;background:#eaf1ff;border-radius:999px;height:14px;overflow:hidden;box-shadow:inset 0 1px 3px rgba(0,0,0,.08)}
+    .progress>div{height:100%;width:0%;background:linear-gradient(90deg,var(--accent),#00e5a8);transition:width .35s ease}
+    .hud-right{display:flex;gap:10px;align-items:center}
+    .pill{display:inline-flex;align-items:center;gap:6px;background:var(--soft);padding:8px 12px;border-radius:999px;font-weight:700}
+    .pill .num{font-variant-numeric:tabular-nums}
+    .file-input-section{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin:16px 0}
+    .file-input-section .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    select,input[type="file"],input[type="number"]{padding:10px 12px;border:1px solid #dfe7ff;border-radius:10px;background:#fff}
+    input[type="number"]{width:84px;text-align:center}
+    button{border:none;background:var(--primary);color:#fff;padding:12px 16px;border-radius:12px;cursor:pointer;font-weight:700;box-shadow:0 6px 16px rgba(108,92,231,.3);transition:.2s transform,.2s background}
+    button:hover{background:var(--primary-dark);transform:translateY(-1px)}
+    button:disabled{opacity:.6;cursor:not-allowed;transform:none}
     #loadQuizBtn{grid-column:1 / -1}
-
     .quiz-section{margin-top:10px}
-    .question-item{position:relative; margin:12px 0 18px; padding:16px; border:1px solid #e7efff; border-radius:16px; background:#ffffff}
-    .question-item p{margin:0 0 10px; font-weight:800}
-    .options{display:grid; gap:10px}
-    .option{display:flex; align-items:center; gap:10px; padding:10px 12px; border-radius:12px; border:1px solid #e8edff; background:#fbfdff; cursor:pointer; transition:.15s background, .15s transform}
+    .question-item{position:relative;margin:12px 0 18px;padding:16px;border:1px solid #e7efff;border-radius:16px;background:#fff}
+    .question-item p{margin:0 0 10px;font-weight:800}
+    .options{display:grid;gap:10px}
+    .option{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;border:1px solid #e8edff;background:#fbfdff;cursor:pointer;transition:.15s background,.15s transform}
     .option:hover{background:#f2f7ff}
-    .option input{transform: scale(1.25)}
-
-    .correct-answer-highlight{background:#eafff3 !important; border-color:var(--success)}
-    .incorrect-answer-highlight{background:#fff0f0 !important; border-color:var(--danger)}
-
-    .btn-row{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
-    .btn-subtle{background:#ecf2ff; color:#2d3a63; box-shadow:none}
-    .btn-warning{background:var(--warning)}
-
-    .feedback-message{font-weight:800; margin-top:12px; padding:10px; border-radius:12px; text-align:center}
-    .feedback-correct{background:#eafff3; color:#23a85b; border:1px solid #b5f1cc}
-    .feedback-incorrect{background:#fff0f0; color:#e74c3c; border:1px solid #ffd0d0}
-
-    .results-section{margin-top:20px; display:none; background:#f3f8ff; border:1px solid #d8e6ff; border-radius:16px; padding:16px}
-    .results-section h2{margin-top:0; text-align:center}
-    .results-section ul{list-style:none; padding:0; margin:0}
-    .results-section li{padding:10px; border-radius:12px; margin-bottom:10px; border:1px solid #cfe2ff}
-    .result-answer.correct-text{color:var(--success); font-weight:800}
-    .result-answer.incorrect-text{color:var(--danger); font-weight:800}
-
-    /* Coach bubble */
-    .coach{margin-top:12px; display:flex; align-items:flex-start; gap:10px}
+    .option input{transform:scale(1.25)}
+    .correct-answer-highlight{background:#eafff3 !important;border-color:var(--success)}
+    .incorrect-answer-highlight{background:#fff0f0 !important;border-color:var(--danger)}
+    .btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .btn-subtle{background:#ecf2ff;color:#2d3a63;box-shadow:none}
+    .feedback-message{font-weight:800;margin-top:12px;padding:10px;border-radius:12px;text-align:center}
+    .feedback-correct{background:#eafff3;color:#23a85b;border:1px solid #b5f1cc}
+    .feedback-incorrect{background:#fff0f0;color:#e74c3c;border:1px solid #ffd0d0}
+    .results-section{margin-top:20px;display:none;background:#f3f8ff;border:1px solid #d8e6ff;border-radius:16px;padding:16px}
+    .results-section h2{margin-top:0;text-align:center}
+    .results-section ul{list-style:none;padding:0;margin:0}
+    .results-section li{padding:10px;border-radius:12px;margin-bottom:10px;border:1px solid #cfe2ff}
+    .result-answer.correct-text{color:var(--success);font-weight:800}
+    .result-answer.incorrect-text{color:var(--danger);font-weight:800}
+    .coach{margin-top:12px;display:flex;align-items:flex-start;gap:10px}
     .coach .avatar{font-size:30px}
-    .coach .bubble{background:#fff; border:1px solid #e6ecff; padding:10px 12px; border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.06)}
-
-    /* Confetti */
-    #confetti{pointer-events:none; position:fixed; inset:0; overflow:hidden}
-    .confetto{position:absolute; width:10px; height:14px; border-radius:3px; opacity:0; animation: confettiFall 900ms linear forwards}
-    @keyframes confettiFall{0%{transform:translateY(-10vh) rotate(0deg); opacity:1}100%{transform:translateY(100vh) rotate(540deg); opacity:0}}
-
-    /* Fun animations */
+    .coach .bubble{background:#fff;border:1px solid #e6ecff;padding:10px 12px;border-radius:14px;box-shadow:0 6px 16px rgba(0,0,0,.06)}
+    #confetti{pointer-events:none;position:fixed;inset:0;overflow:hidden}
+    .confetto{position:absolute;width:10px;height:14px;border-radius:3px;opacity:0;animation:confettiFall 900ms linear forwards}
+    @keyframes confettiFall{0%{transform:translateY(-10vh) rotate(0deg);opacity:1}100%{transform:translateY(100vh) rotate(540deg);opacity:0}}
     .pop{animation:pop .4s ease}
-    @keyframes pop{0%{transform:scale(.9)} 60%{transform:scale(1.05)} 100%{transform:scale(1)}}
+    @keyframes pop{0%{transform:scale(.9)}60%{transform:scale(1.05)}100%{transform:scale(1)}}
     .shake{animation:shake .35s ease}
-    @keyframes shake{10%{transform:translateX(-3px)} 30%{transform:translateX(3px)} 50%{transform:translateX(-3px)} 70%{transform:translateX(3px)} 100%{transform:none}}
-
-    /* Modal for stickers */
-    .modal{position:fixed; inset:0; background:rgba(0,0,0,.3); display:none; align-items:center; justify-content:center}
-    .modal .box{background:white; border-radius:18px; padding:18px; width:min(92vw,420px); text-align:center; box-shadow:0 14px 40px rgba(0,0,0,.25)}
-    .stickers{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:8px 0}
-    .sticker{font-size:36px; filter: drop-shadow(0 4px 6px rgba(0,0,0,.15))}
-    .sticker-board{display:flex; gap:8px; flex-wrap:wrap; padding:8px; min-height:54px; border:1px dashed #d7dcff; border-radius:12px; background:#fcfeff}
-
-    .center{display:flex; justify-content:center; gap:8px}
+    @keyframes shake{10%{transform:translateX(-3px)}30%{transform:translateX(3px)}50%{transform:translateX(-3px)}70%{transform:translateX(3px)}100%{transform:none}}
+    .modal{position:fixed;inset:0;background:rgba(0,0,0,.3);display:none;align-items:center;justify-content:center}
+    .modal .box{background:#fff;border-radius:18px;padding:18px;width:min(92vw,420px);text-align:center;box-shadow:0 14px 40px rgba(0,0,0,.25)}
+    .stickers{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+    .sticker{font-size:36px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.15))}
+    .sticker-board{display:flex;gap:8px;flex-wrap:wrap;padding:8px;min-height:54px;border:1px dashed #d7dcff;border-radius:12px;background:#fcfeff}
+    .center{display:flex;justify-content:center;gap:8px}
   </style>
 </head>
 <body>
@@ -126,8 +87,12 @@
           <div class="pill" title="Sao thưởng">⭐ <span id="starsCount" class="num">0</span></div>
           <div class="pill" title="Chuỗi đúng">🔥 <span id="streakCount" class="num">0</span></div>
           <div class="pill" title="Cấp độ">Lv. <span id="levelNum" class="num">1</span></div>
-          <!-- removed sound toggle -->
-          <button id="voiceToggle" class="toggle" aria-pressed="false" title="Giọng nói khích lệ">🗣️ Thoại</button>
+          <!-- voice selector instead of toggle -->
+          <label for="voiceSelect"><strong>🗣️</strong></label>
+          <select id="voiceSelect">
+            <option value="vi-VN" selected>Tiếng Việt</option>
+            <option value="en-US">English</option>
+          </select>
         </div>
       </div>
 
@@ -205,16 +170,13 @@
     let totalScore = 0;
 
     // Gamification
-    let stars = 0; // total correct answers (visual reward)
-    let streak = 0; // consecutive correct
-    let xp = 0;     // experience points
-    let level = 1;
+    let stars = 0, streak = 0, xp = 0, level = 1;
     const XP_PER_CORRECT = 10;
-    const LEVEL_STEP = 50; // XP per level
+    const LEVEL_STEP = 50;
 
-    // Preferences (sound is always on; only keep voice toggle)
+    // Preferences: manual voice selection, default vi-VN
     const settings = {
-      voice: JSON.parse(localStorage.getItem('kidsquiz_voice') ?? 'false')
+      voiceLang: localStorage.getItem('kidsquiz_voiceLang') || 'vi-VN'
     };
 
     // UI Elements
@@ -234,7 +196,7 @@
     const streakCount = document.getElementById('streakCount');
     const levelNum = document.getElementById('levelNum');
     const coachBubble = document.getElementById('coachBubble');
-    const voiceToggle = document.getElementById('voiceToggle');
+    const voiceSelect = document.getElementById('voiceSelect');
 
     const confettiBox = document.getElementById('confetti');
     const stickerBoard = document.getElementById('stickerBoard');
@@ -242,17 +204,15 @@
     const stickerChoices = document.getElementById('stickerChoices');
     const closeSticker = document.getElementById('closeSticker');
 
-    // Sticker pool (emojis = no external assets)
     const STICKERS = ['🦄','🐼','🐯','🐶','🐱','🦁','🐷','🐸','🐨','🦊','🦖','🐳','🪐','🚀','🌈','🍭','🍎','🎹','🎨','⚽️'];
 
-    // ==== ÂM THANH (Web Audio, không cần file ngoài) ==== //
+    // ==== ÂM THANH ==== //
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     const audioCtx = new AudioContext();
     function resumeAudio(){ if(audioCtx.state === 'suspended') audioCtx.resume(); }
     document.addEventListener('click', resumeAudio, { once:true, capture:true });
 
     function beep(freq=440, duration=120, type='sine', volume=0.15){
-      // always-on sound
       const osc = audioCtx.createOscillator();
       const gain = audioCtx.createGain();
       osc.type = type; osc.frequency.value = freq; gain.gain.value = volume;
@@ -266,31 +226,24 @@
     function soundIncorrect(){ arpeggio([220,196,174], 140); }
     function soundReward(){ arpeggio([659,784,988,1319,1760], 80); }
 
-    // ==== GIỌNG NÓI KHÍCH LỆ ==== //
-    function detectLang(text){
-      const hasVI = /[ăâêôơưđáàảãạắằẳẵặấầẩẫậéèẻẽẹếềểễệóòỏõọốồổỗộơớờởỡợpúùủũụứừửữựíìỉĩịýỳỷỹỵ]/i.test(text);
-      return hasVI ? 'vi-VN' : 'en-US';
-    }
-    function pickVoice(lang){
-      const voices = speechSynthesis.getVoices();
-      return voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang.toLowerCase())) || null;
-    }
-    function speak(text, langHint){
-      if(!settings.voice) return;
+    // ==== GIỌNG NÓI ==== //
+    function speak(text){
       try{
-        const lang = langHint || detectLang(text);
+        const lang = settings.voiceLang || 'vi-VN';
         const u = new SpeechSynthesisUtterance(text);
-        const v = pickVoice(lang);
+        const voices = speechSynthesis.getVoices();
+        const v = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang.toLowerCase()));
         if(v) u.voice = v;
         u.lang = lang;
         u.rate = 1;
         speechSynthesis.speak(u);
       }catch(e){}
     }
+    // refresh voices in some browsers
     speechSynthesis.onvoiceschanged = speechSynthesis.onvoiceschanged || (()=>{});
 
     // ==== TIỆN ÍCH ==== //
-    function shuffleArray(array) { for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [array[i], array[j]] = [array[j], array[i]]; } return array; }
+    function shuffleArray(array){ for(let i=array.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [array[i],array[j]]=[array[j],array[i]]; } return array; }
     function updateLoadButtonState(){ loadQuizBtn.disabled = !(jsonFileInput.files.length > 0 || topicSelect.value !== ""); }
 
     jsonFileInput.addEventListener('change', ()=>{ if(jsonFileInput.files.length>0){ topicSelect.value=""; } updateLoadButtonState(); });
@@ -298,12 +251,12 @@
 
     quizModeSelect.addEventListener('change', (e)=>{ quizMode = e.target.value; updateSubmitButtonText(); });
 
-    voiceToggle.setAttribute('aria-pressed', String(settings.voice));
-    voiceToggle.addEventListener('click', ()=>{
-      settings.voice = !settings.voice;
-      voiceToggle.setAttribute('aria-pressed', String(settings.voice));
-      localStorage.setItem('kidsquiz_voice', JSON.stringify(settings.voice));
-      if(settings.voice){ speak('Xin chào! Cùng học vui nhé.','vi-VN'); }
+    // voice selection (persist & confirm)
+    voiceSelect.value = settings.voiceLang;
+    voiceSelect.addEventListener('change', ()=>{
+      settings.voiceLang = voiceSelect.value;
+      localStorage.setItem('kidsquiz_voiceLang', settings.voiceLang);
+      speak(settings.voiceLang === 'vi-VN' ? 'Đã chuyển sang tiếng Việt' : 'Switched to English');
     });
 
     loadQuizBtn.addEventListener('click', ()=>{
@@ -359,7 +312,6 @@
       currentQuizQuestions = shuffled.slice(0, num);
       if(currentQuizQuestions.length < num){ alert(`Chỉ có ${currentQuizQuestions.length} câu hỏi. Sẽ hiển thị tất cả.`); numQuestionsInput.value = currentQuizQuestions.length; }
 
-      // Khóa điều khiển trong lúc làm bài
       [loadQuizBtn, jsonFileInput, topicSelect, numQuestionsInput, quizModeSelect].forEach(el=> el.disabled=true);
       submitQuizBtn.disabled = false;
 
@@ -371,11 +323,7 @@
       updateSubmitButtonText();
     }
 
-    function updateHUD(){
-      starsCount.textContent = String(stars);
-      streakCount.textContent = String(streak);
-      levelNum.textContent = String(level);
-    }
+    function updateHUD(){ starsCount.textContent=String(stars); streakCount.textContent=String(streak); levelNum.textContent=String(level); }
 
     function updateProgress(){
       const total = currentQuizQuestions.length || 1;
@@ -450,12 +398,12 @@
       highlightQuestion(wrap, selected, q.correctAnswer);
 
       if(isCorrect){
-        totalScore++; stars++; streak++; xp += XP_PER_CORRECT; soundCorrect(); speak('Giỏi lắm!','vi-VN');
+        totalScore++; stars++; streak++; xp += XP_PER_CORRECT; soundCorrect(); speak('Giỏi lắm!');
         coachBubble.innerHTML = 'Tuyệt vời! +1 ⭐ sao. Tiếp tục nhé!';
         feedbackDiv.textContent = 'Chính xác! 🎉'; feedbackDiv.className='feedback-message feedback-correct';
         burstConfetti();
       } else {
-        streak = 0; soundIncorrect(); speak('Chưa đúng. Thử lại ở câu sau nhé!','vi-VN');
+        streak = 0; soundIncorrect(); speak('Chưa đúng. Thử lại ở câu sau nhé!');
         coachBubble.innerHTML = `Ôi! Đáp án đúng là <strong>${q.correctAnswer}</strong>. Không sao, mình tiếp tục nào!`;
         feedbackDiv.innerHTML = `Sai rồi. Đáp án đúng là: <strong>${q.correctAnswer}</strong>`; feedbackDiv.className='feedback-message feedback-incorrect';
       }
@@ -511,14 +459,12 @@
       resultsSection.style.display='block';
       submitQuizBtn.disabled = true; newQuizBtn.disabled = false;
 
-      // Thưởng sticker nếu kết quả >= 80%
       const ratio = (totalScore / currentQuizQuestions.length);
-      if(ratio >= 0.8){ openStickerReward(); soundReward(); speak('Tuyệt vời! Bạn đã nhận được phần thưởng.','vi-VN'); burstConfetti(2); }
+      if(ratio >= 0.8){ openStickerReward(); soundReward(); speak('Tuyệt vời! Bạn đã nhận được phần thưởng.'); burstConfetti(2); }
       coachBubble.innerHTML = 'Xem lại đáp án và nhấn <strong>Làm bài mới</strong> để chơi tiếp nhé!';
     }
 
     newQuizBtn.addEventListener('click', ()=>{
-      // Mở khóa điều khiển
       [jsonFileInput, topicSelect, numQuestionsInput, quizModeSelect].forEach(el=> el.disabled=false);
       startNewQuiz();
     });
@@ -567,7 +513,7 @@
     window.onload = ()=>{
       for(const path in availableTopics){ const o = document.createElement('option'); o.value = path; o.textContent = availableTopics[path]; topicSelect.appendChild(o); }
       resetQuizState(); updateLoadButtonState();
-      voiceToggle.setAttribute('aria-pressed', String(settings.voice));
+      voiceSelect.value = settings.voiceLang;
     };
   </script>
 </body>
