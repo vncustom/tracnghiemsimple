@@ -1,0 +1,202 @@
+[
+  {
+    "question": "11. Kết quả của phép tính 0,45 × 10 là:",
+    "options": ["0,045", "4,5", "45,0", "450"],
+    "correctAnswer": "4,5"
+  },
+  {
+    "question": "12. Kết quả của phép tính 1,23 × 100 là:",
+    "options": ["12,3", "0,123", "123", "1230"],
+    "correctAnswer": "123"
+  },
+  {
+    "question": "13. Kết quả của phép tính 9,8 × 1000 là:",
+    "options": ["98", "980", "9800", "0,98"],
+    "correctAnswer": "9800"
+  },
+  {
+    "question": "14. Kết quả của phép tính 0,072 × 10 là:",
+    "options": ["0,72", "7,2", "0,0072", "72"],
+    "correctAnswer": "0,72"
+  },
+  {
+    "question": "15. Kết quả của phép tính 34,5 × 100 là:",
+    "options": ["3,45", "345", "3450", "0,345"],
+    "correctAnswer": "3450"
+  },
+  {
+    "question": "16. Kết quả của phép tính 0,006 × 1000 là:",
+    "options": ["0,06", "0,6", "6", "60"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "17. Kết quả của phép tính 15,91 × 10 là:",
+    "options": ["1,591", "159,1", "1591", "0,1591"],
+    "correctAnswer": "159,1"
+  },
+  {
+    "question": "18. Kết quả của phép tính 0,8 × 100 là:",
+    "options": ["8", "80", "800", "0,08"],
+    "correctAnswer": "80"
+  },
+  {
+    "question": "19. Kết quả của phép tính 2,003 × 1000 là:",
+    "options": ["20,03", "200,3", "2003", "20030"],
+    "correctAnswer": "2003"
+  },
+  {
+    "question": "20. Kết quả của phép tính 78,1 × 10 là:",
+    "options": ["7,81", "781", "7810", "0,781"],
+    "correctAnswer": "781"
+  },
+  {
+    "question": "21. Kết quả của phép tính 56,7 × 0,1 là:",
+    "options": ["5,67", "567", "0,567", "5670"],
+    "correctAnswer": "5,67"
+  },
+  {
+    "question": "22. Kết quả của phép tính 1230 × 0,01 là:",
+    "options": ["1,23", "12,3", "123", "0,123"],
+    "correctAnswer": "12,3"
+  },
+  {
+    "question": "23. Kết quả của phép tính 45 × 0,001 là:",
+    "options": ["0,45", "0,045", "4,5", "0,0045"],
+    "correctAnswer": "0,045"
+  },
+  {
+    "question": "24. Kết quả của phép tính 0,8 × 0,1 là:",
+    "options": ["8", "0,08", "0,008", "8,0"],
+    "correctAnswer": "0,08"
+  },
+  {
+    "question": "25. Kết quả của phép tính 91,2 × 0,01 là:",
+    "options": ["9,12", "0,912", "912", "0,0912"],
+    "correctAnswer": "0,912"
+  },
+  {
+    "question": "26. Kết quả của phép tính 500 × 0,001 là:",
+    "options": ["50", "5", "0,5", "0,05"],
+    "correctAnswer": "0,5"
+  },
+  {
+    "question": "27. Kết quả của phép tính 1,4 × 0,1 là:",
+    "options": ["14", "0,14", "0,014", "1,41"],
+    "correctAnswer": "0,14"
+  },
+  {
+    "question": "28. Kết quả của phép tính 3000 × 0,01 là:",
+    "options": ["3", "30", "300", "0,3"],
+    "correctAnswer": "30"
+  },
+  {
+    "question": "29. Kết quả của phép tính 6,78 × 0,001 là:",
+    "options": ["0,678", "0,0678", "0,00678", "67,8"],
+    "correctAnswer": "0,00678"
+  },
+  {
+    "question": "30. Kết quả của phép tính 20,9 × 0,1 là:",
+    "options": ["2,09", "0,209", "209", "20,09"],
+    "correctAnswer": "2,09"
+  },
+  {
+    "question": "31. Kết quả của phép tính 87,5 : 10 là:",
+    "options": ["875", "8,75", "0,875", "87,50"],
+    "correctAnswer": "8,75"
+  },
+  {
+    "question": "32. Kết quả của phép tính 1,2 : 100 là:",
+    "options": ["0,12", "0,012", "12", "0,0012"],
+    "correctAnswer": "0,012"
+  },
+  {
+    "question": "33. Kết quả của phép tính 900 : 1000 là:",
+    "options": ["90", "9", "0,9", "0,09"],
+    "correctAnswer": "0,9"
+  },
+  {
+    "question": "34. Kết quả của phép tính 0,5 : 10 là:",
+    "options": ["5", "0,05", "0,005", "5,0"],
+    "correctAnswer": "0,05"
+  },
+  {
+    "question": "35. Kết quả của phép tính 456,7 : 100 là:",
+    "options": ["45,67", "4,567", "0,4567", "4567"],
+    "correctAnswer": "4,567"
+  },
+  {
+    "question": "36. Kết quả của phép tính 12,3 : 1000 là:",
+    "options": ["1,23", "0,123", "0,0123", "0,00123"],
+    "correctAnswer": "0,0123"
+  },
+  {
+    "question": "37. Kết quả của phép tính 3,4 : 10 là:",
+    "options": ["34", "0,34", "0,034", "3,40"],
+    "correctAnswer": "0,34"
+  },
+  {
+    "question": "38. Kết quả của phép tính 50 : 100 là:",
+    "options": ["5", "0,5", "0,05", "500"],
+    "correctAnswer": "0,5"
+  },
+  {
+    "question": "39. Kết quả của phép tính 100,1 : 1000 là:",
+    "options": ["10,01", "1,001", "0,1001", "0,01001"],
+    "correctAnswer": "0,1001"
+  },
+  {
+    "question": "40. Kết quả của phép tính 7,7 : 100 là:",
+    "options": ["0,77", "0,077", "77", "0,0077"],
+    "correctAnswer": "0,077"
+  },
+  {
+    "question": "41. Kết quả của phép tính 4,5 : 0,1 là:",
+    "options": ["0,45", "45", "450", "4,50"],
+    "correctAnswer": "45"
+  },
+  {
+    "question": "42. Kết quả của phép tính 0,6 : 0,01 là:",
+    "options": ["6", "60", "600", "0,06"],
+    "correctAnswer": "60"
+  },
+  {
+    "question": "43. Kết quả của phép tính 12 : 0,001 là:",
+    "options": ["120", "1200", "12000", "0,012"],
+    "correctAnswer": "12000"
+  },
+  {
+    "question": "44. Kết quả của phép tính 8,7 : 0,1 là:",
+    "options": ["0,87", "87", "870", "8,70"],
+    "correctAnswer": "87"
+  },
+  {
+    "question": "45. Kết quả của phép tính 1,35 : 0,01 là:",
+    "options": ["13,5", "135", "1350", "0,135"],
+    "correctAnswer": "135"
+  },
+  {
+    "question": "46. Kết quả của phép tính 0,02 : 0,001 là:",
+    "options": ["0,2", "2", "20", "200"],
+    "correctAnswer": "20"
+  },
+  {
+    "question": "47. Kết quả của phép tính 5,1 : 0,1 là:",
+    "options": ["0,51", "51", "510", "5,10"],
+    "correctAnswer": "51"
+  },
+  {
+    "question": "48. Kết quả của phép tính 2,8 : 0,01 là:",
+    "options": ["28", "280", "2800", "0,28"],
+    "correctAnswer": "280"
+  },
+  {
+    "question": "49. Kết quả của phép tính 0,007 : 0,001 là:",
+    "options": ["0,07", "0,7", "7", "70"],
+    "correctAnswer": "7"
+  },
+  {
+    "question": "50. Kết quả của phép tính 9,99 : 0,1 là:",
+    "options": ["0,999", "99,9", "999", "9,990"],
+    "correctAnswer": "99,9"
+  }
+]
