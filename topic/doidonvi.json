@@ -1,0 +1,217 @@
+[
+  {
+    "question": "1. 17m 5dm = ...m",
+    "options": ["17,5m", "17,05m", "1,75m", "175m"],
+    "correctAnswer": "17,5m"
+  },
+  {
+    "question": "2. 94 ha = ...km2",
+    "options": ["9,4 km2", "0,94 km2", "0,094 km2", "940 km2"],
+    "correctAnswer": "0,94 km2"
+  },
+  {
+    "question": "3. 50km2 30ha = ...km2",
+    "options": ["50,3 km2", "50,03 km2", "5,03 km2", "503 km2"],
+    "correctAnswer": "50,3 km2"
+  },
+  {
+    "question": "4. 60kg 200g = ...kg",
+    "options": ["60,2 kg", "60,02 kg", "6,02 kg", "60,002 kg"],
+    "correctAnswer": "60,2 kg"
+  },
+  {
+    "question": "5. 104,06 ha = ...km2",
+    "options": ["10,406 km2", "1,0406 km2", "104,06 km2", "0,10406 km2"],
+    "correctAnswer": "1,0406 km2"
+  },
+  {
+    "question": "6. 605m 5dm = ...m",
+    "options": ["60,55 m", "605,5 m", "605,05 m", "6,055 m"],
+    "correctAnswer": "605,5 m"
+  },
+  {
+    "question": "7. 175m 5dm = ...m",
+    "options": ["17,55 m", "175,05 m", "175,5 m", "1,755 m"],
+    "correctAnswer": "175,5 m"
+  },
+  {
+    "question": "8. 9,5 ha = ...km2",
+    "options": ["0,95 km2", "0,095 km2", "95 km2", "0,0095 km2"],
+    "correctAnswer": "0,095 km2"
+  },
+  {
+    "question": "9. 4km2 30ha = ...km2",
+    "options": ["4,3 km2", "4,03 km2", "43 km2", "0,43 km2"],
+    "correctAnswer": "4,3 km2"
+  },
+  {
+    "question": "10. 6kg 250g = ...kg",
+    "options": ["6,25 kg", "6,025 kg", "62,5 kg", "0,625 kg"],
+    "correctAnswer": "6,25 kg"
+  },
+  {
+    "question": "11. 65m 4dm = ...m",
+    "options": ["6,54 m", "65,4 m", "65,04 m", "654 m"],
+    "correctAnswer": "65,4 m"
+  },
+  {
+    "question": "12. 8m 7cm = ...m",
+    "options": ["8,7 m", "8,07 m", "0,87 m", "80,7 m"],
+    "correctAnswer": "8,07 m"
+  },
+  {
+    "question": "13. 12km 50m = ...km",
+    "options": ["12,5 km", "12,05 km", "12,005 km", "1,205 km"],
+    "correctAnswer": "12,05 km"
+  },
+  {
+    "question": "14. 45cm 5mm = ...cm",
+    "options": ["4,55 cm", "45,5 cm", "45,05 cm", "0,455 cm"],
+    "correctAnswer": "45,5 cm"
+  },
+  {
+    "question": "15. 7dm 2mm = ...dm",
+    "options": ["7,2 dm", "7,02 dm", "7,002 dm", "0,72 dm"],
+    "correctAnswer": "7,02 dm"
+  },
+  {
+    "question": "16. 5 tấn 25kg = ...tấn",
+    "options": ["5,25 tấn", "5,025 tấn", "5,0025 tấn", "52,5 tấn"],
+    "correctAnswer": "5,025 tấn"
+  },
+  {
+    "question": "17. 12 tạ 5kg = ...tạ",
+    "options": ["12,5 tạ", "12,05 tạ", "1,205 tạ", "12,005 tạ"],
+    "correctAnswer": "12,05 tạ"
+  },
+  {
+    "question": "18. 450g = ...kg",
+    "options": ["4,5 kg", "0,45 kg", "0,045 kg", "45 kg"],
+    "correctAnswer": "0,45 kg"
+  },
+  {
+    "question": "19. 8kg 5g = ...kg",
+    "options": ["8,5 kg", "8,05 kg", "8,005 kg", "0,805 kg"],
+    "correctAnswer": "8,005 kg"
+  },
+  {
+    "question": "20. 15 héc-ta 200 m2 = ...ha",
+    "options": ["15,2 ha", "15,02 ha", "1,502 ha", "15,002 ha"],
+    "correctAnswer": "15,02 ha"
+  },
+  {
+    "question": "21. 7km2 5ha = ...km2",
+    "options": ["7,5 km2", "7,05 km2", "75 km2", "0,75 km2"],
+    "correctAnswer": "7,05 km2"
+  },
+  {
+    "question": "22. 25m2 8dm2 = ...m2",
+    "options": ["25,8 m2", "25,08 m2", "2,508 m2", "25,008 m2"],
+    "correctAnswer": "25,08 m2"
+  },
+  {
+    "question": "23. 4dm2 7cm2 = ...dm2",
+    "options": ["4,7 dm2", "4,07 dm2", "0,47 dm2", "40,7 dm2"],
+    "correctAnswer": "4,07 dm2"
+  },
+  {
+    "question": "24. 9cm2 5mm2 = ...cm2",
+    "options": ["9,5 cm2", "9,05 cm2", "0,95 cm2", "90,5 cm2"],
+    "correctAnswer": "9,05 cm2"
+  },
+  {
+    "question": "25. 1200 m2 = ...ha",
+    "options": ["1,2 ha", "0,12 ha", "0,012 ha", "12 ha"],
+    "correctAnswer": "0,12 ha"
+  },
+  {
+    "question": "26. 5m 2cm = ...m",
+    "options": ["5,2 m", "5,02 m", "0,52 m", "52 m"],
+    "correctAnswer": "5,02 m"
+  },
+  {
+    "question": "27. 18 tạ 50kg = ...tạ",
+    "options": ["18,5 tạ", "18,05 tạ", "1,85 tạ", "185 tạ"],
+    "correctAnswer": "18,5 tạ"
+  },
+  {
+    "question": "28. 2km 75m = ...km",
+    "options": ["2,75 km", "2,075 km", "0,275 km", "27,5 km"],
+    "correctAnswer": "2,075 km"
+  },
+  {
+    "question": "29. 6ha 15m2 = ...ha",
+    "options": ["6,15 ha", "6,015 ha", "6,0015 ha", "0,615 ha"],
+    "correctAnswer": "6,0015 ha"
+  },
+  {
+    "question": "30. 9tấn 7 yến = ...tấn",
+    "options": ["9,7 tấn", "9,07 tấn", "9,007 tấn", "0,97 tấn"],
+    "correctAnswer": "9,07 tấn"
+  },
+  {
+    "question": "31. 34dm 5mm = ...dm",
+    "options": ["34,5 dm", "34,05 dm", "3,405 dm", "34,005 dm"],
+    "correctAnswer": "34,05 dm"
+  },
+  {
+    "question": "32. 12m 3cm = ...m",
+    "options": ["12,3 m", "12,03 m", "1,203 m", "120,3 m"],
+    "correctAnswer": "12,03 m"
+  },
+  {
+    "question": "33. 500kg = ...tấn",
+    "options": ["5 tấn", "0,5 tấn", "0,05 tấn", "50 tấn"],
+    "correctAnswer": "0,5 tấn"
+  },
+  {
+    "question": "34. 15m2 45cm2 = ...m2",
+    "options": ["15,45 m2", "15,045 m2", "15,0045 m2", "1,545 m2"],
+    "correctAnswer": "15,0045 m2"
+  },
+  {
+    "question": "35. 8dm 9mm = ...m",
+    "options": ["0,89 m", "0,809 m", "8,09 m", "0,089 m"],
+    "correctAnswer": "0,809 m"
+  },
+  {
+    "question": "36. 7kg 50g = ...kg",
+    "options": ["7,5 kg", "7,05 kg", "0,75 kg", "7,005 kg"],
+    "correctAnswer": "7,05 kg"
+  },
+  {
+    "question": "37. 24hm 6m = ...hm",
+    "options": ["24,6 hm", "24,06 hm", "24,006 hm", "2,406 hm"],
+    "correctAnswer": "24,06 hm"
+  },
+  {
+    "question": "38. 3km2 12ha = ...km2",
+    "options": ["3,12 km2", "3,012 km2", "31,2 km2", "0,312 km2"],
+    "correctAnswer": "3,12 km2"
+  },
+  {
+    "question": "39. 4500 m2 = ...ha",
+    "options": ["4,5 ha", "0,45 ha", "0,045 ha", "45 ha"],
+    "correctAnswer": "0,45 ha"
+  },
+  {
+    "question": "40. 1 tấn 8kg = ...tấn",
+    "options": ["1,8 tấn", "1,08 tấn", "1,008 tấn", "18 tấn"],
+    "correctAnswer": "1,008 tấn"
+  },
+  {
+    "question": "41. 5m 75mm = ...m",
+    "options": ["5,75 m", "5,075 m", "0,575 m", "57,5 m"],
+    "correctAnswer": "5,075 m"
+  },
+  {
+    "question": "42. 12ha 500m2 = ...ha",
+    "options": ["12,5 ha", "12,05 ha", "12,005 ha", "1,205 ha"],
+    "correctAnswer": "12,05 ha"
+  },
+  {
+    "question": "50. 0,5km2 = ...ha",
+    "options": ["5 ha", "50 ha", "500 ha", "0,05 ha"],
+    "correctAnswer": "50 ha"
+  }
+]
