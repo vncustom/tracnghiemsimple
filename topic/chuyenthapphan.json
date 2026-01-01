@@ -1,0 +1,152 @@
+[
+  {
+    "question": "1. Chuyển phân số 5/10 thành số thập phân:",
+    "options": ["5,0", "0,5", "0,05", "50"],
+    "correctAnswer": "0,5"
+  },
+  {
+    "question": "2. Chuyển phân số 12/10 thành số thập phân:",
+    "options": ["0,12", "12,0", "1,2", "1,02"],
+    "correctAnswer": "1,2"
+  },
+  {
+    "question": "3. Chuyển phân số 8/100 thành số thập phân:",
+    "options": ["0,8", "0,08", "8,0", "0,008"],
+    "correctAnswer": "0,08"
+  },
+  {
+    "question": "4. Chuyển phân số 25/100 thành số thập phân:",
+    "options": ["2,5", "25,0", "0,025", "0,25"],
+    "correctAnswer": "0,25"
+  },
+  {
+    "question": "5. Chuyển phân số 7/1000 thành số thập phân:",
+    "options": ["0,07", "0,007", "0,7", "7,0"],
+    "correctAnswer": "0,007"
+  },
+  {
+    "question": "6. Chuyển phân số 145/100 thành số thập phân:",
+    "options": ["1,45", "14,5", "0,145", "145,0"],
+    "correctAnswer": "1,45"
+  },
+  {
+    "question": "7. Chuyển phân số 234/1000 thành số thập phân:",
+    "options": ["2,34", "23,4", "0,234", "0,0234"],
+    "correctAnswer": "0,234"
+  },
+  {
+    "question": "8. Chuyển phân số 9/10 thành số thập phân:",
+    "options": ["0,09", "9,0", "0,9", "90"],
+    "correctAnswer": "0,9"
+  },
+  {
+    "question": "9. Chuyển phân số 64/10 thành số thập phân:",
+    "options": ["6,4", "0,64", "64,0", "0,064"],
+    "correctAnswer": "6,4"
+  },
+  {
+    "question": "10. Chuyển phân số 81/100 thành số thập phân:",
+    "options": ["8,1", "81,0", "0,081", "0,81"],
+    "correctAnswer": "0,81"
+  },
+  {
+    "question": "11. Chuyển phân số 102/10 thành số thập phân:",
+    "options": ["1,02", "10,2", "102,0", "0,102"],
+    "correctAnswer": "10,2"
+  },
+  {
+    "question": "12. Chuyển phân số 3/1000 thành số thập phân:",
+    "options": ["0,3", "0,03", "0,003", "3,0"],
+    "correctAnswer": "0,003"
+  },
+  {
+    "question": "13. Chuyển phân số 56/1000 thành số thập phân:",
+    "options": ["0,56", "0,056", "5,6", "0,0056"],
+    "correctAnswer": "0,056"
+  },
+  {
+    "question": "14. Chuyển phân số 1001/1000 thành số thập phân:",
+    "options": ["10,01", "1,001", "100,1", "0,1001"],
+    "correctAnswer": "1,001"
+  },
+  {
+    "question": "15. Chuyển phân số 42/100 thành số thập phân:",
+    "options": ["0,42", "4,2", "0,042", "42,0"],
+    "correctAnswer": "0,42"
+  },
+  {
+    "question": "16. Chuyển phân số 75/10 thành số thập phân:",
+    "options": ["0,75", "75,0", "7,5", "0,075"],
+    "correctAnswer": "7,5"
+  },
+  {
+    "question": "17. Chuyển phân số 123/100 thành số thập phân:",
+    "options": ["12,3", "1,23", "0,123", "123,0"],
+    "correctAnswer": "1,23"
+  },
+  {
+    "question": "18. Chuyển phân số 99/1000 thành số thập phân:",
+    "options": ["0,99", "0,099", "9,9", "0,0099"],
+    "correctAnswer": "0,099"
+  },
+  {
+    "question": "19. Chuyển phân số 15/10 thành số thập phân:",
+    "options": ["15,0", "0,15", "1,5", "1,05"],
+    "correctAnswer": "1,5"
+  },
+  {
+    "question": "20. Chuyển phân số 2024/1000 thành số thập phân:",
+    "options": ["20,24", "202,4", "2,024", "0,2024"],
+    "correctAnswer": "2,024"
+  },
+  {
+    "question": "21. Chuyển phân số 4/10 thành số thập phân:",
+    "options": ["0,4", "4,0", "0,04", "0,004"],
+    "correctAnswer": "0,4"
+  },
+  {
+    "question": "22. Chuyển phân số 38/100 thành số thập phân:",
+    "options": ["3,8", "0,38", "0,038", "38,0"],
+    "correctAnswer": "0,38"
+  },
+  {
+    "question": "23. Chuyển phân số 505/100 thành số thập phân:",
+    "options": ["50,5", "5,05", "0,505", "505,0"],
+    "correctAnswer": "5,05"
+  },
+  {
+    "question": "24. Chuyển phân số 6/1000 thành số thập phân:",
+    "options": ["0,06", "0,6", "0,006", "0,0006"],
+    "correctAnswer": "0,006"
+  },
+  {
+    "question": "25. Chuyển phân số 19/10 thành số thập phân:",
+    "options": ["1,9", "19,0", "0,19", "0,019"],
+    "correctAnswer": "1,9"
+  },
+  {
+    "question": "26. Chuyển phân số 872/100 thành số thập phân:",
+    "options": ["87,2", "0,872", "8,72", "872,0"],
+    "correctAnswer": "8,72"
+  },
+  {
+    "question": "27. Chuyển phân số 456/1000 thành số thập phân:",
+    "options": ["4,56", "45,6", "0,456", "0,0456"],
+    "correctAnswer": "0,456"
+  },
+  {
+    "question": "28. Chuyển phân số 1/10 thành số thập phân:",
+    "options": ["1,0", "0,1", "0,01", "0,11"],
+    "correctAnswer": "0,1"
+  },
+  {
+    "question": "29. Chuyển phân số 33/100 thành số thập phân:",
+    "options": ["3,3", "0,033", "0,33", "33,0"],
+    "correctAnswer": "0,33"
+  },
+  {
+    "question": "30. Chuyển phân số 777/1000 thành số thập phân:",
+    "options": ["7,77", "0,777", "77,7", "0,0777"],
+    "correctAnswer": "0,777"
+  }
+]
