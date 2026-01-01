@@ -26,21 +26,21 @@
     .title p{margin:2px 0 0; opacity:.95}
 
     .hud{display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; margin:16px 0}
-    .hud-left{display:flex; align-items:center; gap:12px}
+    .hud-left{display:flex; align-items:center; gap:12px; flex:1;}
     .progress{flex:1; min-width:220px; background:#eaf1ff; border-radius:999px; height:14px; overflow:hidden; box-shadow: inset 0 1px 3px rgba(0,0,0,.08)}
     .progress > div{height:100%; width:0%; background:linear-gradient(90deg,var(--accent),#00e5a8); transition:width .35s ease;}
-    .hud-right{display:flex; gap:10px; align-items:center}
+    .hud-right{display:flex; gap:10px; align-items:center; flex-wrap:wrap;}
     .pill{display:inline-flex; align-items:center; gap:6px; background:var(--soft); padding:8px 12px; border-radius:999px; font-weight:700}
     .pill .num{font-variant-numeric: tabular-nums}
 
-    .file-input-section{display:grid; grid-template-columns:1fr auto; gap:12px; align-items:center; margin:16px 0}
+    .file-input-section{display:grid; grid-template-columns:1fr; gap:12px; margin:16px 0}
     .file-input-section .row{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
-    select,input[type="file"],input[type="number"]{padding:10px 12px; border:1px solid #dfe7ff; border-radius:10px; background:white}
+    select,input[type="file"],input[type="number"]{padding:10px 12px; border:1px solid #dfe7ff; border-radius:10px; background:white; font-size:14px;}
     input[type="number"]{width:84px; text-align:center}
     button{border:none; background:var(--primary); color:white; padding:12px 16px; border-radius:12px; cursor:pointer; font-weight:700; box-shadow:0 6px 16px rgba(108,92,231,.3); transition:.2s transform, .2s background}
     button:hover{background:var(--primary-dark); transform: translateY(-1px)}
     button:disabled{opacity:.6; cursor:not-allowed; transform:none}
-    #loadQuizBtn{grid-column:1 / -1}
+    #loadQuizBtn{width:100%;}
 
     .quiz-section{margin-top:10px}
     .question-item{position:relative; margin:12px 0 18px; padding:16px; border:1px solid #e7efff; border-radius:16px; background:#ffffff}
@@ -69,7 +69,7 @@
 
     .coach{margin-top:12px; display:flex; align-items:flex-start; gap:10px}
     .coach .avatar{font-size:30px}
-    .coach .bubble{background:#fff; border:1px solid #e6ecff; padding:10px 12px; border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.06)}
+    .coach .bubble{background:#fff; border:1px solid #e6ecff; padding:10px 12px; border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.06); flex:1;}
 
     #confetti{pointer-events:none; position:fixed; inset:0; overflow:hidden}
     .confetto{position:absolute; width:10px; height:14px; border-radius:3px; opacity:0; animation: confettiFall 900ms linear forwards}
@@ -80,12 +80,49 @@
     .shake{animation:shake .35s ease}
     @keyframes shake{10%{transform:translateX(-3px)} 30%{transform:translateX(3px)} 50%{transform:translateX(-3px)} 70%{transform:translateX(3px)} 100%{transform:none}}
 
-    .modal{position:fixed; inset:0; background:rgba(0,0,0,.3); display:none; align-items:center; justify-content:center}
+    .modal{position:fixed; inset:0; background:rgba(0,0,0,.3); display:none; align-items:center; justify-content:center; z-index:1000;}
     .modal .box{background:white; border-radius:18px; padding:18px; width:min(92vw,420px); text-align:center; box-shadow:0 14px 40px rgba(0,0,0,.25)}
     .stickers{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:8px 0}
     .sticker{font-size:36px; filter: drop-shadow(0 4px 6px rgba(0,0,0,.15))}
     .sticker-board{display:flex; gap:8px; flex-wrap:wrap; padding:8px; min-height:54px; border:1px dashed #d7dcff; border-radius:12px; background:#fcfeff}
-    .center{display:flex; justify-content:center; gap:8px}
+    .center{display:flex; justify-content:center; gap:8px; flex-wrap:wrap;}
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container{margin: 12px auto; padding: 12px;}
+      .card{padding:16px; border-radius:14px;}
+      header.hero{flex-direction:row; gap:12px; padding:12px;}
+      .mascot{font-size:32px;}
+      .title h1{font-size:20px;}
+      .title p{font-size:14px;}
+      .hud{flex-direction:column; gap:10px;}
+      .hud-left{width:100%;}
+      .hud-right{width:100%; justify-content:flex-start;}
+      .progress{min-width:100%;}
+      .file-input-section .row{flex-direction:column; align-items:stretch;}
+      .file-input-section .row label{width:100%;}
+      .file-input-section .row select,
+      .file-input-section .row input{width:100%;}
+      input[type="number"]{width:100%;}
+      button{width:100%; padding:14px;}
+      .btn-row{flex-direction:column;}
+      .btn-row button{width:100%;}
+      .center{flex-direction:column;}
+      .center button{width:100%;}
+      .question-item{padding:12px;}
+      .coach{flex-direction:row; gap:8px;}
+      .coach .avatar{font-size:24px;}
+      .coach .bubble{font-size:14px;}
+    }
+
+    @media (max-width: 480px) {
+      .container{margin: 8px auto; padding: 8px;}
+      .card{padding:12px;}
+      .mascot{font-size:28px;}
+      .title h1{font-size:18px;}
+      .option{padding:8px 10px; font-size:14px;}
+      select, input{font-size:14px;}
+    }
   </style>
 </head>
 <body>
@@ -100,14 +137,10 @@
       </header>
 
       <div class="hud">
-        <div class="hud-left" style="flex:1">
+        <div class="hud-left">
           <div class="progress" aria-label="Tiến độ làm bài"><div id="progressBar"></div></div>
         </div>
         <div class="hud-right">
-          <div class="pill" title="Sao thưởng">⭐ <span id="starsCount" class="num">0</span></div>
-          <div class="pill" title="Chuỗi đúng">🔥 <span id="streakCount" class="num">0</span></div>
-          <div class="pill" title="Cấp độ">Lv. <span id="levelNum" class="num">1</span></div>
-
           <!-- Voice selector (ALWAYS ON speaking; no toggle) -->
           <label for="voiceSelect"><strong>🗣️</strong></label>
           <select id="voiceSelect">
@@ -182,22 +215,17 @@
       "topic/chuyenthapphan.json": "Chuyển phân số",
       "topic/nhanchiatronchuc.json": "Nhân chia 10 và 0,1",
       "topic/doidonvi.json": "Đổi đơn vị",
-      "topic/sosanhlop1.json": "So sánh Toán 1"
+      "topic/sosanhlop1.json": "So sánh Toán 1",
       "topic/toan1loigiai.json": "Toán 1 lời giải"
     };
 
-    // ==== TRẠNG THÁI & THƯỞNG ==== //
+    // ==== TRẠNG THÁI ==== //
     let allQuestions = [];
     let currentQuizQuestions = [];
     let userSelections = {}; // {index: option}
     let quizMode = 'single';
     let currentQuestionIndex = 0;
     let totalScore = 0;
-
-    // Gamification
-    let stars = 0, streak = 0, xp = 0, level = 1;
-    const XP_PER_CORRECT = 10;
-    const LEVEL_STEP = 50;
 
     // Chỉ lưu giọng đọc câu hỏi (mặc định vi-VN). Lời khích lệ luôn vi-VN.
     const settings = {
@@ -217,9 +245,6 @@
     const scoreDisplay = document.getElementById('scoreDisplay');
     const resultsList = document.getElementById('resultsList');
     const progressBar = document.getElementById('progressBar');
-    const starsCount = document.getElementById('starsCount');
-    const streakCount = document.getElementById('streakCount');
-    const levelNum = document.getElementById('levelNum');
     const coachBubble = document.getElementById('coachBubble');
     const voiceSelect = document.getElementById('voiceSelect');
 
@@ -354,15 +379,14 @@
       [loadQuizBtn, jsonFileInput, topicSelect, numQuestionsInput, quizModeSelect].forEach(el=> el.disabled=true);
       submitQuizBtn.disabled = false;
 
-      coachBubble.innerHTML = 'Cố lên nào! Chọn đáp án đúng để nhận <strong>⭐ sao</strong> và tăng <strong>cấp độ</strong> nhé!';
-      updateHUD();
+      coachBubble.innerHTML = 'Cố lên nào! Chọn đáp án đúng nhé!';
       updateProgress();
 
       if(quizMode==='all') displayAllQuestions(); else displayCurrentQuestion();
       updateSubmitButtonText();
     }
 
-    function updateHUD(){ starsCount.textContent=String(stars); streakCount.textContent=String(streak); levelNum.textContent=String(level); }
+
 
     function updateProgress(){
       const total = currentQuizQuestions.length || 1;
@@ -437,36 +461,33 @@
       highlightQuestion(wrap, selected, q.correctAnswer);
 
       if(isCorrect){
-        totalScore++; stars++; streak++; xp += XP_PER_CORRECT; soundCorrect(); speakCoach('Giỏi lắm!');
-        coachBubble.innerHTML = 'Tuyệt vời! +1 ⭐ sao. Tiếp tục nhé!';
+        totalScore++; soundCorrect(); speakCoach('Giỏi lắm!');
+        coachBubble.innerHTML = 'Tuyệt vời! Tiếp tục nhé!';
         feedbackDiv.textContent = 'Chính xác! 🎉'; feedbackDiv.className='feedback-message feedback-correct';
         burstConfetti();
       } else {
-        streak = 0; soundIncorrect(); speakCoach('Chưa đúng. Thử lại ở câu sau nhé!');
+        soundIncorrect(); speakCoach('Chưa đúng. Thử lại ở câu sau nhé!');
         coachBubble.innerHTML = `Ôi! Đáp án đúng là <strong>${q.correctAnswer}</strong>. Không sao, mình tiếp tục nào!`;
         feedbackDiv.innerHTML = `Sai rồi. Đáp án đúng là: <strong>${q.correctAnswer}</strong>`; feedbackDiv.className='feedback-message feedback-incorrect';
       }
 
       feedbackDiv.style.display='block';
       submitQuizBtn.textContent = 'Tiếp tục';
-      level = Math.max(1, Math.floor(xp/LEVEL_STEP) + 1);
-      updateHUD(); updateProgress();
+      updateProgress();
     }
 
     function moveToNextSingleQuestion(){ currentQuestionIndex++; displayCurrentQuestion(); }
 
     function processAllQuestionsAtOnce(){
-      totalScore = 0; stars = 0; streak = 0; xp = 0; level = 1;
+      totalScore = 0;
       quizContainer.querySelectorAll('.question-item').forEach((wrap, idx)=>{
         const q = currentQuizQuestions[idx];
         const selected = userSelections[idx];
         const isCorrect = selected === q.correctAnswer;
-        if(isCorrect){ totalScore++; stars++; xp += XP_PER_CORRECT; }
+        if(isCorrect){ totalScore++; }
         wrap.querySelectorAll('input[type="radio"]').forEach(r=> r.disabled=true);
         highlightQuestion(wrap, selected, q.correctAnswer);
       });
-      level = Math.max(1, Math.floor(xp/LEVEL_STEP) + 1);
-      updateHUD();
       showFinalResults();
     }
 
@@ -511,8 +532,7 @@
     function resetQuizState(){
       quizContainer.innerHTML = ''; resultsSection.style.display='none';
       userSelections = {}; currentQuestionIndex = 0; totalScore = 0;
-      stars = 0; streak = 0; xp = 0; level = 1;
-      submitQuizBtn.disabled = true; newQuizBtn.disabled = true; updateSubmitButtonText(); updateHUD(); updateProgress();
+      submitQuizBtn.disabled = true; newQuizBtn.disabled = true; updateSubmitButtonText(); updateProgress();
     }
 
     // ==== CONFETTI ==== //
