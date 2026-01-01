@@ -1,0 +1,152 @@
+[
+  {
+    "question": "1. Điền dấu thích hợp vào chỗ trống: 2 + 3 ... 4",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "2. Điền dấu thích hợp vào chỗ trống: 1 + 5 ... 6",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "3. Điền dấu thích hợp vào chỗ trống: 8 - 2 ... 7",
+    "options": [">", "<", "="],
+    "correctAnswer": "<"
+  },
+  {
+    "question": "4. Điền dấu thích hợp vào chỗ trống: 10 - 5 ... 5",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "5. Điền dấu thích hợp vào chỗ trống: 4 + 2 ... 3 + 3",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "6. Điền dấu thích hợp vào chỗ trống: 7 - 1 ... 2 + 5",
+    "options": [">", "<", "="],
+    "correctAnswer": "<"
+  },
+  {
+    "question": "7. Điền dấu thích hợp vào chỗ trống: 9 - 4 ... 3 + 1",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "8. Điền dấu thích hợp vào chỗ trống: 2 + 6 ... 9 - 1",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "9. Điền dấu thích hợp vào chỗ trống: 5 + 4 ... 10 - 2",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "10. Điền dấu thích hợp vào chỗ trống: 8 - 5 ... 1 + 2",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "11. Điền dấu thích hợp vào chỗ trống: 3 + 4 ... 8 - 3",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "12. Điền dấu thích hợp vào chỗ trống: 6 - 0 ... 4 + 2",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "13. Điền dấu thích hợp vào chỗ trống: 1 + 7 ... 10 - 4",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "14. Điền dấu thích hợp vào chỗ trống: 9 - 3 ... 5 + 2",
+    "options": [">", "<", "="],
+    "correctAnswer": "<"
+  },
+  {
+    "question": "15. Điền dấu thích hợp vào chỗ trống: 2 + 2 ... 5 - 1",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "16. Điền dấu thích hợp vào chỗ trống: 10 - 7 ... 1 + 1",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "17. Điền dấu thích hợp vào chỗ trống: 4 + 5 ... 9 - 0",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "18. Điền dấu thích hợp vào chỗ trống: 8 - 4 ... 2 + 3",
+    "options": [">", "<", "="],
+    "correctAnswer": "<"
+  },
+  {
+    "question": "19. Điền dấu thích hợp vào chỗ trống: 3 + 6 ... 10 - 1",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "20. Điền dấu thích hợp vào chỗ trống: 7 - 5 ... 0 + 2",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "21. Điền dấu thích hợp vào chỗ trống: 5 + 5 ... 8 + 1",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "22. Điền dấu thích hợp vào chỗ trống: 6 - 4 ... 3 - 2",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "23. Điền dấu thích hợp vào chỗ trống: 1 + 4 ... 9 - 5",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "24. Điền dấu thích hợp vào chỗ trống: 10 - 8 ... 1 + 2",
+    "options": [">", "<", "="],
+    "correctAnswer": "<"
+  },
+  {
+    "question": "25. Điền dấu thích hợp vào chỗ trống: 4 + 4 ... 10 - 2",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "26. Điền dấu thích hợp vào chỗ trống: 7 - 3 ... 2 + 1",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "27. Điền dấu thích hợp vào chỗ trống: 5 - 5 ... 1 - 1",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  },
+  {
+    "question": "28. Điền dấu thích hợp vào chỗ trống: 8 + 2 ... 9 + 0",
+    "options": [">", "<", "="],
+    "correctAnswer": ">"
+  },
+  {
+    "question": "29. Điền dấu thích hợp vào chỗ trống: 6 - 3 ... 2 + 2",
+    "options": [">", "<", "="],
+    "correctAnswer": "<"
+  },
+  {
+    "question": "30. Điền dấu thích hợp vào chỗ trống: 3 + 3 ... 10 - 4",
+    "options": [">", "<", "="],
+    "correctAnswer": "="
+  }
+]
