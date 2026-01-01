@@ -1,130 +1,590 @@
-
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bài Kiểm Tra Vui Nhộn 🎈</title>
   <style>
-    :root{--bg:#f7fbff;--card:#ffffff;--text:#243b53;--primary:#6c5ce7;--primary-dark:#5847d1;--accent:#00c2ff;--success:#2ecc71;--danger:#ff4757;--warning:#f39c12;--soft:#eef5ff}
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
+    :root {
+      --bg: #f7fbff;
+      --card: #ffffff;
+      --text: #243b53;
+      --primary: #6c5ce7;
+      --primary-dark: #5847d1;
+      --accent: #00c2ff;
+      --success: #2ecc71;
+      --danger: #ff4757;
+      --warning: #f39c12;
+      --soft: #eef5ff
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    html,
+    body {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-      color:var(--text);
+      color: var(--text);
       background: linear-gradient(135deg, #fdfbff 0%, #ecf5ff 40%, #f8fffe 100%);
     }
-    .container{max-width: 980px; margin: 24px auto; padding: 16px;}
-    .card{background:var(--card); border-radius:18px; box-shadow:0 10px 30px rgba(0,0,0,.06); padding:20px;}
-    header.hero{
-      display:flex; align-items:center; gap:16px; padding:14px 18px; border-radius:16px;
-      background:linear-gradient(135deg,var(--primary),#7ed6df); color:white; box-shadow:0 10px 25px rgba(108,92,231,.35);
+
+    .container {
+      max-width: 980px;
+      margin: 24px auto;
+      padding: 16px;
     }
-    .mascot{font-size:38px; filter: drop-shadow(0 4px 6px rgba(0,0,0,.2));}
-    .title h1{margin:0; font-size:26px;}
-    .title p{margin:2px 0 0; opacity:.95}
 
-    .hud{display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; margin:16px 0}
-    .hud-left{display:flex; align-items:center; gap:12px; flex:1;}
-    .progress{flex:1; min-width:220px; background:#eaf1ff; border-radius:999px; height:14px; overflow:hidden; box-shadow: inset 0 1px 3px rgba(0,0,0,.08)}
-    .progress > div{height:100%; width:0%; background:linear-gradient(90deg,var(--accent),#00e5a8); transition:width .35s ease;}
-    .hud-right{display:flex; gap:10px; align-items:center; flex-wrap:wrap;}
-    .pill{display:inline-flex; align-items:center; gap:6px; background:var(--soft); padding:8px 12px; border-radius:999px; font-weight:700}
-    .pill .num{font-variant-numeric: tabular-nums}
+    .card {
+      background: var(--card);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .06);
+      padding: 20px;
+    }
 
-    .file-input-section{display:grid; grid-template-columns:1fr; gap:12px; margin:16px 0}
-    .file-input-section .row{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
-    select,input[type="file"],input[type="number"]{padding:10px 12px; border:1px solid #dfe7ff; border-radius:10px; background:white; font-size:14px;}
-    input[type="number"]{width:84px; text-align:center}
-    button{border:none; background:var(--primary); color:white; padding:12px 16px; border-radius:12px; cursor:pointer; font-weight:700; box-shadow:0 6px 16px rgba(108,92,231,.3); transition:.2s transform, .2s background}
-    button:hover{background:var(--primary-dark); transform: translateY(-1px)}
-    button:disabled{opacity:.6; cursor:not-allowed; transform:none}
-    #loadQuizBtn{width:100%;}
+    header.hero {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 18px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--primary), #7ed6df);
+      color: white;
+      box-shadow: 0 10px 25px rgba(108, 92, 231, .35);
+    }
 
-    .quiz-section{margin-top:10px}
-    .question-item{position:relative; margin:12px 0 18px; padding:16px; border:1px solid #e7efff; border-radius:16px; background:#ffffff}
-    .question-item p{margin:0 0 10px; font-weight:800}
-    .options{display:grid; gap:10px}
-    .option{display:flex; align-items:center; gap:10px; padding:10px 12px; border-radius:12px; border:1px solid #e8edff; background:#fbfdff; cursor:pointer; transition:.15s background, .15s transform}
-    .option:hover{background:#f2f7ff}
-    .option input{transform: scale(1.25)}
+    .mascot {
+      font-size: 38px;
+      filter: drop-shadow(0 4px 6px rgba(0, 0, 0, .2));
+    }
 
-    .correct-answer-highlight{background:#eafff3 !important; border-color:var(--success)}
-    .incorrect-answer-highlight{background:#fff0f0 !important; border-color:var(--danger)}
+    .title h1 {
+      margin: 0;
+      font-size: 26px;
+    }
 
-    .btn-row{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
-    .btn-subtle{background:#ecf2ff; color:#2d3a63; box-shadow:none}
+    .title p {
+      margin: 2px 0 0;
+      opacity: .95
+    }
 
-    .feedback-message{font-weight:800; margin-top:12px; padding:10px; border-radius:12px; text-align:center}
-    .feedback-correct{background:#eafff3; color:#23a85b; border:1px solid #b5f1cc}
-    .feedback-incorrect{background:#fff0f0; color:#e74c3c; border:1px solid #ffd0d0}
+    .hud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      margin: 16px 0
+    }
 
-    .results-section{margin-top:20px; display:none; background:#f3f8ff; border:1px solid #d8e6ff; border-radius:16px; padding:16px}
-    .results-section h2{margin-top:0; text-align:center}
-    .results-section ul{list-style:none; padding:0; margin:0}
-    .results-section li{padding:10px; border-radius:12px; margin-bottom:10px; border:1px solid #cfe2ff}
-    .result-answer.correct-text{color:var(--success); font-weight:800}
-    .result-answer.incorrect-text{color:var(--danger); font-weight:800}
+    .hud-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex: 1;
+    }
 
-    .coach{margin-top:12px; display:flex; align-items:flex-start; gap:10px}
-    .coach .avatar{font-size:30px}
-    .coach .bubble{background:#fff; border:1px solid #e6ecff; padding:10px 12px; border-radius:14px; box-shadow:0 6px 16px rgba(0,0,0,.06); flex:1;}
+    .progress {
+      flex: 1;
+      min-width: 220px;
+      background: #eaf1ff;
+      border-radius: 999px;
+      height: 14px;
+      overflow: hidden;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, .08)
+    }
 
-    #confetti{pointer-events:none; position:fixed; inset:0; overflow:hidden}
-    .confetto{position:absolute; width:10px; height:14px; border-radius:3px; opacity:0; animation: confettiFall 900ms linear forwards}
-    @keyframes confettiFall{0%{transform:translateY(-10vh) rotate(0deg); opacity:1}100%{transform:translateY(100vh) rotate(540deg); opacity:0}}
+    .progress>div {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), #00e5a8);
+      transition: width .35s ease;
+    }
 
-    .pop{animation:pop .4s ease}
-    @keyframes pop{0%{transform:scale(.9)} 60%{transform:scale(1.05)} 100%{transform:scale(1)}}
-    .shake{animation:shake .35s ease}
-    @keyframes shake{10%{transform:translateX(-3px)} 30%{transform:translateX(3px)} 50%{transform:translateX(-3px)} 70%{transform:translateX(3px)} 100%{transform:none}}
+    .hud-right {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
 
-    .modal{position:fixed; inset:0; background:rgba(0,0,0,.3); display:none; align-items:center; justify-content:center; z-index:1000;}
-    .modal .box{background:white; border-radius:18px; padding:18px; width:min(92vw,420px); text-align:center; box-shadow:0 14px 40px rgba(0,0,0,.25)}
-    .stickers{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:8px 0}
-    .sticker{font-size:36px; filter: drop-shadow(0 4px 6px rgba(0,0,0,.15))}
-    .sticker-board{display:flex; gap:8px; flex-wrap:wrap; padding:8px; min-height:54px; border:1px dashed #d7dcff; border-radius:12px; background:#fcfeff}
-    .center{display:flex; justify-content:center; gap:8px; flex-wrap:wrap;}
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--soft);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-weight: 700
+    }
+
+    .pill .num {
+      font-variant-numeric: tabular-nums
+    }
+
+    .file-input-section {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin: 16px 0
+    }
+
+    .file-input-section .row {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap
+    }
+
+    select,
+    input[type="file"],
+    input[type="number"] {
+      padding: 10px 12px;
+      border: 1px solid #dfe7ff;
+      border-radius: 10px;
+      background: white;
+      font-size: 14px;
+    }
+
+    input[type="number"] {
+      width: 84px;
+      text-align: center
+    }
+
+    button {
+      border: none;
+      background: var(--primary);
+      color: white;
+      padding: 12px 16px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: 700;
+      box-shadow: 0 6px 16px rgba(108, 92, 231, .3);
+      transition: .2s transform, .2s background
+    }
+
+    button:hover {
+      background: var(--primary-dark);
+      transform: translateY(-1px)
+    }
+
+    button:disabled {
+      opacity: .6;
+      cursor: not-allowed;
+      transform: none
+    }
+
+    #loadQuizBtn {
+      width: 100%;
+    }
+
+    .quiz-section {
+      margin-top: 10px
+    }
+
+    .question-item {
+      position: relative;
+      margin: 12px 0 18px;
+      padding: 16px;
+      border: 1px solid #e7efff;
+      border-radius: 16px;
+      background: #ffffff
+    }
+
+    .question-item p {
+      margin: 0 0 10px;
+      font-weight: 800
+    }
+
+    .options {
+      display: grid;
+      gap: 10px
+    }
+
+    .option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid #e8edff;
+      background: #fbfdff;
+      cursor: pointer;
+      transition: .15s background, .15s transform
+    }
+
+    .option:hover {
+      background: #f2f7ff
+    }
+
+    .option input {
+      transform: scale(1.25)
+    }
+
+    .correct-answer-highlight {
+      background: #eafff3 !important;
+      border-color: var(--success)
+    }
+
+    .incorrect-answer-highlight {
+      background: #fff0f0 !important;
+      border-color: var(--danger)
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px
+    }
+
+    .btn-subtle {
+      background: #ecf2ff;
+      color: #2d3a63;
+      box-shadow: none
+    }
+
+    .feedback-message {
+      font-weight: 800;
+      margin-top: 12px;
+      padding: 10px;
+      border-radius: 12px;
+      text-align: center
+    }
+
+    .feedback-correct {
+      background: #eafff3;
+      color: #23a85b;
+      border: 1px solid #b5f1cc
+    }
+
+    .feedback-incorrect {
+      background: #fff0f0;
+      color: #e74c3c;
+      border: 1px solid #ffd0d0
+    }
+
+    .results-section {
+      margin-top: 20px;
+      display: none;
+      background: #f3f8ff;
+      border: 1px solid #d8e6ff;
+      border-radius: 16px;
+      padding: 16px
+    }
+
+    .results-section h2 {
+      margin-top: 0;
+      text-align: center
+    }
+
+    .results-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0
+    }
+
+    .results-section li {
+      padding: 10px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      border: 1px solid #cfe2ff
+    }
+
+    .result-answer.correct-text {
+      color: var(--success);
+      font-weight: 800
+    }
+
+    .result-answer.incorrect-text {
+      color: var(--danger);
+      font-weight: 800
+    }
+
+    .coach {
+      margin-top: 12px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px
+    }
+
+    .coach .avatar {
+      font-size: 30px
+    }
+
+    .coach .bubble {
+      background: #fff;
+      border: 1px solid #e6ecff;
+      padding: 10px 12px;
+      border-radius: 14px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, .06);
+      flex: 1;
+    }
+
+    #confetti {
+      pointer-events: none;
+      position: fixed;
+      inset: 0;
+      overflow: hidden
+    }
+
+    .confetto {
+      position: absolute;
+      width: 10px;
+      height: 14px;
+      border-radius: 3px;
+      opacity: 0;
+      animation: confettiFall 900ms linear forwards
+    }
+
+    @keyframes confettiFall {
+      0% {
+        transform: translateY(-10vh) rotate(0deg);
+        opacity: 1
+      }
+
+      100% {
+        transform: translateY(100vh) rotate(540deg);
+        opacity: 0
+      }
+    }
+
+    .pop {
+      animation: pop .4s ease
+    }
+
+    @keyframes pop {
+      0% {
+        transform: scale(.9)
+      }
+
+      60% {
+        transform: scale(1.05)
+      }
+
+      100% {
+        transform: scale(1)
+      }
+    }
+
+    .shake {
+      animation: shake .35s ease
+    }
+
+    @keyframes shake {
+      10% {
+        transform: translateX(-3px)
+      }
+
+      30% {
+        transform: translateX(3px)
+      }
+
+      50% {
+        transform: translateX(-3px)
+      }
+
+      70% {
+        transform: translateX(3px)
+      }
+
+      100% {
+        transform: none
+      }
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, .3);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    .modal .box {
+      background: white;
+      border-radius: 18px;
+      padding: 18px;
+      width: min(92vw, 420px);
+      text-align: center;
+      box-shadow: 0 14px 40px rgba(0, 0, 0, .25)
+    }
+
+    .stickers {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 8px 0
+    }
+
+    .sticker {
+      font-size: 36px;
+      filter: drop-shadow(0 4px 6px rgba(0, 0, 0, .15))
+    }
+
+    .sticker-board {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 8px;
+      min-height: 54px;
+      border: 1px dashed #d7dcff;
+      border-radius: 12px;
+      background: #fcfeff
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
 
     /* Responsive Design */
     @media (max-width: 768px) {
-      .container{margin: 12px auto; padding: 12px;}
-      .card{padding:16px; border-radius:14px;}
-      header.hero{flex-direction:row; gap:12px; padding:12px;}
-      .mascot{font-size:32px;}
-      .title h1{font-size:20px;}
-      .title p{font-size:14px;}
-      .hud{flex-direction:column; gap:10px;}
-      .hud-left{width:100%;}
-      .hud-right{width:100%; justify-content:flex-start;}
-      .progress{min-width:100%;}
-      .file-input-section .row{flex-direction:column; align-items:stretch;}
-      .file-input-section .row label{width:100%;}
+      .container {
+        margin: 12px auto;
+        padding: 12px;
+      }
+
+      .card {
+        padding: 16px;
+        border-radius: 14px;
+      }
+
+      header.hero {
+        flex-direction: row;
+        gap: 12px;
+        padding: 12px;
+      }
+
+      .mascot {
+        font-size: 32px;
+      }
+
+      .title h1 {
+        font-size: 20px;
+      }
+
+      .title p {
+        font-size: 14px;
+      }
+
+      .hud {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .hud-left {
+        width: 100%;
+      }
+
+      .hud-right {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .progress {
+        min-width: 100%;
+      }
+
+      .file-input-section .row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .file-input-section .row label {
+        width: 100%;
+      }
+
       .file-input-section .row select,
-      .file-input-section .row input{width:100%;}
-      input[type="number"]{width:100%;}
-      button{width:100%; padding:14px;}
-      .btn-row{flex-direction:column;}
-      .btn-row button{width:100%;}
-      .center{flex-direction:column;}
-      .center button{width:100%;}
-      .question-item{padding:12px;}
-      .coach{flex-direction:row; gap:8px;}
-      .coach .avatar{font-size:24px;}
-      .coach .bubble{font-size:14px;}
+      .file-input-section .row input {
+        width: 100%;
+      }
+
+      input[type="number"] {
+        width: 100%;
+      }
+
+      button {
+        width: 100%;
+        padding: 14px;
+      }
+
+      .btn-row {
+        flex-direction: column;
+      }
+
+      .btn-row button {
+        width: 100%;
+      }
+
+      .center {
+        flex-direction: column;
+      }
+
+      .center button {
+        width: 100%;
+      }
+
+      .question-item {
+        padding: 12px;
+      }
+
+      .coach {
+        flex-direction: row;
+        gap: 8px;
+      }
+
+      .coach .avatar {
+        font-size: 24px;
+      }
+
+      .coach .bubble {
+        font-size: 14px;
+      }
     }
 
     @media (max-width: 480px) {
-      .container{margin: 8px auto; padding: 8px;}
-      .card{padding:12px;}
-      .mascot{font-size:28px;}
-      .title h1{font-size:18px;}
-      .option{padding:8px 10px; font-size:14px;}
-      select, input{font-size:14px;}
+      .container {
+        margin: 8px auto;
+        padding: 8px;
+      }
+
+      .card {
+        padding: 12px;
+      }
+
+      .mascot {
+        font-size: 28px;
+      }
+
+      .title h1 {
+        font-size: 18px;
+      }
+
+      .option {
+        padding: 8px 10px;
+        font-size: 14px;
+      }
+
+      select,
+      input {
+        font-size: 14px;
+      }
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <div class="card" style="padding:0; overflow:hidden">
@@ -138,7 +598,9 @@
 
       <div class="hud">
         <div class="hud-left">
-          <div class="progress" aria-label="Tiến độ làm bài"><div id="progressBar"></div></div>
+          <div class="progress" aria-label="Tiến độ làm bài">
+            <div id="progressBar"></div>
+          </div>
         </div>
         <div class="hud-right">
           <!-- Voice selector (ALWAYS ON speaking; no toggle) -->
@@ -153,7 +615,9 @@
       <div class="file-input-section card" style="margin: 12px;">
         <div class="row">
           <label for="topicSelect"><strong>Chọn chủ đề có sẵn:</strong></label>
-          <select id="topicSelect"><option value="">-- Tự chọn tệp bên dưới --</option></select>
+          <select id="topicSelect">
+            <option value="">-- Tự chọn tệp bên dưới --</option>
+          </select>
         </div>
         <div class="row" style="justify-content:center; opacity:.8">HOẶC</div>
         <div class="row">
@@ -164,7 +628,10 @@
           <label for="numQuestionsInput"><strong>Số lượng câu hỏi:</strong></label>
           <input type="number" id="numQuestionsInput" value="10" min="1" />
           <label for="quizModeSelect"><strong>Chế độ:</strong></label>
-          <select id="quizModeSelect"><option value="single">Từng câu</option><option value="all">Tất cả</option></select>
+          <select id="quizModeSelect">
+            <option value="single">Từng câu</option>
+            <option value="all">Tất cả</option>
+          </select>
           <button id="loadQuizBtn" disabled>Bắt đầu làm bài 🚀</button>
         </div>
       </div>
@@ -254,76 +721,115 @@
     const stickerChoices = document.getElementById('stickerChoices');
     const closeSticker = document.getElementById('closeSticker');
 
-    const STICKERS = ['🦄','🐼','🐯','🐶','🐱','🦁','🐷','🐸','🐨','🦊','🦖','🐳','🪐','🚀','🌈','🍭','🍎','🎹','🎨','⚽️'];
+    const STICKERS = ['🦄', '🐼', '🐯', '🐶', '🐱', '🦁', '🐷', '🐸', '🐨', '🦊', '🦖', '🐳', '🪐', '🚀', '🌈', '🍭', '🍎', '🎹', '🎨', '⚽️'];
 
     // ==== ÂM THANH (luôn bật) ==== //
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     const audioCtx = new AudioContext();
-    function resumeAudio(){ if(audioCtx.state === 'suspended') audioCtx.resume(); }
-    document.addEventListener('click', resumeAudio, { once:true, capture:true });
+    function resumeAudio() { if (audioCtx.state === 'suspended') audioCtx.resume(); }
+    document.addEventListener('click', resumeAudio, { once: true, capture: true });
 
-    function beep(freq=440, duration=120, type='sine', volume=0.15){
+    function beep(freq = 440, duration = 120, type = 'sine', volume = 0.15) {
       const osc = audioCtx.createOscillator();
       const gain = audioCtx.createGain();
       osc.type = type; osc.frequency.value = freq; gain.gain.value = volume;
       osc.connect(gain).connect(audioCtx.destination);
       const now = audioCtx.currentTime;
       osc.start(now);
-      osc.stop(now + duration/1000);
+      osc.stop(now + duration / 1000);
     }
-    function arpeggio(freqs=[], step=90){ let t=0; freqs.forEach(f=>{ setTimeout(()=>beep(f, step, 'triangle'), t); t+=step; }); }
-    function soundCorrect(){ arpeggio([523,659,784,1046], 90); }
-    function soundIncorrect(){ arpeggio([220,196,174], 140); }
-    function soundReward(){ arpeggio([659,784,988,1319,1760], 80); }
+    function arpeggio(freqs = [], step = 90) { let t = 0; freqs.forEach(f => { setTimeout(() => beep(f, step, 'triangle'), t); t += step; }); }
+    function soundCorrect() { arpeggio([523, 659, 784, 1046], 90); }
+    function soundIncorrect() { arpeggio([220, 196, 174], 140); }
+    function soundReward() { arpeggio([659, 784, 988, 1319, 1760], 80); }
 
     // ==== GIỌNG NÓI ==== //
-    function pickVoice(lang){
+    // Cải thiện việc chọn giọng đọc để tránh đọc sai ngôn ngữ
+    function pickVoice(lang) {
       const voices = speechSynthesis.getVoices();
-      return voices.find(v => v.lang && v.lang.toLowerCase().startsWith(lang.toLowerCase())) || null;
+
+      // Thử tìm giọng chính xác với mã ngôn ngữ đầy đủ (ví dụ: vi-VN)
+      let voice = voices.find(v => v.lang && v.lang.toLowerCase() === lang.toLowerCase());
+      if (voice) return voice;
+
+      // Thử tìm giọng với mã ngôn ngữ ngắn (ví dụ: vi)
+      const shortLang = lang.split('-')[0];
+      voice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(shortLang.toLowerCase()));
+      if (voice) return voice;
+
+      // Nếu không tìm thấy, thử tìm giọng mặc định của hệ thống
+      voice = voices.find(v => v.default);
+      if (voice) return voice;
+
+      // Cuối cùng, trả về giọng đầu tiên nếu có
+      return voices.length > 0 ? voices[0] : null;
     }
+
     // Lời khích lệ: luôn tiếng Việt
-    function speakCoach(text){
-      try{
+    function speakCoach(text) {
+      try {
         const u = new SpeechSynthesisUtterance(text);
         const v = pickVoice('vi-VN');
-        if(v) u.voice = v;
+        if (v) {
+          u.voice = v;
+          console.log('Coach voice:', v.name, v.lang);
+        }
         u.lang = 'vi-VN';
         u.rate = 1;
         speechSynthesis.speak(u);
-      }catch(e){}
+      } catch (e) {
+        console.error('Speech error:', e);
+      }
     }
+
     // Đọc câu hỏi: theo giọng user chọn
-    function speakQuestion(text){
-      try{
+    function speakQuestion(text) {
+      try {
         const lang = settings.voiceLang || 'vi-VN';
         const u = new SpeechSynthesisUtterance(text);
         const v = pickVoice(lang);
-        if(v) u.voice = v;
+        if (v) {
+          u.voice = v;
+          console.log('Question voice:', v.name, v.lang);
+        }
         u.lang = lang;
         u.rate = 1;
         speechSynthesis.speak(u);
-      }catch(e){}
+      } catch (e) {
+        console.error('Speech error:', e);
+      }
     }
-    speechSynthesis.onvoiceschanged = speechSynthesis.onvoiceschanged || (()=>{});
+
+    // Đảm bảo danh sách giọng được tải
+    let voicesLoaded = false;
+    function loadVoices() {
+      const voices = speechSynthesis.getVoices();
+      if (voices.length > 0 && !voicesLoaded) {
+        voicesLoaded = true;
+        console.log('Available voices:', voices.map(v => `${v.name} (${v.lang})`));
+      }
+    }
+    speechSynthesis.onvoiceschanged = loadVoices;
+    loadVoices(); // Thử tải ngay
 
     // ==== TIỆN ÍCH ==== //
-    function shuffleArray(array){ for(let i=array.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [array[i],array[j]]=[array[j],array[i]]; } return array; }
-    function updateLoadButtonState(){ loadQuizBtn.disabled = !(jsonFileInput.files.length > 0 || topicSelect.value !== ""); }
+    function shuffleArray(array) { for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[array[i], array[j]] = [array[j], array[i]]; } return array; }
+    function updateLoadButtonState() { loadQuizBtn.disabled = !(jsonFileInput.files.length > 0 || topicSelect.value !== ""); }
 
-    jsonFileInput.addEventListener('change', ()=>{ if(jsonFileInput.files.length>0){ topicSelect.value=""; } updateLoadButtonState(); });
-    topicSelect.addEventListener('change', ()=>{ if(topicSelect.value !== ""){ jsonFileInput.value = ""; } updateLoadButtonState(); });
+    jsonFileInput.addEventListener('change', () => { if (jsonFileInput.files.length > 0) { topicSelect.value = ""; } updateLoadButtonState(); });
+    topicSelect.addEventListener('change', () => { if (topicSelect.value !== "") { jsonFileInput.value = ""; } updateLoadButtonState(); });
 
-    quizModeSelect.addEventListener('change', (e)=>{ quizMode = e.target.value; updateSubmitButtonText(); });
+    quizModeSelect.addEventListener('change', (e) => { quizMode = e.target.value; updateSubmitButtonText(); });
 
     // Voice select (luôn bật)
     voiceSelect.value = settings.voiceLang;
-    voiceSelect.addEventListener('change', ()=>{
+    voiceSelect.addEventListener('change', () => {
       settings.voiceLang = voiceSelect.value;
       localStorage.setItem('kidsquiz_voiceLang', settings.voiceLang);
       speakCoach('Đã chuyển giọng đọc câu hỏi.');
     });
 
-    loadQuizBtn.addEventListener('click', ()=>{
+    loadQuizBtn.addEventListener('click', () => {
       resumeAudio();
       if (topicSelect.value) {
         loadQuizFromTopic(topicSelect.value);
@@ -334,257 +840,258 @@
       }
     });
 
-    function loadQuizFromTopic(filePath){
-      fetch(filePath).then(r=>{ if(!r.ok) throw new Error(`Không thể tải tệp: ${r.statusText}`); return r.json(); })
+    function loadQuizFromTopic(filePath) {
+      fetch(filePath).then(r => { if (!r.ok) throw new Error(`Không thể tải tệp: ${r.statusText}`); return r.json(); })
         .then(processLoadedQuestions)
-        .catch(err=>{ alert('Lỗi khi tải tệp chủ đề: ' + err.message); console.error(err); });
+        .catch(err => { alert('Lỗi khi tải tệp chủ đề: ' + err.message); console.error(err); });
     }
 
-    function loadQuizFromFile(file){
+    function loadQuizFromFile(file) {
       const reader = new FileReader();
-      reader.onload = (e)=> processLoadedQuestions(JSON.parse(e.target.result));
-      reader.onerror = ()=> alert('Lỗi khi đọc tệp.');
+      reader.onload = (e) => processLoadedQuestions(JSON.parse(e.target.result));
+      reader.onerror = () => alert('Lỗi khi đọc tệp.');
       reader.readAsText(file);
     }
 
-    function processLoadedQuestions(loadedData){
-      try{
-        allQuestions = loadedData.map(q=>{
-          if(!q.question || !Array.isArray(q.options) || q.options.length===0 || !q.correctAnswer){
+    function processLoadedQuestions(loadedData) {
+      try {
+        allQuestions = loadedData.map(q => {
+          if (!q.question || !Array.isArray(q.options) || q.options.length === 0 || !q.correctAnswer) {
             throw new Error('Một câu hỏi có cấu trúc không hợp lệ.');
           }
           let correctAnswer = q.correctAnswer;
-          if(Array.isArray(correctAnswer)){
-            if(correctAnswer.length !== 1) throw new Error(`Câu hỏi "${q.question}" có nhiều hơn 1 đáp án đúng.`);
+          if (Array.isArray(correctAnswer)) {
+            if (correctAnswer.length !== 1) throw new Error(`Câu hỏi "${q.question}" có nhiều hơn 1 đáp án đúng.`);
             correctAnswer = correctAnswer[0];
           }
-          if(typeof correctAnswer !== 'string' || correctAnswer.trim()===''){
+          if (typeof correctAnswer !== 'string' || correctAnswer.trim() === '') {
             throw new Error(`Đáp án đúng của câu hỏi "${q.question}" không hợp lệ.`);
           }
           return { ...q, correctAnswer: correctAnswer.trim() };
         });
         startNewQuiz();
-      }catch(error){ alert('Lỗi xử lý dữ liệu JSON: ' + error.message); console.error(error); resetQuizState(); }
+      } catch (error) { alert('Lỗi xử lý dữ liệu JSON: ' + error.message); console.error(error); resetQuizState(); }
     }
 
-    function updateSubmitButtonText(){ submitQuizBtn.textContent = (quizMode==='single') ? 'Kiểm tra' : 'Nộp bài và Xem kết quả'; }
+    function updateSubmitButtonText() { submitQuizBtn.textContent = (quizMode === 'single') ? 'Kiểm tra' : 'Nộp bài và Xem kết quả'; }
 
-    function startNewQuiz(){
+    function startNewQuiz() {
       resetQuizState();
       let num = parseInt(numQuestionsInput.value, 10) || 10;
       const shuffled = shuffleArray([...allQuestions]);
       currentQuizQuestions = shuffled.slice(0, num);
-      if(currentQuizQuestions.length < num){ alert(`Chỉ có ${currentQuizQuestions.length} câu hỏi. Sẽ hiển thị tất cả.`); numQuestionsInput.value = currentQuizQuestions.length; }
+      if (currentQuizQuestions.length < num) { alert(`Chỉ có ${currentQuizQuestions.length} câu hỏi. Sẽ hiển thị tất cả.`); numQuestionsInput.value = currentQuizQuestions.length; }
 
-      [loadQuizBtn, jsonFileInput, topicSelect, numQuestionsInput, quizModeSelect].forEach(el=> el.disabled=true);
+      [loadQuizBtn, jsonFileInput, topicSelect, numQuestionsInput, quizModeSelect].forEach(el => el.disabled = true);
       submitQuizBtn.disabled = false;
 
       coachBubble.innerHTML = 'Cố lên nào! Chọn đáp án đúng nhé!';
       updateProgress();
 
-      if(quizMode==='all') displayAllQuestions(); else displayCurrentQuestion();
+      if (quizMode === 'all') displayAllQuestions(); else displayCurrentQuestion();
       updateSubmitButtonText();
     }
 
 
 
-    function updateProgress(){
+    function updateProgress() {
       const total = currentQuizQuestions.length || 1;
-      const done = (quizMode==='single') ? currentQuestionIndex : Object.keys(userSelections).length;
-      const pct = Math.min(100, Math.round((done/total)*100));
+      const done = (quizMode === 'single') ? currentQuestionIndex : Object.keys(userSelections).length;
+      const pct = Math.min(100, Math.round((done / total) * 100));
       progressBar.style.width = pct + '%';
     }
 
-    function displayAllQuestions(){ currentQuizQuestions.forEach((q, idx)=> quizContainer.appendChild(createQuestionElement(q, idx))); }
+    function displayAllQuestions() { currentQuizQuestions.forEach((q, idx) => quizContainer.appendChild(createQuestionElement(q, idx))); }
 
-    function displayCurrentQuestion(){
-      if(currentQuestionIndex < currentQuizQuestions.length){
+    function displayCurrentQuestion() {
+      if (currentQuestionIndex < currentQuizQuestions.length) {
         const q = currentQuizQuestions[currentQuestionIndex];
         quizContainer.innerHTML = '';
         quizContainer.appendChild(createQuestionElement(q, currentQuestionIndex));
         submitQuizBtn.textContent = 'Kiểm tra';
         submitQuizBtn.disabled = false;
         updateProgress();
-      }else{ showFinalResults(); }
+      } else { showFinalResults(); }
     }
 
-    function createQuestionElement(q, index){
-      const wrap = document.createElement('div'); wrap.className='question-item pop'; wrap.dataset.questionIndex = index;
+    function createQuestionElement(q, index) {
+      const wrap = document.createElement('div'); wrap.className = 'question-item pop'; wrap.dataset.questionIndex = index;
 
-      const p = document.createElement('p'); p.textContent = `${index+1}. ${q.question}`; wrap.appendChild(p);
+      const p = document.createElement('p'); p.textContent = `${index + 1}. ${q.question}`; wrap.appendChild(p);
 
       const opts = document.createElement('div'); opts.className = 'options'; wrap.appendChild(opts);
 
       const shuffledOpts = shuffleArray([...q.options]);
-      shuffledOpts.forEach(option=>{
-        const label = document.createElement('label'); label.className='option';
-        const radio = document.createElement('input'); radio.type='radio'; radio.name = `question-${index}`; radio.value = option;
-        if(userSelections[index] === option){ radio.checked = true; }
-        radio.addEventListener('change', ()=>{ userSelections[index] = radio.value; });
+      shuffledOpts.forEach(option => {
+        const label = document.createElement('label'); label.className = 'option';
+        const radio = document.createElement('input'); radio.type = 'radio'; radio.name = `question-${index}`; radio.value = option;
+        if (userSelections[index] === option) { radio.checked = true; }
+        radio.addEventListener('change', () => { userSelections[index] = radio.value; });
         label.appendChild(radio); label.appendChild(document.createTextNode(option));
         opts.appendChild(label);
       });
 
-      const btnRow = document.createElement('div'); btnRow.className='btn-row'; wrap.appendChild(btnRow);
+      const btnRow = document.createElement('div'); btnRow.className = 'btn-row'; wrap.appendChild(btnRow);
 
       // Nút đọc câu hỏi (theo giọng đã chọn)
-      const readBtn = document.createElement('button'); readBtn.className='btn-subtle'; readBtn.textContent='Đọc câu hỏi 🔈';
-      readBtn.addEventListener('click', ()=> speakQuestion(q.question));
+      const readBtn = document.createElement('button'); readBtn.className = 'btn-subtle'; readBtn.textContent = 'Đọc câu hỏi 🔈';
+      readBtn.addEventListener('click', () => speakQuestion(q.question));
       btnRow.appendChild(readBtn);
 
-      if(quizMode==='single'){
-        const fb = document.createElement('div'); fb.id = `feedback-${index}`; fb.className='feedback-message'; fb.style.display='none'; wrap.appendChild(fb);
+      if (quizMode === 'single') {
+        const fb = document.createElement('div'); fb.id = `feedback-${index}`; fb.className = 'feedback-message'; fb.style.display = 'none'; wrap.appendChild(fb);
       }
 
       return wrap;
     }
 
-    submitQuizBtn.addEventListener('click', ()=>{
-      if(quizMode==='all') processAllQuestionsAtOnce();
-      else{
-        if(submitQuizBtn.textContent==='Kiểm tra'){ processSingleQuestionCheck(); }
-        else{ moveToNextSingleQuestion(); }
+    submitQuizBtn.addEventListener('click', () => {
+      if (quizMode === 'all') processAllQuestionsAtOnce();
+      else {
+        if (submitQuizBtn.textContent === 'Kiểm tra') { processSingleQuestionCheck(); }
+        else { moveToNextSingleQuestion(); }
       }
     });
 
-    function processSingleQuestionCheck(){
+    function processSingleQuestionCheck() {
       const q = currentQuizQuestions[currentQuestionIndex];
       const wrap = quizContainer.querySelector(`[data-question-index="${currentQuestionIndex}"]`);
       const feedbackDiv = document.getElementById(`feedback-${currentQuestionIndex}`);
       const selected = userSelections[currentQuestionIndex];
 
-      if(!selected){ wrap.classList.add('shake'); setTimeout(()=>wrap.classList.remove('shake'), 400); coachBubble.textContent = 'Hãy chọn một đáp án trước đã nhé!'; beep(300,120); return; }
+      if (!selected) { wrap.classList.add('shake'); setTimeout(() => wrap.classList.remove('shake'), 400); coachBubble.textContent = 'Hãy chọn một đáp án trước đã nhé!'; beep(300, 120); return; }
 
-      wrap.querySelectorAll('input[type="radio"]').forEach(r=> r.disabled = true);
+      wrap.querySelectorAll('input[type="radio"]').forEach(r => r.disabled = true);
       const isCorrect = selected === q.correctAnswer;
 
       highlightQuestion(wrap, selected, q.correctAnswer);
 
-      if(isCorrect){
+      if (isCorrect) {
         totalScore++; soundCorrect(); speakCoach('Giỏi lắm!');
         coachBubble.innerHTML = 'Tuyệt vời! Tiếp tục nhé!';
-        feedbackDiv.textContent = 'Chính xác! 🎉'; feedbackDiv.className='feedback-message feedback-correct';
+        feedbackDiv.textContent = 'Chính xác! 🎉'; feedbackDiv.className = 'feedback-message feedback-correct';
         burstConfetti();
       } else {
         soundIncorrect(); speakCoach('Chưa đúng. Thử lại ở câu sau nhé!');
         coachBubble.innerHTML = `Ôi! Đáp án đúng là <strong>${q.correctAnswer}</strong>. Không sao, mình tiếp tục nào!`;
-        feedbackDiv.innerHTML = `Sai rồi. Đáp án đúng là: <strong>${q.correctAnswer}</strong>`; feedbackDiv.className='feedback-message feedback-incorrect';
+        feedbackDiv.innerHTML = `Sai rồi. Đáp án đúng là: <strong>${q.correctAnswer}</strong>`; feedbackDiv.className = 'feedback-message feedback-incorrect';
       }
 
-      feedbackDiv.style.display='block';
+      feedbackDiv.style.display = 'block';
       submitQuizBtn.textContent = 'Tiếp tục';
       updateProgress();
     }
 
-    function moveToNextSingleQuestion(){ currentQuestionIndex++; displayCurrentQuestion(); }
+    function moveToNextSingleQuestion() { currentQuestionIndex++; displayCurrentQuestion(); }
 
-    function processAllQuestionsAtOnce(){
+    function processAllQuestionsAtOnce() {
       totalScore = 0;
-      quizContainer.querySelectorAll('.question-item').forEach((wrap, idx)=>{
+      quizContainer.querySelectorAll('.question-item').forEach((wrap, idx) => {
         const q = currentQuizQuestions[idx];
         const selected = userSelections[idx];
         const isCorrect = selected === q.correctAnswer;
-        if(isCorrect){ totalScore++; }
-        wrap.querySelectorAll('input[type="radio"]').forEach(r=> r.disabled=true);
+        if (isCorrect) { totalScore++; }
+        wrap.querySelectorAll('input[type="radio"]').forEach(r => r.disabled = true);
         highlightQuestion(wrap, selected, q.correctAnswer);
       });
       showFinalResults();
     }
 
-    function highlightQuestion(wrap, selected, correct){
-      wrap.querySelectorAll('.option').forEach(label=>{
+    function highlightQuestion(wrap, selected, correct) {
+      wrap.querySelectorAll('.option').forEach(label => {
         const val = label.querySelector('input').value;
-        if(val === correct){ label.classList.add('correct-answer-highlight'); }
-        if(val === selected && selected !== correct){ label.classList.add('incorrect-answer-highlight'); }
+        if (val === correct) { label.classList.add('correct-answer-highlight'); }
+        if (val === selected && selected !== correct) { label.classList.add('incorrect-answer-highlight'); }
       });
     }
 
-    function showFinalResults(){
+    function showFinalResults() {
       quizContainer.innerHTML = '';
       scoreDisplay.textContent = `Bạn đã đạt ${totalScore} / ${currentQuizQuestions.length} điểm.`;
       resultsList.innerHTML = '';
 
-      currentQuizQuestions.forEach((q, idx)=>{
+      currentQuizQuestions.forEach((q, idx) => {
         const selected = userSelections[idx];
         const isCorrect = selected === q.correctAnswer;
         const li = document.createElement('li');
         li.style.backgroundColor = isCorrect ? '#eafff3' : '#fff0f0';
         li.style.borderColor = isCorrect ? '#2ecc71' : '#ff4757';
-        let answerHtml = `Câu trả lời của bạn: <span class="result-answer ${isCorrect ? 'correct-text':'incorrect-text'}">${selected || 'Chưa trả lời'}</span>`;
-        if(!isCorrect){ answerHtml += `<br>Đáp án đúng: <span class="result-answer correct-text">${q.correctAnswer}</span>`; }
-        li.innerHTML = `<strong>Câu ${idx+1}: ${q.question}</strong><br>${answerHtml}`;
+        let answerHtml = `Câu trả lời của bạn: <span class="result-answer ${isCorrect ? 'correct-text' : 'incorrect-text'}">${selected || 'Chưa trả lời'}</span>`;
+        if (!isCorrect) { answerHtml += `<br>Đáp án đúng: <span class="result-answer correct-text">${q.correctAnswer}</span>`; }
+        li.innerHTML = `<strong>Câu ${idx + 1}: ${q.question}</strong><br>${answerHtml}`;
         resultsList.appendChild(li);
       });
 
-      resultsSection.style.display='block';
+      resultsSection.style.display = 'block';
       submitQuizBtn.disabled = true; newQuizBtn.disabled = false;
 
       const ratio = (totalScore / currentQuizQuestions.length);
-      if(ratio >= 0.8){ openStickerReward(); soundReward(); speakCoach('Tuyệt vời! Bạn đã nhận được phần thưởng.'); burstConfetti(2); }
+      if (ratio >= 0.8) { openStickerReward(); soundReward(); speakCoach('Tuyệt vời! Bạn đã nhận được phần thưởng.'); burstConfetti(2); }
       coachBubble.innerHTML = 'Xem lại đáp án và nhấn <strong>Làm bài mới</strong> để chơi tiếp nhé!';
     }
 
-    newQuizBtn.addEventListener('click', ()=>{
-      [jsonFileInput, topicSelect, numQuestionsInput, quizModeSelect].forEach(el=> el.disabled=false);
+    newQuizBtn.addEventListener('click', () => {
+      [jsonFileInput, topicSelect, numQuestionsInput, quizModeSelect].forEach(el => el.disabled = false);
       startNewQuiz();
     });
 
-    function resetQuizState(){
-      quizContainer.innerHTML = ''; resultsSection.style.display='none';
+    function resetQuizState() {
+      quizContainer.innerHTML = ''; resultsSection.style.display = 'none';
       userSelections = {}; currentQuestionIndex = 0; totalScore = 0;
       submitQuizBtn.disabled = true; newQuizBtn.disabled = true; updateSubmitButtonText(); updateProgress();
     }
 
     // ==== CONFETTI ==== //
-    function burstConfetti(times=1){
-      for(let t=0; t<times; t++){
-        setTimeout(()=>{
-          for(let i=0;i<36;i++){
-            const d = document.createElement('div'); d.className='confetto';
-            const hue = Math.floor(Math.random()*360);
+    function burstConfetti(times = 1) {
+      for (let t = 0; t < times; t++) {
+        setTimeout(() => {
+          for (let i = 0; i < 36; i++) {
+            const d = document.createElement('div'); d.className = 'confetto';
+            const hue = Math.floor(Math.random() * 360);
             d.style.background = `hsl(${hue} 90% 60%)`;
-            d.style.left = Math.random()*100 + 'vw';
+            d.style.left = Math.random() * 100 + 'vw';
             d.style.top = '-10vh';
-            d.style.animationDuration = (700 + Math.random()*500) + 'ms';
+            d.style.animationDuration = (700 + Math.random() * 500) + 'ms';
             confettiBox.appendChild(d);
-            setTimeout(()=> d.remove(), 1200);
+            setTimeout(() => d.remove(), 1200);
           }
-        }, t*250);
+        }, t * 250);
       }
     }
 
     // ==== STICKERS ==== //
-    function openStickerReward(){
+    function openStickerReward() {
       stickerChoices.innerHTML = '';
-      shuffleArray([...STICKERS]).slice(0,5).forEach(s=>{
-        const span = document.createElement('span'); span.className='sticker'; span.textContent = s;
-        span.style.cursor='pointer';
-        span.addEventListener('click', ()=>{ addStickerToBoard(s); closeStickerModal(); });
+      shuffleArray([...STICKERS]).slice(0, 5).forEach(s => {
+        const span = document.createElement('span'); span.className = 'sticker'; span.textContent = s;
+        span.style.cursor = 'pointer';
+        span.addEventListener('click', () => { addStickerToBoard(s); closeStickerModal(); });
         stickerChoices.appendChild(span);
       });
-      stickerModal.style.display='flex';
+      stickerModal.style.display = 'flex';
     }
-    function closeStickerModal(){ stickerModal.style.display='none'; }
-    function addStickerToBoard(s){ const e=document.createElement('span'); e.className='sticker'; e.textContent=s; stickerBoard.appendChild(e); }
+    function closeStickerModal() { stickerModal.style.display = 'none'; }
+    function addStickerToBoard(s) { const e = document.createElement('span'); e.className = 'sticker'; e.textContent = s; stickerBoard.appendChild(e); }
     closeSticker.addEventListener('click', closeStickerModal);
 
     // ==== KHỞI TẠO ==== //
     window.onload = () => {
-  for (const path in availableTopics) {
-    const o = document.createElement('option');
-    o.value = path;
-    o.textContent = availableTopics[path];
-    topicSelect.appendChild(o);
-  }
-  resetQuizState();
-  updateLoadButtonState();
+      for (const path in availableTopics) {
+        const o = document.createElement('option');
+        o.value = path;
+        o.textContent = availableTopics[path];
+        topicSelect.appendChild(o);
+      }
+      resetQuizState();
+      updateLoadButtonState();
 
-  // Thêm các dòng này để đảm bảo ngôn ngữ luôn được đặt lại thành Tiếng Việt
-  const defaultLanguage = 'vi-VN';
-  settings.voiceLang = defaultLanguage; // Cập nhật biến trạng thái
-  voiceSelect.value = defaultLanguage; // Cập nhật hiển thị trên giao diện
-  localStorage.setItem('kidsquiz_voiceLang', defaultLanguage); // Ghi đè giá trị cũ trong localStorage
-};
+      // Thêm các dòng này để đảm bảo ngôn ngữ luôn được đặt lại thành Tiếng Việt
+      const defaultLanguage = 'vi-VN';
+      settings.voiceLang = defaultLanguage; // Cập nhật biến trạng thái
+      voiceSelect.value = defaultLanguage; // Cập nhật hiển thị trên giao diện
+      localStorage.setItem('kidsquiz_voiceLang', defaultLanguage); // Ghi đè giá trị cũ trong localStorage
+    };
   </script>
 </body>
+
 </html>
