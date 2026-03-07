@@ -1,0 +1,252 @@
+[
+  {
+    "question": "1: 17m 5dm = ?m",
+    "options": ["17,5", "1,75", "175", "0,175"],
+    "correctAnswer": "17,5"
+  },
+  {
+    "question": "2: 94ha = ?km2",
+    "options": ["9,4", "0,94", "0,094", "940"],
+    "correctAnswer": "0,94"
+  },
+  {
+    "question": "3: 3m3 2dm3 = ?m3",
+    "options": ["3,2", "3,02", "3,002", "32"],
+    "correctAnswer": "3,002"
+  },
+  {
+    "question": "4: 0,5l = ?cm3",
+    "options": ["5", "50", "500", "5000"],
+    "correctAnswer": "500"
+  },
+  {
+    "question": "5: 7dm3 77cm3 = ?dm3",
+    "options": ["7,77", "7,077", "70,77", "0,777"],
+    "correctAnswer": "7,077"
+  },
+  {
+    "question": "6: 8m3 727dm3 = ?m3",
+    "options": ["8,727", "87,27", "872,7", "0,8727"],
+    "correctAnswer": "8,727"
+  },
+  {
+    "question": "7: 5m 2cm = ?m",
+    "options": ["5,2", "5,02", "5,002", "52"],
+    "correctAnswer": "5,02"
+  },
+  {
+    "question": "8: 12km 50m = ?km",
+    "options": ["12,5", "12,05", "12,005", "125"],
+    "correctAnswer": "12,05"
+  },
+  {
+    "question": "9: 45cm = ?m",
+    "options": ["4,5", "0,45", "0,045", "450"],
+    "correctAnswer": "0,45"
+  },
+  {
+    "question": "10: 8dm 9mm = ?dm",
+    "options": ["8,9", "8,09", "8,009", "89"],
+    "correctAnswer": "8,09"
+  },
+  {
+    "question": "11: 15m2 4dm2 = ?m2",
+    "options": ["15,4", "15,04", "1,504", "154"],
+    "correctAnswer": "15,04"
+  },
+  {
+    "question": "12: 7cm2 5mm2 = ?cm2",
+    "options": ["7,5", "7,05", "0,75", "705"],
+    "correctAnswer": "7,05"
+  },
+  {
+    "question": "13: 20ha = ?km2",
+    "options": ["2", "0,2", "0,02", "200"],
+    "correctAnswer": "0,2"
+  },
+  {
+    "question": "14: 4m2 25cm2 = ?m2",
+    "options": ["4,25", "4,025", "4,0025", "42,5"],
+    "correctAnswer": "4,0025"
+  },
+  {
+    "question": "15: 500m2 = ?ha",
+    "options": ["0,5", "0,05", "0,005", "5"],
+    "correctAnswer": "0,05"
+  },
+  {
+    "question": "16: 2dm3 = ?m3",
+    "options": ["0,2", "0,02", "0,002", "0,0002"],
+    "correctAnswer": "0,002"
+  },
+  {
+    "question": "17: 15cm3 = ?dm3",
+    "options": ["0,15", "0,015", "0,0015", "1,5"],
+    "correctAnswer": "0,015"
+  },
+  {
+    "question": "18: 4m3 5dm3 = ?m3",
+    "options": ["4,5", "4,05", "4,005", "40,5"],
+    "correctAnswer": "4,005"
+  },
+  {
+    "question": "19: 1,2dm3 = ?cm3",
+    "options": ["12", "120", "1200", "12000"],
+    "correctAnswer": "1200"
+  },
+  {
+    "question": "20: 3500cm3 = ?dm3",
+    "options": ["35", "3,5", "0,35", "0,035"],
+    "correctAnswer": "3,5"
+  },
+  {
+    "question": "21: 8m 4dm = ?m",
+    "options": ["8,4", "8,04", "0,84", "84"],
+    "correctAnswer": "8,4"
+  },
+  {
+    "question": "22: 25mm = ?cm",
+    "options": ["250", "2,5", "0,25", "0,025"],
+    "correctAnswer": "2,5"
+  },
+  {
+    "question": "23: 6km 7m = ?km",
+    "options": ["6,7", "6,07", "6,007", "67"],
+    "correctAnswer": "6,007"
+  },
+  {
+    "question": "24: 12m 3cm = ?m",
+    "options": ["12,3", "12,03", "12,003", "1,23"],
+    "correctAnswer": "12,03"
+  },
+  {
+    "question": "25: 0,8m = ?cm",
+    "options": ["8", "80", "800", "0,08"],
+    "correctAnswer": "80"
+  },
+  {
+    "question": "26: 4ha 5dam2 = ?ha",
+    "options": ["4,5", "4,05", "4,005", "45"],
+    "correctAnswer": "4,05"
+  },
+  {
+    "question": "27: 1250m2 = ?ha",
+    "options": ["12,5", "1,25", "0,125", "0,0125"],
+    "correctAnswer": "0,125"
+  },
+  {
+    "question": "28: 9m2 450cm2 = ?m2",
+    "options": ["9,45", "9,045", "9,0045", "94,5"],
+    "correctAnswer": "9,045"
+  },
+  {
+    "question": "29: 0,7km2 = ?ha",
+    "options": ["7", "70", "700", "0,07"],
+    "correctAnswer": "70"
+  },
+  {
+    "question": "30: 32dm2 = ?m2",
+    "options": ["3,2", "0,32", "0,032", "320"],
+    "correctAnswer": "0,32"
+  },
+  {
+    "question": "31: 5m3 123dm3 = ?m3",
+    "options": ["5,123", "51,23", "512,3", "0,5123"],
+    "correctAnswer": "5,123"
+  },
+  {
+    "question": "32: 45dm3 = ?m3",
+    "options": ["0,45", "0,045", "0,0045", "4,5"],
+    "correctAnswer": "0,045"
+  },
+  {
+    "question": "33: 10m3 7cm3 = ?m3",
+    "options": ["10,7", "10,007", "10,00007", "10,0007"],
+    "correctAnswer": "10,000007"
+  },
+  {
+    "question": "34: 0,2dm3 = ?cm3",
+    "options": ["2", "20", "200", "2000"],
+    "correctAnswer": "200"
+  },
+  {
+    "question": "35: 750cm3 = ?dm3",
+    "options": ["7,5", "0,75", "0,075", "75"],
+    "correctAnswer": "0,75"
+  },
+  {
+    "question": "36: 2l = ?dm3",
+    "options": ["2", "0,2", "0,02", "20"],
+    "correctAnswer": "2"
+  },
+  {
+    "question": "37: 15,5l = ?cm3",
+    "options": ["155", "1550", "15500", "1,55"],
+    "correctAnswer": "15500"
+  },
+  {
+    "question": "38: 4dm3 5ml = ?dm3",
+    "options": ["4,5", "4,05", "4,005", "45"],
+    "correctAnswer": "4,005"
+  },
+  {
+    "question": "39: 0,03m3 = ?dm3",
+    "options": ["0,3", "3", "30", "300"],
+    "correctAnswer": "30"
+  },
+  {
+    "question": "40: 67000cm3 = ?m3",
+    "options": ["67", "6,7", "0,67", "0,067"],
+    "correctAnswer": "0,067"
+  },
+  {
+    "question": "41: 2,5m = ?cm",
+    "options": ["25", "250", "2500", "0,25"],
+    "correctAnswer": "250"
+  },
+  {
+    "question": "42: 450m = ?km",
+    "options": ["4,5", "0,45", "0,045", "45"],
+    "correctAnswer": "0,45"
+  },
+  {
+    "question": "43: 8dm 2mm = ?cm",
+    "options": ["8,2", "80,2", "82", "0,82"],
+    "correctAnswer": "80,2"
+  },
+  {
+    "question": "44: 1,2ha = ?m2",
+    "options": ["120", "1200", "12000", "120000"],
+    "correctAnswer": "12000"
+  },
+  {
+    "question": "45: 5m2 7dm2 = ?m2",
+    "options": ["5,7", "5,07", "57", "0,57"],
+    "correctAnswer": "5,07"
+  },
+  {
+    "question": "46: 150cm2 = ?dm2",
+    "options": ["15", "1,5", "0,15", "0,015"],
+    "correctAnswer": "1,5"
+  },
+  {
+    "question": "47: 0,5m3 = ?dm3",
+    "options": ["5", "50", "500", "5000"],
+    "correctAnswer": "500"
+  },
+  {
+    "question": "48: 9dm3 9cm3 = ?dm3",
+    "options": ["9,9", "9,09", "9,009", "99"],
+    "correctAnswer": "9,009"
+  },
+  {
+    "question": "49: 1234cm3 = ?dm3",
+    "options": ["12,34", "1,234", "0,1234", "123,4"],
+    "correctAnswer": "1,234"
+  },
+  {
+    "question": "50: 10m3 10dm3 = ?m3",
+    "options": ["10,1", "10,01", "10,001", "101"],
+    "correctAnswer": "10,01"
+  }
+]
