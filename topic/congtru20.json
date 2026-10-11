@@ -1,0 +1,302 @@
+[
+  {
+    "question": "1. Kết quả của phép tính 9 + 6 = ?",
+    "options": ["14", "15", "16", "17"],
+    "correctAnswer": "15"
+  },
+  {
+    "question": "2. Kết quả của phép tính 8 + 5 = ?",
+    "options": ["12", "13", "14", "15"],
+    "correctAnswer": "13"
+  },
+  {
+    "question": "3. Kết quả của phép tính 7 + 4 = ?",
+    "options": ["10", "11", "12", "13"],
+    "correctAnswer": "11"
+  },
+  {
+    "question": "4. Kết quả của phép tính 6 + 7 = ?",
+    "options": ["13", "14", "12", "15"],
+    "correctAnswer": "13"
+  },
+  {
+    "question": "5. Kết quả của phép tính 9 + 4 = ?",
+    "options": ["12", "13", "14", "15"],
+    "correctAnswer": "13"
+  },
+  {
+    "question": "6. Kết quả của phép tính 8 + 8 = ?",
+    "options": ["15", "16", "17", "18"],
+    "correctAnswer": "16"
+  },
+  {
+    "question": "7. Kết quả của phép tính 5 + 9 = ?",
+    "options": ["13", "14", "15", "16"],
+    "correctAnswer": "14"
+  },
+  {
+    "question": "8. Kết quả của phép tính 7 + 8 = ?",
+    "options": ["14", "15", "16", "17"],
+    "correctAnswer": "15"
+  },
+  {
+    "question": "9. Kết quả của phép tính 9 + 9 = ?",
+    "options": ["17", "18", "19", "20"],
+    "correctAnswer": "18"
+  },
+  {
+    "question": "10. Kết quả của phép tính 6 + 8 = ?",
+    "options": ["13", "14", "15", "16"],
+    "correctAnswer": "14"
+  },
+  {
+    "question": "11. Kết quả của phép tính 8 + 4 = ?",
+    "options": ["11", "12", "13", "14"],
+    "correctAnswer": "12"
+  },
+  {
+    "question": "12. Kết quả của phép tính 7 + 7 = ?",
+    "options": ["13", "14", "15", "16"],
+    "correctAnswer": "14"
+  },
+  {
+    "question": "13. Kết quả của phép tính 9 + 3 = ?",
+    "options": ["11", "12", "13", "14"],
+    "correctAnswer": "12"
+  },
+  {
+    "question": "14. Kết quả của phép tính 8 + 7 = ?",
+    "options": ["14", "15", "16", "17"],
+    "correctAnswer": "15"
+  },
+  {
+    "question": "15. Kết quả của phép tính 6 + 9 = ?",
+    "options": ["14", "15", "16", "17"],
+    "correctAnswer": "15"
+  },
+  {
+    "question": "16. Kết quả của phép tính 11 - 5 = ?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "17. Kết quả của phép tính 12 - 4 = ?",
+    "options": ["7", "8", "9", "6"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "18. Kết quả của phép tính 13 - 7 = ?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "19. Kết quả của phép tính 14 - 8 = ?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "20. Kết quả của phép tính 15 - 9 = ?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "21. Kết quả của phép tính 11 - 3 = ?",
+    "options": ["7", "8", "9", "6"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "22. Kết quả của phép tính 12 - 6 = ?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "23. Kết quả của phép tính 13 - 5 = ?",
+    "options": ["7", "8", "9", "6"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "24. Kết quả của phép tính 14 - 6 = ?",
+    "options": ["7", "8", "9", "6"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "25. Kết quả của phép tính 15 - 7 = ?",
+    "options": ["7", "8", "9", "6"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "26. Kết quả của phép tính 16 - 8 = ?",
+    "options": ["7", "8", "9", "6"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "27. Kết quả của phép tính 17 - 9 = ?",
+    "options": ["7", "8", "9", "6"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "28. Kết quả của phép tính 11 - 7 = ?",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "29. Kết quả của phép tính 12 - 8 = ?",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": "4"
+  },
+  {
+    "question": "30. Kết quả của phép tính 18 - 9 = ?",
+    "options": ["8", "9", "10", "7"],
+    "correctAnswer": "9"
+  },
+  {
+    "question": "31. Có 8 bạn chơi kéo co, có 4 bạn chạy đến cùng chơi chung. Hỏi lúc đó có tất cả bao nhiêu bạn chơi kéo co?",
+    "options": ["11 bạn", "12 bạn", "13 bạn", "14 bạn"],
+    "correctAnswer": "12 bạn"
+  },
+  {
+    "question": "32. Lan có 7 bông hoa đỏ và 5 bông hoa vàng. Hỏi Lan có tất cả bao nhiêu bông hoa?",
+    "options": ["11 bông hoa", "12 bông hoa", "13 bông hoa", "14 bông hoa"],
+    "correctAnswer": "12 bông hoa"
+  },
+  {
+    "question": "33. Trên cây có 9 con chim, sau đó có thêm 7 con chim bay đến đậu cùng. Hỏi trên cây có tất cả bao nhiêu con chim?",
+    "options": ["15 con chim", "16 con chim", "17 con chim", "18 con chim"],
+    "correctAnswer": "16 con chim"
+  },
+  {
+    "question": "34. Hùng có 6 viên bi, Dũng cho Hùng thêm 8 viên bi. Hỏi Hùng có tất cả bao nhiêu viên bi?",
+    "options": ["13 viên bi", "14 viên bi", "15 viên bi", "16 viên bi"],
+    "correctAnswer": "14 viên bi"
+  },
+  {
+    "question": "35. Mẹ mua 8 quả cam, bố mua thêm 6 quả cam. Hỏi cả bố và mẹ mua tất cả bao nhiêu quả cam?",
+    "options": ["13 quả cam", "14 quả cam", "15 quả cam", "16 quả cam"],
+    "correctAnswer": "14 quả cam"
+  },
+  {
+    "question": "36. Trong vườn có 9 cây bưởi và 5 cây chanh. Hỏi trong vườn có tất cả bao nhiêu cây bưởi và cây chanh?",
+    "options": ["13 cây", "14 cây", "15 cây", "16 cây"],
+    "correctAnswer": "14 cây"
+  },
+  {
+    "question": "37. Nam gấp được 8 cái thuyền giấy, Hà gấp được 9 cái thuyền giấy. Hỏi cả hai bạn gấp được bao nhiêu cái thuyền giấy?",
+    "options": ["16 cái thuyền", "17 cái thuyền", "18 cái thuyền", "19 cái thuyền"],
+    "correctAnswer": "17 cái thuyền"
+  },
+  {
+    "question": "38. Đàn gà có 7 con gà mái và 6 con gà trống. Hỏi đàn gà có tất cả bao nhiêu con gà?",
+    "options": ["12 con gà", "13 con gà", "14 con gà", "15 con gà"],
+    "correctAnswer": "13 con gà"
+  },
+  {
+    "question": "39. Bạn An có 9 quyển vở, mẹ mua thêm cho An 4 quyển vở nữa. Hỏi An có tất cả bao nhiêu quyển vở?",
+    "options": ["12 quyển vở", "13 quyển vở", "14 quyển vở", "15 quyển vở"],
+    "correctAnswer": "13 quyển vở"
+  },
+  {
+    "question": "40. Lớp 2A có 8 học sinh nữ và 7 học sinh nam tham gia đồng diễn. Hỏi có tất cả bao nhiêu học sinh tham gia?",
+    "options": ["14 học sinh", "15 học sinh", "16 học sinh", "17 học sinh"],
+    "correctAnswer": "15 học sinh"
+  },
+  {
+    "question": "41. Nga có 6 cái bút chì, mẹ mua thêm cho Nga 6 cái nữa. Hỏi Nga có tất cả bao nhiêu cái bút chì?",
+    "options": ["11 cái bút chì", "12 cái bút chì", "13 cái bút chì", "14 cái bút chì"],
+    "correctAnswer": "12 cái bút chì"
+  },
+  {
+    "question": "42. Bể cá thứ nhất có 9 con cá, bể cá thứ hai có 8 con cá. Hỏi cả hai bể có tất cả bao nhiêu con cá?",
+    "options": ["16 con cá", "17 con cá", "18 con cá", "19 con cá"],
+    "correctAnswer": "17 con cá"
+  },
+  {
+    "question": "43. Có 5 chiếc xe ô tô đang đỗ, sau đó có thêm 8 chiếc xe nữa chạy vào đỗ. Hỏi có tất cả bao nhiêu chiếc xe ô tô?",
+    "options": ["12 chiếc xe", "13 chiếc xe", "14 chiếc xe", "15 chiếc xe"],
+    "correctAnswer": "13 chiếc xe"
+  },
+  {
+    "question": "44. Bình hái được 7 quả táo, Minh hái được 9 quả táo. Hỏi hai bạn hái được tất cả bao nhiêu quả táo?",
+    "options": ["15 quả táo", "16 quả táo", "17 quả táo", "18 quả táo"],
+    "correctAnswer": "16 quả táo"
+  },
+  {
+    "question": "45. Hộp thứ nhất có 8 cái kẹo, hộp thứ hai có 5 cái kẹo. Hỏi cả hai hộp có tất cả bao nhiêu cái kẹo?",
+    "options": ["12 cái kẹo", "13 cái kẹo", "14 cái kẹo", "15 cái kẹo"],
+    "correctAnswer": "13 cái kẹo"
+  },
+  {
+    "question": "46. Mai có 14 viên bi, Mai cho bạn 5 viên bi. Hỏi Mai còn lại bao nhiêu viên bi?",
+    "options": ["8 viên bi", "9 viên bi", "10 viên bi", "7 viên bi"],
+    "correctAnswer": "9 viên bi"
+  },
+  {
+    "question": "47. Trên cành cây có 12 con chim, một lúc sau có 4 con chim bay đi. Hỏi trên cành còn lại bao nhiêu con chim?",
+    "options": ["7 con chim", "8 con chim", "9 con chim", "6 con chim"],
+    "correctAnswer": "8 con chim"
+  },
+  {
+    "question": "48. Đĩa có 15 cái bánh, bé Na ăn hết 7 cái bánh. Hỏi trên đĩa còn lại bao nhiêu cái bánh?",
+    "options": ["7 cái bánh", "8 cái bánh", "9 cái bánh", "6 cái bánh"],
+    "correctAnswer": "8 cái bánh"
+  },
+  {
+    "question": "49. Tổ em có 11 bạn, trong đó có 6 bạn nữ. Hỏi tổ em có bao nhiêu bạn nam?",
+    "options": ["4 bạn", "5 bạn", "6 bạn", "7 bạn"],
+    "correctAnswer": "5 bạn"
+  },
+  {
+    "question": "50. Bác nông dân mang 16 quả dưa hấu ra chợ bán, bác đã bán được 9 quả. Hỏi bác nông dân còn lại bao nhiêu quả dưa hấu?",
+    "options": ["6 quả dưa hấu", "7 quả dưa hấu", "8 quả dưa hấu", "9 quả dưa hấu"],
+    "correctAnswer": "7 quả dưa hấu"
+  },
+  {
+    "question": "51. Hộp chì màu có 13 chiếc, Tuấn làm mất 5 chiếc. Hỏi trong hộp còn lại bao nhiêu chiếc bút chì màu?",
+    "options": ["7 chiếc", "8 chiếc", "9 chiếc", "6 chiếc"],
+    "correctAnswer": "8 chiếc"
+  },
+  {
+    "question": "52. Trong ao có 14 con vịt đang bơi, có 8 con vịt đã lên bờ. Hỏi dưới ao còn lại bao nhiêu con vịt?",
+    "options": ["5 con vịt", "6 con vịt", "7 con vịt", "8 con vịt"],
+    "correctAnswer": "6 con vịt"
+  },
+  {
+    "question": "53. Thư viện lớp có 17 quyển truyện, cô giáo đã phát cho các bạn mượn 8 quyển. Hỏi trong tủ còn lại bao nhiêu quyển truyện?",
+    "options": ["8 quyển truyện", "9 quyển truyện", "10 quyển truyện", "7 quyển truyện"],
+    "correctAnswer": "9 quyển truyện"
+  },
+  {
+    "question": "54. Có 11 quả bóng bay, bị gió thổi bay mất 3 quả. Hỏi còn lại bao nhiêu quả bóng bay?",
+    "options": ["7 quả bóng bay", "8 quả bóng bay", "9 quả bóng bay", "6 quả bóng bay"],
+    "correctAnswer": "8 quả bóng bay"
+  },
+  {
+    "question": "55. Lan mua 15 bông hoa hồng, Lan đem tặng cô giáo 6 bông. Hỏi Lan còn lại bao nhiêu bông hoa hồng?",
+    "options": ["8 bông hoa", "9 bông hoa", "10 bông hoa", "7 bông hoa"],
+    "correctAnswer": "9 bông hoa"
+  },
+  {
+    "question": "56. Một đoạn dây dài 12 cm, Nam cắt bớt đi 5 cm. Hỏi đoạn dây còn lại dài bao nhiêu xăng-ti-mét?",
+    "options": ["6 cm", "7 cm", "8 cm", "9 cm"],
+    "correctAnswer": "7 cm"
+  },
+  {
+    "question": "57. Bác Năm nuôi 13 con thỏ, bác đã bán đi 7 con thỏ. Hỏi nhà bác Năm còn lại bao nhiêu con thỏ?",
+    "options": ["5 con thỏ", "6 con thỏ", "7 con thỏ", "8 con thỏ"],
+    "correctAnswer": "6 con thỏ"
+  },
+  {
+    "question": "58. Trên đĩa có 16 quả mận, bé ăn 8 quả mận. Hỏi trên đĩa còn lại bao nhiêu quả mận?",
+    "options": ["7 quả mận", "8 quả mận", "9 quả mận", "6 quả mận"],
+    "correctAnswer": "8 quả mận"
+  },
+  {
+    "question": "59. Đàn gà có 11 con, có 7 con chạy vào chuồng. Hỏi ngoài sân còn lại bao nhiêu con gà?",
+    "options": ["3 con gà", "4 con gà", "5 con gà", "6 con gà"],
+    "correctAnswer": "4 con gà"
+  },
+  {
+    "question": "60. Cửa hàng có 18 chiếc xe đạp trẻ em, đã bán được 9 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc xe đạp?",
+    "options": ["8 chiếc xe đạp", "9 chiếc xe đạp", "10 chiếc xe đạp", "7 chiếc xe đạp"],
+    "correctAnswer": "9 chiếc xe đạp"
+  }
+]
